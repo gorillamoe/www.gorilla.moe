@@ -25,8 +25,8 @@
 
 		<h3 class="turquoiseblue">Learning SvelteKit</h3>
 		<p>
-			I am currently learning SvelteKit, a framework for building web applications with Svelte.
-			I am excited to see how it compares to other frameworks like React and Vue.
+			I am currently learning SvelteKit, a framework for building web applications with Svelte. I am
+			excited to see how it compares to other frameworks like React and Vue.
 		</p>
 	</div>
 </div>

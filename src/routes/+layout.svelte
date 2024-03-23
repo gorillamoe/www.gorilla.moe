@@ -11,7 +11,7 @@
 <div class="app">
 	<AudioComponent />
 
-	{#key data.pathname}
+	{#key pathname}
 		<main transition:fade>
 			<slot />
 		</main>
