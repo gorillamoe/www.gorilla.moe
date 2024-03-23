@@ -19,7 +19,7 @@
 		<p>
 			I craft
 			<span class="nobr">
-				<a href="https://apps.walialu.com/" class="yellow">apps</a>
+				<a href="https://apps.gorilla.moe/" class="yellow">apps</a>
 				<a class="sup" href="/about/apps">
 					<sup class="yellow"></sup>
 				</a>
@@ -52,7 +52,7 @@
 			<a href="https://instagram.com/gorilla.moe" class="purple">Instagram</a>
 			and/or
 			<span class="nobr">
-				<a href="https://github.com/walialu" class="grey">Github</a>
+				<a href="https://github.com/gorillamoe" class="grey">Github</a>
 				<a class="sup" href="/about/collab">
 					<sup class="grey"></sup>
 				</a>.

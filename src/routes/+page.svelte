@@ -43,23 +43,23 @@
 			<a href="https://wa.me/491755509040" title="Message me via WhatsApp Messenger">
 				<i class="fab fa-whatsapp"></i>
 			</a>
-			<a href="https://walialu.com/now" title="This page is about what I am doing right now">
+			<a href="https://gorilla.moe/now" title="This page is about what I am doing right now">
 				<i class="fas fa-link"></i>
 			</a>
 			<a href="/about" id="aboutmelink" title="About Me Page">
 				<i class="fas fa-id-card"></i>
 			</a>
 			<div class="divider"></div>
-			<a href="https://github.com/walialu" title="Check out my Github profile">
+			<a href="https://github.com/gorillamoe" title="Check out my Github profile">
 				<i class="fab fa-github"></i>
 			</a>
 			<a href="https://fb.me/walialu" title="Check out my Facebook profile">
 				<i class="fab fa-facebook"></i>
 			</a>
-			<a href="https://twitter.com/walialu" title="Check out my Twitter account">
+			<a href="https://twitter.com/gmoebananas" title="Check out my Twitter account">
 				<i class="fab fa-twitter"></i>
 			</a>
-			<a href="https://instagram.com/walialu" title="Check out my Instagram feed">
+			<a href="https://instagram.com/gorilla.moe" title="Check out my Instagram feed">
 				<i class="fab fa-instagram"></i>
 			</a>
 		</div>
