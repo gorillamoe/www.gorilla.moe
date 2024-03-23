@@ -27,4 +27,4 @@ jobs:
           echo $keyscanresult >> ~/.ssh/known_hosts
       - name: Deploy to server
         run: |
-          rsync -ravz -e "ssh -i $HOME/.ssh/id_ed25519 -p ${{ secrets.DEPLOYMENT_SSH_PORT }}" --delete build/ ${{ secrets.DEPLOYMENT_SSH_USERNAME }}@${{ secrets.DEPLOYMENT_SSH_HOST }}:
+          rsync -ravz -e "ssh -o LogLevel=ERROR -i $HOME/.ssh/id_ed25519 -p ${{ secrets.DEPLOYMENT_SSH_PORT }}" --delete build/ ${{ secrets.DEPLOYMENT_SSH_USERNAME }}@${{ secrets.DEPLOYMENT_SSH_HOST }}:
