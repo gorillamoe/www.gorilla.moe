@@ -20,14 +20,14 @@
 			I craft
 			<span class="nobr">
 				<a href="https://apps.walialu.com/" class="yellow">apps</a>
-				<a href="/about/apps">
+				<a class="sup" href="/about/apps">
 					<sup class="yellow"></sup>
 				</a>
 			</span>
 			with the use of
 			<span class="nobr">
 				<a href="https://neovim.io" class="neovimblue">Neovim</a>
-				<a href="/about/neovim">
+				<a class="sup" href="/about/neovim">
 					<sup class="neovimblue"></sup>
 				</a>
 			</span>
@@ -45,7 +45,7 @@
 			</span>,
 			<span class="nobr">
 				<a href="https://twitter.com/gmoebananas" class="blue">Twitter</a>
-				<a href="/about/twitter">
+				<a class="sup" href="/about/twitter">
 					<sup class="blue"></sup>
 				</a>
 			</span>,
@@ -53,13 +53,18 @@
 			and/or
 			<span class="nobr">
 				<a href="https://github.com/walialu" class="grey">Github</a>
-				<a href="/about/collab">
+				<a class="sup" href="/about/collab">
 					<sup class="grey"></sup>
-				</a>
-			</span>, or peek at my
+				</a>.
+			</span>
+		</p>
+		<p>
+			Want to know even more about me?
+		<p>
+			Check out my
 			<span class="nobr">
 				<a href="https://walialu.com/" class="turquoiseblue">blog</a>
-				<a href="/about/writing">
+				<a class="sup" href="/about/writing">
 					<sup class="turquoiseblue"></sup>
 				</a>.
 			</span>

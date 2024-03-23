@@ -24,6 +24,12 @@
 	font-family: 'Nanum Pen Script', cursive;
 }
 
+@media (min-width: 650px) {
+	.inner {
+		max-width: 530px;
+	}
+}
+
 h3 {
 	margin-top: 2rem;
 	font-size: 3rem;
@@ -39,6 +45,10 @@ a {
 	border-bottom: 1px dashed;
 	display: inline-block;
 	height: 1.4rem;
+}
+
+a.sup {
+	border-bottom: 0 none;
 }
 
 a:hover {
