@@ -43,7 +43,7 @@
 			<a href="https://wa.me/491755509040" title="Message me via WhatsApp Messenger">
 				<i class="fab fa-whatsapp"></i>
 			</a>
-			<a href="https://gorilla.moe/now" title="This page is about what I am doing right now">
+			<a href="/now" title="This page is about what I am doing right now">
 				<i class="fas fa-link"></i>
 			</a>
 			<a href="/about" id="aboutmelink" title="About Me Page">
