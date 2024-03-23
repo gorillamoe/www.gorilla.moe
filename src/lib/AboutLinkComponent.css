@@ -1,50 +1,13 @@
-.container {
-	background-color: #272b30;
-	font-size: 1.4rem;
-	margin: 0;
-	padding: 0;
-	transition: background-color 1s;
-	width: 100%;
-	height: auto;
-	min-height: 100vh;
-	text-align: center;
-	position: relative;
-	color: #fff;
-}
-
-.inner {
-	text-align: center;
-	position: relative;
-	width: 85%;
-	height: auto;
-	min-height: calc(100vh - 4rem);
-	margin: auto;
-	padding-top: 2rem;
-	margin-bottom: 2rem;
-	font-family: 'Nanum Pen Script', cursive;
-}
-
-@media (min-width: 650px) {
-	.inner {
-		max-width: 530px;
-	}
-}
-
-h3 {
-	margin-top: 2rem;
-	font-size: 3rem;
-}
-
-p {
-	line-height: 1.6rem;
-}
-
 a {
 	color: #fff;
 	text-decoration: none;
 	border-bottom: 1px dashed;
 	display: inline-block;
 	height: 1.4rem;
+}
+
+a.sup {
+	border-bottom: 0 none;
 }
 
 a:hover {
@@ -123,8 +86,4 @@ sup:after {
 span.nobr {
 	white-space: nowrap;
 	display: inline-block;
-}
-
-.obsolete {
-	text-decoration: line-through;
 }

@@ -1,6 +1,7 @@
 <script>
 	import HeadComponent from '$lib/HeadComponent.svelte';
 	import BackButtonComponent from '$lib/BackButtonComponent.svelte';
+	import AboutLinkComponent from '$lib/AboutLinkComponent.svelte';
 </script>
 
 <HeadComponent
@@ -18,55 +19,90 @@
 		<p>Hello, I'm Marco Kellershoff.</p>
 		<p>
 			I craft
-			<span class="nobr">
-				<a href="https://apps.gorilla.moe/" class="yellow">apps</a>
-				<a class="sup" href="/about/apps">
-					<sup class="yellow"></sup>
-				</a>
-			</span>
+			<AboutLinkComponent
+				data={{
+					nobr: true,
+					href: '/apps',
+					color: 'yellow',
+					text: 'apps',
+					hrefSup: '/about/apps'
+				}}
+			/>
 			with the use of
-			<span class="nobr">
-				<a href="https://neovim.io" class="neovimblue">Neovim</a>
-				<a class="sup" href="/about/neovim">
-					<sup class="neovimblue"></sup>
-				</a>
-			</span>
+			<AboutLinkComponent
+				data={{
+					nobr: true,
+					href: 'https://neovim.io/',
+					color: 'neovimblue',
+					text: 'Neovim',
+					hrefSup: '/about/neovim'
+				}}
+			/>
 			on
-			<span class="nobr">
-				<a href="https://www.archlinux.org" class="orange">Arch Linux</a>
-			</span>
+			<AboutLinkComponent
+				data={{
+					nobr: true,
+					href: 'https://www.archlinux.org',
+					color: 'orange',
+					text: 'Arch Linux'
+				}}
+			/>
 			every day.
 		</p>
 		<p>
 			If you're
-			<a href="/now" class="poisonousgreen">curious</a>, you can follow me on
-			<span class="nobr">
-				<a href="https://bsky.app/profile/gorillamoe.bsky.social" class="elephantblue">Bluesky</a>
-			</span>,
-			<span class="nobr">
-				<a href="https://twitter.com/gmoebananas" class="blue">Twitter</a>
-				<a class="sup" href="/about/twitter">
-					<sup class="blue"></sup>
-				</a>
-			</span>,
-			<a href="https://instagram.com/gorilla.moe" class="purple">Instagram</a>
-			and/or
-			<span class="nobr">
-				<a href="https://github.com/gorillamoe" class="grey">Github</a>
-				<a class="sup" href="/about/collab">
-					<sup class="grey"></sup>
-				</a>.
-			</span>
+			<AboutLinkComponent
+				data={{
+					href: '/now',
+					color: 'poisonousgreen',
+					text: 'curious'
+				}}
+			/>, you can follow me on
+			<AboutLinkComponent
+				data={{
+					href: 'https://bsky.app/profile/gorillamoe.bsky.social',
+					color: 'elephantblue',
+					text: 'Bluesky'
+				}}
+			/>,
+			<AboutLinkComponent
+				data={{
+					nobr: true,
+					href: 'https://twitter.com/gmoebananas',
+					color: 'blue',
+					text: 'Twitter',
+					hrefSup: '/about/twitter'
+				}}
+			/>,
+			<AboutLinkComponent
+				data={{
+					href: 'https://instagram.com/gorilla.moe',
+					color: 'purple',
+					text: 'Instagram'
+				}}
+			/> and/or
+			<AboutLinkComponent
+				data={{
+					nobr: true,
+					href: 'https://github.com/gorillamoe',
+					color: 'grey',
+					text: 'Github',
+					hrefSup: '/about/collab'
+				}}
+			/>
 		</p>
 		<p>Want to know even more about me?</p>
 		<p>
 			Check out my
-			<span class="nobr">
-				<a href="https://walialu.com/" class="turquoiseblue">blog</a>
-				<a class="sup" href="/about/writing">
-					<sup class="turquoiseblue"></sup>
-				</a>.
-			</span>
+			<AboutLinkComponent
+				data={{
+					nobr: true,
+					href: 'https://walialu.com/',
+					color: 'turquoiseblue',
+					text: 'blog',
+					hrefSup: '/about/writing'
+				}}
+			/>
 		</p>
 	</div>
 </div>
