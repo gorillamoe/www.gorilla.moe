@@ -58,8 +58,7 @@
 				</a>.
 			</span>
 		</p>
-		<p>
-			Want to know even more about me?
+		<p>Want to know even more about me?</p>
 		<p>
 			Check out my
 			<span class="nobr">

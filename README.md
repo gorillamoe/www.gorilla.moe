@@ -1,5 +1,4 @@
-www.gorilla.moe
-===============
+# www.gorilla.moe
 
 [![Deploy](https://github.com/gorillamoe/www.gorilla.moe/actions/workflows/deploy.yml/badge.svg)](https://github.com/gorillamoe/www.gorilla.moe/actions/workflows/deploy.yml)
 
