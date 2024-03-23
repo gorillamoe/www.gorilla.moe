@@ -1,31 +1,40 @@
 <script>
-import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
+	import HeadComponent from '$lib/HeadComponent.svelte';
 
-/** @type {HTMLElement} */
-let swapper;
+	/** @type {HTMLElement} */
+	let swapper;
 
-onMount(() => {
-	swapper.addEventListener("click", () => {
-		swapper.querySelectorAll("img").forEach((img) => {
-			img.classList.toggle("hidden");
+	onMount(() => {
+		swapper.addEventListener('click', () => {
+			swapper.querySelectorAll('img').forEach((img) => {
+				img.classList.toggle('hidden');
+			});
 		});
 	});
-});
 </script>
 
-<svelte:head>
-	<title>Marco Kellershoff a.k.a. Gorilla Moe</title>
-	<meta name="description" content="Marco Kellershoff a.k.a. Gorilla Moe is a Web-, Android-, iOS-, Java- and CSharp developer." />
-</svelte:head>
+<HeadComponent
+	data={{
+		title: 'Marco Kellershoff a.k.a. Gorilla Moe',
+		description:
+			'Marco Kellershoff a.k.a. Gorilla Moe is a Web-, Android-, iOS-, Java- and CSharp developer.'
+	}}
+/>
 
 <div class="container">
 	<div class="inner">
-		<header>
-			Just do it!
-		</header>
+		<header>Just do it!</header>
 		<div class="swapper" bind:this={swapper}>
-			<img src="/me-heforshe.png" alt="Marco Kellershoff a.k.a. Gorilla Moe holding a sign saying he for she." />
-			<img src="/pool.jpg" class="hidden" alt="Marco Kellershoff a.k.a. Gorilla Moe floating in a pool." />
+			<img
+				src="/me-heforshe.png"
+				alt="Marco Kellershoff a.k.a. Gorilla Moe holding a sign saying he for she."
+			/>
+			<img
+				src="/pool.jpg"
+				class="hidden"
+				alt="Marco Kellershoff a.k.a. Gorilla Moe floating in a pool."
+			/>
 		</div>
 		<div class="get-in-touch">
 			<a href="tel:+491755509040" title="Call me">
@@ -58,47 +67,48 @@ onMount(() => {
 </div>
 
 <style>
-.container {
-	margin: 0;
-	padding: 0;
-	transition: background-color 1s;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	position: relative;
-	font-size: 1.5rem;
-	color: #fff;
-	background-color: #19cf85;
-}
+	.container {
+		margin: 0;
+		padding: 0;
+		transition: background-color 1s;
+		width: 100%;
+		height: auto;
+		min-height: 100vh;
+		text-align: center;
+		position: relative;
+		font-size: 1.5rem;
+		color: #fff;
+		background-color: #19cf85;
+	}
 
-header {
-	font-family: "Permanent Marker", cursive;
-	font-size: 2rem;
-}
+	header {
+		font-family: 'Permanent Marker', cursive;
+		font-size: 2rem;
+	}
 
-.inner {
-	text-align: center;
-	width: 85%;
-	margin: auto;
-	margin-bottom: 2rem;
-	font-family: monospace;
-	max-width: 530px;
-	opacity: 1;
-	transition: opacity 1s, visibility 1s;
-}
+	.inner {
+		text-align: center;
+		width: 85%;
+		margin: auto;
+		margin-bottom: 2rem;
+		min-height: calc(100vh - 4rem);
+		font-family: monospace;
+		max-width: 530px;
+	}
 
-a {
-	color: #fff;
-	text-decoration: none;
-}
+	.get-in-touch a {
+		color: #fff;
+		text-decoration: none;
+		border: 0 none;
+	}
 
-img {
-	max-width: 100%;
-	border-radius: 50%;
-	border: 3px solid #fff;
-}
+	img {
+		max-width: 100%;
+		border-radius: 50%;
+		border: 3px solid #fff;
+	}
 
-.hidden {
-        display: none;
-}
+	.hidden {
+		display: none;
+	}
 </style>

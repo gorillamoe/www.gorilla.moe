@@ -1,5 +1,4 @@
-about.gorilla.moe
-=================
+# about.gorilla.moe
 
 This is the source code for [about.gorilla.moe](https://about.gorilla.moe),
 a personal website that I use to showcase my projects and share a little bit about myself.
@@ -24,4 +23,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
