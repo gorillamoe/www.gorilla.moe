@@ -1,22 +1,25 @@
 <script>
-export let data;
+	export let data;
 
-/**
- * @param {string} slug
- */
-function createJumpId(slug) {
-	return slug.split('/')[1].replace(/[^a-z0-9-_]/gi, '-').toLowerCase();
-}
+	/**
+	 * @param {string} slug
+	 */
+	function createJumpId(slug) {
+		return slug
+			.split('/')[1]
+			.replace(/[^a-z0-9-_]/gi, '-')
+			.toLowerCase();
+	}
 </script>
 
 <div class="card">
 	<a class="jump" id={createJumpId(data.githubSlug)}>
 		{#if data.imgsrc}
-			<img src="{data.imgsrc}" alt="{data.imgalt}" />
+			<img src={data.imgsrc} alt={data.imgalt} />
 		{/if}
 		{#if data.videosrc}
 			<video loop muted autoplay>
-				<source src="{data.videosrc}" type="video/mp4" />
+				<source src={data.videosrc} type="video/mp4" />
 			</video>
 		{/if}
 	</a>
@@ -30,5 +33,5 @@ function createJumpId(slug) {
 </div>
 
 <style>
-@import './CardComponent.css';
+	@import './CardComponent.css';
 </style>

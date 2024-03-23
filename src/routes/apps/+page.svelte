@@ -109,6 +109,6 @@
 </DefaultContainerComponent>
 
 <style>
-@import '$lib/colors.css';
-@import '$lib/text.css';
+	@import '$lib/colors.css';
+	@import '$lib/text.css';
 </style>
