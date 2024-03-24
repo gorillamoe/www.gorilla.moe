@@ -97,7 +97,7 @@
 			<AboutLinkComponent
 				data={{
 					nobr: true,
-					href: 'https://walialu.com/',
+					href: '/blog',
 					color: 'turquoiseblue',
 					text: 'blog',
 					hrefSup: '/about/writing'

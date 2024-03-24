@@ -1,0 +1,32 @@
+h1 {
+	font-size: var(--font-size-3xl);
+}
+
+.container {
+	font-family: var(--font-sans);
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	padding-inline-start: 0;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+	border-bottom: 1px dashed var(--link-color);
+}
+
+a:hover {
+	color: var(--link-hover-color);
+	border-bottom-color: var(--link-hover-color);
+}
+
+time {
+	font-family: var(--font-mono);
+	font-size: var(--font-size-xs);
+}
