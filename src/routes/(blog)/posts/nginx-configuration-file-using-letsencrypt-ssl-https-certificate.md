@@ -51,7 +51,7 @@ server {
   ssl_dhparam /etc/ssl/certs/dhparam.pem;
 
 # Enable HSTS (https://developer.mozilla.org/en-US/docs/Security/HTTP_Strict_Transport_Security)
-  add_header Strict-Transport-Security "max-age=63072000; includeSubdomains";  
+  add_header Strict-Transport-Security "max-age=63072000; includeSubdomains";
 
 # Enable OCSP stapling (http://blog.mozilla.org/security/2013/07/29/ocsp-stapling-in-firefox)
   ssl_stapling on;

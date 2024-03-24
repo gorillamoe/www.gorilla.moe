@@ -11,6 +11,5 @@ categories:
 published: true
 ---
 
-- Visit:  chrome://net-internals/
+- Visit: chrome://net-internals/
 - Click the upper right arrow and select **Clear cache**
-

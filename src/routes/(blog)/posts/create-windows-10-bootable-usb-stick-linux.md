@@ -19,7 +19,7 @@ The only thing that worked, was using [Rufus](https://rufus.ie/)
 Things that I tried, before nearly giving up (all of them failed):
 
 - `dd`ing an offical ISO image
-- The [guide from *It's FOSS*](https://itsfoss.com/bootable-windows-usb-linux/)
+- The [guide from _It's FOSS_](https://itsfoss.com/bootable-windows-usb-linux/)
 - Windows 10 media creation tool (it bailed out with some weird error message; wasn't able to fix that)
 
 I'm not kidding you,

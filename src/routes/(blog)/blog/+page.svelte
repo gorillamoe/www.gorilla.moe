@@ -1,5 +1,5 @@
 <script>
-export let data;
+	export let data;
 </script>
 
 <div class="container">
@@ -23,5 +23,5 @@ export let data;
 </div>
 
 <style>
-@import './list.css';
+	@import './list.css';
 </style>

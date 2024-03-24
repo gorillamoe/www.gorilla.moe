@@ -41,6 +41,4 @@ Source: [Stack Overflow][stackoverflow-ffmpeg]
 
 Easy as pie 👍
 
-
-
 [stackoverflow-ffmpeg]: https://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg#answer-9570992

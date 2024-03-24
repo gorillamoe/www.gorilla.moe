@@ -27,7 +27,7 @@ the latest version:
 
 ```
 # update GitLab on origin server to latest version
-sudo apt-get update 
+sudo apt-get update
 sudo apt-get install gitlab-ce
 ```
 
@@ -67,7 +67,6 @@ gitlab_rails['backup_upload_remote_directory'] = '<AWS_S3_BUCKET>'
 
 With the backup configuration in place,
 you can tell GitLab to immediately perform a backup by typing the following command:
-
 
 ```sh
 # perform backup on origin server

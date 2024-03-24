@@ -1,4 +1,3 @@
-
 ---
 title: Vegane Schoko-Cookies
 description: Vegane Schoko-Cookies sind einfach und schnell zubereitet. Das Rezept ist einfach und schnell zubereitet.
@@ -35,10 +34,10 @@ Gut abkühlen lassen, damit die Schokolade wieder fest wird.
 
 - 200 g Weizenmehl
 - 100 g vegane Margarine
-- 90 g Zucker 
+- 90 g Zucker
 - 20 g Vanillezucker
 - 1 Msp. Backpulver
-- 1 Prise Salz 
+- 1 Prise Salz
 - 1 EL Sojamehl
 - 3 EL Sojamilch (Sojadrink) oder andere pflanzliche Milch
 - 125 g vegane Schokodrops

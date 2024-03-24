@@ -18,7 +18,7 @@ because I haven't done this before and I had no idea how to get this thing going
 
 ## Prerequisites
 
-- [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+- [Bash](<https://en.wikipedia.org/wiki/Bash_(Unix_shell)>)
 - [curl](https://curl.haxx.se/)
 - [jq](https://stedolan.github.io/jq/)
 
@@ -30,7 +30,7 @@ Anyway, this is how you do it in bash:
 
 ## Use a token instead of a password
 
-Log into Gitlab, then head over to your settings page and click on _Access Tokens_ 
+Log into Gitlab, then head over to your settings page and click on _Access Tokens_
 
 (https://<em>git.itjustworks.cc</em>/<strong>profile/personal_access_tokens</strong>)
 
