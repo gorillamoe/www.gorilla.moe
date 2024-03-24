@@ -35,8 +35,13 @@ body {
 	background-color: var(--page-bg-color);
 }
 
+.layout-container {
+	display: flex;
+	justify-content: center;
+}
+
 .layout {
-	margin: 1rem auto;
+	margin: 1rem 1rem;
 	max-width: 776px;
 	background-color: var(--layout-bg-color);
 	padding: 1rem;

@@ -4,6 +4,7 @@ on:
       - main
 
 name: Lint
+run-name: Lint triggered by @{{ github.actor }}
 
 jobs:
   lint:
