@@ -1,6 +1,15 @@
 h1 {
 	font-family: var(--font-sans);
 	font-size: var(--font-size-3xl);
+	color: var(--color-poisonous-green);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--color-banana-yellow);
 }
 
 article {
@@ -45,4 +54,14 @@ a {
 a:hover {
 	color: var(--link-hover-color);
 	border-bottom-color: var(--link-hover-color);
+}
+
+:not(pre) > code {
+	padding: 3px 6px;
+	background-color: #272b30;
+	color: #f8f8f2;
+	font-family: var(--font-mono) monospace;
+	font-size: 14px;
+	border-radius: 5px;
+	white-space: nowrap;
 }
