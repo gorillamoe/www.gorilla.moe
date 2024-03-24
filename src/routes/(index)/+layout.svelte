@@ -1,6 +1,6 @@
 <script>
 	import { fade } from 'svelte/transition';
-	import '$lib/styles.css';
+	import '$lib/index-fonts.css';
 	import AudioComponent from '$lib/Audio.svelte';
 
 	export let data;
