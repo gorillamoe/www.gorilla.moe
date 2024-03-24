@@ -4,7 +4,7 @@ on:
       - main
 
 name: Deploy
-run-name: Deploy triggered by @{{ github.actor }}
+run-name: Deploy triggered by @${{ github.actor }}
 
 jobs:
   deploy:
