@@ -9,7 +9,7 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: undefined,
-			precompress: false,
+			precompress: true,
 			strict: true
 		})
 	},
@@ -17,8 +17,7 @@ const config = {
 	preprocess: [
 		vitePreprocess(),
 		mdsvex({
-			extension: '.md',
-			theme: 'material'
+			extension: '.md'
 		})
 	]
 };
