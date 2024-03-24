@@ -27,6 +27,10 @@ body {
 	background-color: #272b30;
 }
 
+.container {
+	display: flex;
+}
+
 main {
 	display: flex;
 	flex-direction: column;

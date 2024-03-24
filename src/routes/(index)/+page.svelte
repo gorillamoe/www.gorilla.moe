@@ -90,7 +90,6 @@
 		text-align: center;
 		width: 85%;
 		margin: auto;
-		margin-bottom: 2rem;
 		min-height: calc(100vh - 4rem);
 		font-family: monospace;
 		max-width: 530px;
