@@ -27,18 +27,15 @@
 		<header>Just do it!</header>
 		<div class="swapper" bind:this={swapper}>
 			<picture>
+				<source srcset="/minimal-gorilla-dark-512.webp" type="image/webp" />
+				<img src="/minimal-gorilla-dark-512.png" alt="Minimalistic Dark Gorilla Moe Logo" />
+			</picture>
+			<picture>
 				<source srcset="/me-heforshe.webp" type="image/webp" />
 				<img
 					src="/me-heforshe.png"
 					alt="Marco Kellershoff a.k.a. Gorilla Moe holding a sign saying he for she."
-				/>
-			</picture>
-			<picture>
-				<source srcset="/pool.webp" type="image/webp" />
-				<img
-					src="/pool.jpg"
 					class="hidden"
-					alt="Marco Kellershoff a.k.a. Gorilla Moe floating in a pool."
 				/>
 			</picture>
 		</div>
