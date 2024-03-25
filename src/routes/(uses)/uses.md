@@ -11,7 +11,9 @@ categories:
 published: true
 ---
 
-Sometimes, people ask me what IDE, theme, font, etc I use. So I decided to write up a little post that sums up. This page is inspired by Web Bos's page.
+Sometimes, people ask me what IDE, theme, font, etc I use.
+So I decided to write up a little post that sums up.
+This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 ## Editor + Terminal
 
@@ -19,6 +21,8 @@ Sometimes, people ask me what IDE, theme, font, etc I use. So I decided to write
 - **Editor Theme**: [Monokai Pro](https://www.monokai.pro/)
 - **Editor Font**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads)
 - **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
+- **Terminal Multiplexer**: [Tmux](https://github.com/tmux/tmux)
+- **Terminal Multiplexer Theme**: [Tmux Sexy](https://github.com/mistweaverco/tmux-sexy)
 
 ## Desktop Apps
 
@@ -37,5 +41,5 @@ Sometimes, people ask me what IDE, theme, font, etc I use. So I decided to write
 ## Workstation + Gear
 
 - **Laptop**: Macbook Pro 16" 2023 / 64GB RAM / 2TB SSD
-- **External screen**: [Samsung LC27F396FHUXEN](https://www.amazon.de/Samsung-LC27F396FHUXEN-Monitor-Reaktionszeit-schwarz/dp/B01J2HN2RQ)
+- **External screen**: [Samsung LC27F396FHUXEN](https://amzn.to/3TRQ4uP)
 - **Keyboard**: [Vortex Pok3r](/pok3r.jpg)

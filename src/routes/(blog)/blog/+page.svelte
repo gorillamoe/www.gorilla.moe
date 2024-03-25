@@ -14,7 +14,7 @@
 					</a>
 				</h2>
 				<time datetime={new Date(post.metadata.date).toISOString()}>
-					Last updated {post.metadata.date}
+					⏰ Last updated {post.metadata.date}
 				</time>
 				<p>{post.metadata.description}</p>
 			</li>

@@ -7,14 +7,14 @@
 	<meta name="description" content={data.metadata.description} />
 	<meta property="article:published_time" content={data.metadata.date} />
 	<style>
-		@import './style.css';
+		@import './page.css';
 	</style>
 </svelte:head>
 
 <article>
-	<h1>{data.metadata.title}</h1>
+	<h1 class="title">{data.metadata.title}</h1>
 	<time datetime={new Date(data.metadata.date).toISOString()}>
-		Last updated {data.metadata.date}
+		⏰ Last updated {data.metadata.date}
 	</time>
 	<svelte:component this={data.content} />
 </article>
