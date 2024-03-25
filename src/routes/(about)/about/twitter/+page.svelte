@@ -33,5 +33,9 @@
 </div>
 
 <style>
+	@import '$lib/colors.css';
 	@import './../page.css';
+	.blue {
+		color: var(--sexy-color-blue);
+	}
 </style>

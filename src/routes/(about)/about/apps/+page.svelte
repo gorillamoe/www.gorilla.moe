@@ -32,5 +32,15 @@
 </div>
 
 <style>
+	@import '$lib/colors.css';
 	@import './../page.css';
+	.yellow {
+		color: var(--sexy-color-yellow);
+	}
+	.green {
+		color: var(--sexy-color-poisonousgreen);
+	}
+	.devopspurple {
+		color: var(--sexy-color-devopspurple);
+	}
 </style>

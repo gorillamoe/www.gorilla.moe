@@ -14,7 +14,7 @@
 
 <div class="container">
 	<div class="inner">
-		<h3 class="poisonousgreen">Collaboration</h3>
+		<h3 class="green">Collaboration</h3>
 		<p>
 			I really dig Git <span class="red">&hearts;</span> and it itches me when I see commit messages
 			that are not well formatted and lack proper grammar and/or meaning.
@@ -31,5 +31,12 @@
 </div>
 
 <style>
+	@import '$lib/colors.css';
 	@import './../page.css';
+	.green {
+		color: var(--sexy-color-poisonousgreen);
+	}
+	.red {
+		color: var(--sexy-color-red);
+	}
 </style>

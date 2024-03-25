@@ -76,7 +76,6 @@
 	.container {
 		margin: 0;
 		padding: 0;
-		transition: background-color 1s;
 		width: 100%;
 		height: auto;
 		min-height: 100vh;
@@ -84,7 +83,7 @@
 		position: relative;
 		font-size: 1.5rem;
 		color: #fff;
-		background-color: #19cf85;
+		background-color: #1b1b1b;
 	}
 
 	header {

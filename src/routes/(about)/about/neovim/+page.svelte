@@ -35,5 +35,18 @@
 </div>
 
 <style>
+	@import '$lib/colors.css';
 	@import './../page.css';
+	.neovimblue {
+		color: var(--sexy-color-neovimblue);
+	}
+	.yellow {
+		color: var(--sexy-color-yellow);
+	}
+	.red {
+		color: var(--sexy-color-red);
+	}
+	.orange {
+		color: var(--sexy-color-orange);
+	}
 </style>

@@ -1,59 +1,14 @@
-.grey {
-	color: #aaa;
-	border-color: #aaa;
-}
-
-.devopspurple {
-	color: #575d88;
-	border-color: #575d88;
-}
-
-.red {
-	color: #ff6188;
-	border-color: #ff6188;
-}
-
-.orange {
-	color: #fc9867;
-	border-color: #fc9867;
-}
-
-.yellow {
-	color: #ffd866;
-	border-color: #ffd866;
-}
-
-.poisonousgreen {
-	color: #19cf85;
-	border-color: #19cf85;
-}
-
-.green {
-	color: #a9dc76;
-	border-color: #a9dc76;
-}
-
-.blue {
-	color: #78dce8;
-	border-color: #78dce8;
-}
-
-.purple {
-	color: #ab9df2;
-	border-color: #ab9df2;
-}
-
-.neovimblue {
-	color: #3c92d1;
-	border-color: #3c92d1;
-}
-
-.elephantblue {
-	color: #7e8bbd;
-	border-color: #7e8bbd;
-}
-
-.turquoiseblue {
-	color: #67ffdc;
-	border-color: #67ffdc;
+:root {
+	--sexy-color-grey: #aaa;
+	--sexy-color-devopspurple: #575d88;
+	--sexy-color-red: #ff6188;
+	--sexy-color-orange: #fc9867;
+	--sexy-color-yellow: #ffd866;
+	--sexy-color-poisonousgreen: #19cf85;
+	--sexy-color-green: #a9dc76;
+	--sexy-color-blue: #78dce8;
+	--sexy-color-purple: #ab9df2;
+	--sexy-color-neovimblue: #3c92d1;
+	--sexy-color-elephantblue: #7e8bbd;
+	--sexy-color-turquoiseblue: #67ffdc;
 }

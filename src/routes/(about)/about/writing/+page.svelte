@@ -33,5 +33,12 @@
 </div>
 
 <style>
+	@import '$lib/colors.css';
 	@import './../page.css';
+	.turquoiseblue {
+		color: var(--sexy-color-turquoiseblue);
+	}
+	.orange {
+		color: var(--sexy-color-orange);
+	}
 </style>
