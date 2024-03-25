@@ -36,6 +36,6 @@ Sometimes, people ask me what IDE, theme, font, etc I use. So I decided to write
 
 ## Workstation + Gear
 
-- **Laptop**: Macbook Pro 13" 2023 / 64GB RAM / 2TB SSD
+- **Laptop**: Macbook Pro 16" 2023 / 64GB RAM / 2TB SSD
 - **External screen**: [Samsung LC27F396FHUXEN](https://www.amazon.de/Samsung-LC27F396FHUXEN-Monitor-Reaktionszeit-schwarz/dp/B01J2HN2RQ)
 - **Keyboard**: [Vortex Pok3r](/pok3r.jpg)
