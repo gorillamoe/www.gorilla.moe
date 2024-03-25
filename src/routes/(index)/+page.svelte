@@ -1,6 +1,14 @@
 <script>
 	import { onMount } from 'svelte';
 	import HeadComponent from '$lib/HeadComponent.svelte';
+	import PhoneIcon from '$lib/icons/fontawesome/phone.svelte';
+	import WhatsAppIcon from '$lib/icons/fontawesome/whatsapp.svelte';
+	import LinkIcon from '$lib/icons/fontawesome/link.svelte';
+	import CardIcon from '$lib/icons/fontawesome/id-card.svelte';
+	import GitHubIcon from '$lib/icons/fontawesome/github.svelte';
+	import FacebookIcon from '$lib/icons/fontawesome/facebook.svelte';
+	import TwitterIcon from '$lib/icons/fontawesome/x-twitter.svelte';
+	import InstagramIcon from '$lib/icons/fontawesome/instagram.svelte';
 
 	/** @type {HTMLElement} */
 	let swapper;
@@ -40,30 +48,46 @@
 			</picture>
 		</div>
 		<div class="get-in-touch">
-			<a href="tel:+491755509040" title="Call me">
-				<i class="fas fa-phone"></i>
+			<a href="tel:+491755509040" title="Call me" class="phone-icon">
+				<PhoneIcon />
 			</a>
-			<a href="https://wa.me/491755509040" title="Message me via WhatsApp Messenger">
-				<i class="fab fa-whatsapp"></i>
+			<a
+				href="https://wa.me/491755509040"
+				title="Message me via WhatsApp Messenger"
+				class="whatsapp-icon"
+			>
+				<WhatsAppIcon />
 			</a>
-			<a href="/now" title="This page is about what I am doing right now">
-				<i class="fas fa-link"></i>
+			<a href="/now" title="This page is about what I am doing right now" class="link-icon">
+				<LinkIcon />
 			</a>
-			<a href="/about" id="aboutmelink" title="About Me Page">
-				<i class="fas fa-id-card"></i>
+			<a href="/about" id="aboutmelink" title="About Me Page" class="card-icon">
+				<CardIcon />
 			</a>
 			<div class="divider"></div>
-			<a href="https://github.com/gorillamoe" title="Check out my Github profile">
-				<i class="fab fa-github"></i>
+			<a
+				href="https://github.com/gorillamoe"
+				title="Check out my Github profile"
+				class="github-icon"
+			>
+				<GitHubIcon />
 			</a>
-			<a href="https://fb.me/walialu" title="Check out my Facebook profile">
-				<i class="fab fa-facebook"></i>
+			<a href="https://fb.me/walialu" title="Check out my Facebook profile" class="facebook-icon">
+				<FacebookIcon />
 			</a>
-			<a href="https://twitter.com/gmoebananas" title="Check out my Twitter account">
-				<i class="fab fa-twitter"></i>
+			<a
+				href="https://twitter.com/gmoebananas"
+				title="Check out my Twitter account"
+				class="twitter-icon"
+			>
+				<TwitterIcon />
 			</a>
-			<a href="https://instagram.com/gorilla.moe" title="Check out my Instagram feed">
-				<i class="fab fa-instagram"></i>
+			<a
+				href="https://instagram.com/gorilla.moe"
+				title="Check out my Instagram feed"
+				class="instagram-icon"
+			>
+				<InstagramIcon />
 			</a>
 		</div>
 	</div>
@@ -101,6 +125,20 @@
 		color: #fff;
 		text-decoration: none;
 		border: 0 none;
+	}
+
+	.phone-icon :global(svg),
+	.whatsapp-icon :global(svg),
+	.link-icon :global(svg),
+	.card-icon :global(svg),
+	.github-icon :global(svg),
+	.facebook-icon :global(svg),
+	.twitter-icon :global(svg),
+	.instagram-icon :global(svg) {
+		display: inline-block;
+		cursor: pointer;
+		height: 32px;
+		width: 32px;
 	}
 
 	img {

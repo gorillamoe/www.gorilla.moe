@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
+	import BackButtonIcon from '$lib/icons/fontawesome/arrow-circle-left.svelte';
 
 	/** @type {HTMLElement} */
 	let backButton;
@@ -14,8 +15,8 @@
 	});
 </script>
 
-<div class="back-button-container">
-	<i id="back-button" bind:this={backButton} class="fas fa-arrow-circle-left back-button"></i>
+<div class="back-button-container" bind:this={backButton}>
+	<BackButtonIcon />
 </div>
 
 <style>
@@ -28,9 +29,9 @@
 		z-index: 9;
 	}
 
-	.back-button {
-		transition: opacity 1s;
+	.back-button-container:first-child {
 		cursor: pointer;
-		font-size: 32px;
+		height: 32px;
+		width: 32px;
 	}
 </style>
