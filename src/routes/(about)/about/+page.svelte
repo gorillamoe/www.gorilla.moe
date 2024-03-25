@@ -1,6 +1,5 @@
 <script>
 	import HeadComponent from '$lib/HeadComponent.svelte';
-	import BackButtonComponent from '$lib/BackButtonComponent.svelte';
 	import AboutLinkComponent from '$lib/AboutLinkComponent.svelte';
 </script>
 
@@ -11,8 +10,6 @@
 			"Hello, I'm Marco Kellershoff. I craft apps with the use of Neovim on Arch Linux every day."
 	}}
 />
-
-<BackButtonComponent data={{ path: '/' }} />
 
 <div class="container">
 	<div class="inner">
@@ -108,5 +105,5 @@
 </div>
 
 <style>
-	@import './styles.css';
+	@import './page.css';
 </style>

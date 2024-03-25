@@ -33,5 +33,5 @@
 </div>
 
 <style>
-	@import './../styles.css';
+	@import './../page.css';
 </style>

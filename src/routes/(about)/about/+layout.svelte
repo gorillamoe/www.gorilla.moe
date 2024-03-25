@@ -1,11 +1,8 @@
 <script>
-	import '$lib/index/fonts.css';
-	import AudioComponent from '$lib/Audio.svelte';
+	import '$lib/about/fonts.css';
 </script>
 
 <div class="app">
-	<AudioComponent />
-
 	<main>
 		<slot />
 	</main>

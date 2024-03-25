@@ -1,5 +1,7 @@
 h1 {
 	font-size: var(--font-size-3xl);
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .container {

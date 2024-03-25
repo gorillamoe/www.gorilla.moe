@@ -1,7 +1,6 @@
 <script>
 	import HeadComponent from '$lib/HeadComponent.svelte';
 	import DefaultContainerComponent from '$lib/DefaultContainerComponent.svelte';
-	import BackButtonComponent from '$lib/BackButtonComponent.svelte';
 	import CardComponent from '$lib/CardComponent.svelte';
 </script>
 
@@ -11,8 +10,6 @@
 		description: 'A list of apps brought to you by Marco Kellershoff a.k.a. Gorilla Moe.'
 	}}
 />
-
-<BackButtonComponent data={{ path: '/' }} />
 
 <DefaultContainerComponent>
 	<h3 class="yellow">Some apps I crafted</h3>
