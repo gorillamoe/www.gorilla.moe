@@ -2,13 +2,12 @@
 	import Footer from './footer.svelte';
 	import '@fontsource/manrope';
 	import '@fontsource/jetbrains-mono';
-	import '$lib/prismjs-themes/xonokai.css';
 	import './layout.css';
 </script>
 
-<div class="layout-container">
-	<div class="layout-centered">
-		<div class="layout">
+<div class="layout-container-uses">
+	<div class="layout-centered-uses">
+		<div class="layout-uses">
 			<main>
 				<slot />
 			</main>

@@ -1,7 +1,7 @@
 ---
 title: My Favorite Linux Software
 description: A list of my favorite software for Linux.
-date: '2018-08-13 17:18:48'
+date: '2024-03-25'
 categories:
   - linux
   - software
@@ -9,6 +9,8 @@ categories:
   - dev
 published: true
 ---
+
+**Update**: I have created a [uses page](/uses) to list the tools and software I use.
 
 This is a list of GUI-Software that I need to have installed on all my (Arch-)Linux workstations.
 

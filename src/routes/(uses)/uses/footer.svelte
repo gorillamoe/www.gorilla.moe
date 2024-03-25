@@ -12,16 +12,6 @@
 		font-family: var(--font-sans);
 		font-size: var(--font-size-xs);
 	}
-	a {
-		color: var(--link-color);
-		text-decoration: none;
-		border-bottom: 1px dashed var(--link-color);
-	}
-
-	a:hover {
-		color: var(--link-hover-color);
-		border-bottom-color: var(--link-hover-color);
-	}
 	.powered-by-svelte::before {
 		content: '';
 		display: inline-block;
