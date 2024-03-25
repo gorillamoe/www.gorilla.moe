@@ -39,9 +39,13 @@ body {
 	display: block;
 }
 
+.layout-centered {
+	margin: 0 auto;
+	max-width: 776px;
+}
+
 .layout {
 	margin: 1rem 1rem;
-	max-width: 776px;
 	background-color: var(--layout-bg-color);
 	padding: 1rem;
 	border-radius: 0.5rem;

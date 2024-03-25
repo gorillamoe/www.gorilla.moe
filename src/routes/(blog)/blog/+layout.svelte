@@ -7,10 +7,12 @@
 </script>
 
 <div class="layout-container">
-	<div class="layout">
-		<main>
-			<slot />
-		</main>
-		<Footer />
+	<div class="layout-centered">
+		<div class="layout">
+			<main>
+				<slot />
+			</main>
+			<Footer />
+		</div>
 	</div>
 </div>
