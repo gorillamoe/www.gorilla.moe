@@ -26,7 +26,7 @@
 			account.
 		</p>
 		<p>
-			Then I lost my username to another bud, now I'm stuck with @gmoebananas 🤷. Guess, that's life
+			Then I lost my username to another bud, now I'm stuck with @thisgorilla 🤷. Guess, that's life
 			.🙈
 		</p>
 	</div>

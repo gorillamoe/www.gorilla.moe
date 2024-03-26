@@ -65,7 +65,7 @@
 			<AboutLinkComponent
 				data={{
 					nobr: true,
-					href: 'https://twitter.com/gmoebananas',
+					href: 'https://twitter.com/thisgorilla',
 					color: 'blue',
 					text: 'Twitter',
 					hrefSup: '/about/twitter'

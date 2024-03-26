@@ -76,7 +76,7 @@
 				<FacebookIcon />
 			</a>
 			<a
-				href="https://twitter.com/gmoebananas"
+				href="https://twitter.com/thisgorilla"
 				title="Check out my Twitter account"
 				class="twitter-icon"
 			>
