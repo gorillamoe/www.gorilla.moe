@@ -1,4 +1,5 @@
 <script>
+	import GithubIcon from './icons/fontawesome/github.svelte';
 	export let data;
 
 	/**
@@ -28,7 +29,7 @@
 		<p>{data.text}</p>
 	</div>
 	<a class="github" href="https://github.com/{data.githubSlug}">
-		<i class="fab fa-github"></i>
+		<GithubIcon />
 	</a>
 </div>
 
