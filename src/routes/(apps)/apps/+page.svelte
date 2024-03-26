@@ -17,7 +17,7 @@
 
 	<CardComponent
 		data={{
-			imgsrc: '/assets/apps/tmux-sexy.png',
+			imgsrc: '/resources/apps/tmux-sexy.png',
 			imgalt: 'tmux-sexy',
 			title: 'tmux-sexy',
 			text: 'A tmux theme that is sexy 💋 and minimal.',
@@ -27,7 +27,7 @@
 
 	<CardComponent
 		data={{
-			imgsrc: '/assets/apps/githubutils.nvim.gif',
+			imgsrc: '/resources/apps/githubutils.nvim.gif',
 			imgalt: 'GithubUtils.nvim',
 			title: 'GithubUtils.nvim',
 			text: '🐙 simple utils for working with Github inside Neovim. Written in Lua.',
@@ -37,7 +37,7 @@
 
 	<CardComponent
 		data={{
-			imgsrc: '/assets/apps/arte7-downloader.png',
+			imgsrc: '/resources/apps/arte7-downloader.png',
 			imgalt: 'ARTE-7-Downloader',
 			title: 'ARTE-7-Downloader',
 			text: 'User script to download videos from the ARTE+7 website',
@@ -47,7 +47,7 @@
 
 	<CardComponent
 		data={{
-			imgsrc: '/assets/apps/brigadeterm.gif',
+			imgsrc: '/resources/apps/brigadeterm.gif',
 			imgalt: 'brigadeterm',
 			title: 'brigadeterm',
 			text: 'A simple terminal ui for brigade pipelining system. Written in Go.',
@@ -57,7 +57,7 @@
 
 	<CardComponent
 		data={{
-			imgsrc: '/assets/apps/super-evil-newtab-redux.png',
+			imgsrc: '/resources/apps/super-evil-newtab-redux.png',
 			imgalt: 'Super Evil New Tab Redux',
 			title: 'Super Evil New Tab Redux',
 			text: 'Customize your new tab page with HTML, JavaScript and CSS.',
@@ -67,7 +67,7 @@
 
 	<CardComponent
 		data={{
-			imgsrc: '/assets/apps/www.gorilla.moe.png',
+			imgsrc: '/resources/apps/www.gorilla.moe.png',
 			imgalt: 'www.gorilla.moe',
 			title: 'www.gorilla.moe',
 			text: 'My personal website. Built with SvelteKit.',
@@ -77,7 +77,7 @@
 
 	<CardComponent
 		data={{
-			imgsrc: '/assets/apps/cheza.js.png',
+			imgsrc: '/resources/apps/cheza.js.png',
 			imgalt: 'Cheza.js',
 			title: 'Cheza.js',
 			text: 'Customizable 📦, extensible ⚡ and small HTML5 Videoplayer 📼',
@@ -87,7 +87,7 @@
 
 	<CardComponent
 		data={{
-			imgsrc: '/assets/apps/aws-cf-invalidate-tui.gif',
+			imgsrc: '/resources/apps/aws-cf-invalidate-tui.gif',
 			imgalt: 'AWS CloudFront Invalidation TUI',
 			title: 'AWS CloudFront Invalidation TUI',
 			text: 'TUI 🖥️ for managing Cloudfront ☁️ Invalidations ⚡. Written in Go.',
@@ -97,7 +97,7 @@
 
 	<CardComponent
 		data={{
-			videosrc: '/assets/apps/github-tui.mp4',
+			videosrc: '/resources/apps/github-tui.mp4',
 			title: 'Github TUI',
 			text: 'A terminal user interface for Github. Written in Go.',
 			githubSlug: 'gorillamoe/github-tui'
