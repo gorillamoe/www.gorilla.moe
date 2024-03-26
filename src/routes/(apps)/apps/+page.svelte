@@ -108,4 +108,7 @@
 <style>
 	@import '$lib/colors.css';
 	@import '$lib/text.css';
+	.yellow {
+		color: var(--sexy-color-yellow);
+	}
 </style>
