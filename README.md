@@ -3,6 +3,8 @@
 [![Deploy](https://github.com/gorillamoe/www.gorilla.moe/actions/workflows/deploy.yml/badge.svg)](https://github.com/gorillamoe/www.gorilla.moe/actions/workflows/deploy.yml)
 [![Lint](https://github.com/gorillamoe/www.gorilla.moe/actions/workflows/lint.yml/badge.svg)](https://github.com/gorillamoe/www.gorilla.moe/actions/workflows/lint.yml)
 
+![](.github/cover.png)
+
 This is the source code for [gorilla.moe](https://gorilla.moe),
 a personal website that I use to showcase my projects and share a little bit about myself.
 
