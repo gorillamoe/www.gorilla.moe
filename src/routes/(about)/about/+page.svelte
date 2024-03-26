@@ -57,7 +57,7 @@
 			/>, you can follow me on
 			<AboutLinkComponent
 				data={{
-					href: 'https://bsky.app/profile/gorillamoe.bsky.social',
+					href: 'https://bsky.app/profile/gorilla.moe',
 					color: 'elephantblue',
 					text: 'Bluesky'
 				}}
