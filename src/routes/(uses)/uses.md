@@ -40,6 +40,7 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 ## Workstation + Gear
 
-- **Laptop**: Macbook Pro 16" 2023 / 64GB RAM / 2TB SSD
+- **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD
+  - **OS**: [Pop!\_OS](https://pop.system76.com/) 22.04
 - **External screen**: [Samsung LC27F396FHUXEN](https://amzn.to/3TRQ4uP)
 - **Keyboard**: [Vortex Pok3r](/pok3r.jpg)

@@ -39,9 +39,9 @@
 			<AboutLinkComponent
 				data={{
 					nobr: true,
-					href: 'https://www.archlinux.org',
+					href: 'https://pop.system76.com/',
 					color: 'orange',
-					text: 'Arch Linux'
+					text: 'Pop!_OS'
 				}}
 			/>
 			every day.
