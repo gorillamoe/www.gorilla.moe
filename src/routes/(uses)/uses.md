@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of software I use on a daily basis
-date: '2024-03-25'
+date: '2024-03-29'
 categories:
   - linux
   - macos
@@ -40,7 +40,6 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 ## Workstation + Gear
 
-- **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD
-  - **OS**: [Pop!\_OS](https://pop.system76.com/) 22.04
+- **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD with [Pop!\_OS](https://pop.system76.com/)
 - **External screen**: [Samsung LC27F396FHUXEN](https://amzn.to/3TRQ4uP)
 - **Keyboard**: [Vortex Pok3r](/pok3r.jpg)

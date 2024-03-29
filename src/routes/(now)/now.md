@@ -1,7 +1,7 @@
 ---
 title: Now page
 description: What I am doing right now.
-date: '2024-03-25'
+date: '2024-03-29'
 categories:
   - linux
   - software
@@ -10,6 +10,14 @@ categories:
 ---
 
 Here is a list of things I am currently working on or learning.
+
+## Fresh start
+
+I cleaned up my [dotfiles repo](https://github.com/gorillamoe/dotfiles).
+
+I recently moved from [ArchLinux](https://www.archlinux.org) (10y+)
+to MacOS (because work-related stuff) and now I settled with ❤️
+[Pop!\_OS](https://pop.system76.com/).
 
 ## What are you using?
 
