@@ -1,7 +1,7 @@
 ---
 title: Are you affected by the 2024 backdoor in xz-utils?
 description: How to check if you are affected by the 2024 backdoor in xz-utils.
-date: '2024-03-30 15:45'
+date: '2024-03-31 10:11'
 categories:
   - linux
   - opsec
@@ -13,65 +13,45 @@ published: true
 Yesterday a backdoor was discovered in xz-utils 💔.
 It made the rounds on all social media opsec channels.
 
-You can read the full disclosure [here](https://www.openwall.com/lists/oss-security/2024/03/29/4).
+You can read the full disclosure [here](https://www.openwall.com/lists/oss-security/2024/03/29/4) and.
+[here](https://nvd.nist.gov/vuln/detail/CVE-2024-3094).
 
 As the only affected versions are `5.6.0` and `5.6.1`,
 you can check if you are affected by running the following command script
 on a fleet of servers.
 
-`xz-affected-check-colored.sh`
+`CVE-2024-3094-checker.sh`
 
 ```sh
 #!/usr/bin/env bash
 
-RED='\\033[0;31m'
-GREEN='\\033[0;32m'
-NC='\\033[0m'
+VULNERABLE_MESSAGE="vulnerable"
+SAFE_MESSAGE="safe"
 
-AFFECTED_MSG="${RED}affected${NC}"
-NOT_AFFECTED_MSG="${GREEN}not affected${NC}"
-
-if ! command -v xz &> /dev/null
-then
-    echo -e "${NOT_AFFECTED_MSG}"
-    exit
-fi
-
-if xz --version | grep -q "5.6.0\\|5.6.1"; then
-    echo -e "${AFFECTED_MSG}"
+if command -v apt-get &>/dev/null; then
+    PKG_MANAGER="apt-get"
+elif command -v zypper &>/dev/null; then
+    PKG_MANAGER="zypper"
 else
-    echo -e "${NOT_AFFECTED_MSG}"
-fi
-```
-
-If you don't like the colors 🤷, here is a version without colored output
-
-`xz-affected-check.sh`
-
-```sh
-#!/usr/bin/env bash
-
-AFFECTED_MSG="affected"
-NOT_AFFECTED_MSG="not affected"
-
-if ! command -v xz &> /dev/null
-then
-    echo "${NOT_AFFECTED_MSG}"
-    exit
+    echo "unsupported system"
+    exit 1
 fi
 
-if xz --version | grep -q "5.6.0\\|5.6.1"; then
-    echo "${AFFECTED_MSG}"
-else
-    echo "${NOT_AFFECTED_MSG}"
+if [ "$PKG_MANAGER" = "zypper" ]; then
+    version=$(rpm -q xz)
+    if [[ $version =~ (5\\.6\\.(0|1)) ]]; then
+        echo "$VULNERABLE_MESSAGE"
+    else
+        echo "$SAFE_MESSAGE"
+    fi
+elif [ "$PKG_MANAGER" = "apt-get" ]; then
+    version=$(dpkg -l | grep "xz-utils" | awk '{print $3}')
+    if [[ "$version" == *"5.6.0"* || "$version" == *"5.6.1"* ]]; then
+        echo "$VULNERABLE_MESSAGE"
+    else
+        echo "$SAFE_MESSAGE"
+    fi
 fi
-```
-
-If you happen to only check a single server or your desktop,
-you can run this simple one-liner in your terminal:
-
-```sh
-xz --version | grep -q "5.6.0\\|5.6.1" && echo "affected" || echo "not affected"
 ```
 
 If you are affected, you should upgrade to a newer version of xz-utils,
