@@ -18,7 +18,7 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 ## Editor + Terminal
 
 - **Editor**: [Neovim](https://neovim.io/)
-- **Editor Theme**: [Bluloco](https://github.com/mistweaverco/bluloco)
+- **Editor Theme**: [Bluloco](https://github.com/mistweaverco/bluloco.nvim)
 - **Editor Font**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads)
 - **Terminal**: [WezTerm](https://wezfurlong.org/wezterm/)
 - **Terminal Multiplexer**: [Tmux](https://github.com/tmux/tmux)
