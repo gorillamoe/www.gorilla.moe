@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of software I use on a daily basis
-date: '2024-03-29'
+date: '2024-05-20'
 categories:
   - linux
   - macos
@@ -18,9 +18,9 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 ## Editor + Terminal
 
 - **Editor**: [Neovim](https://neovim.io/)
-- **Editor Theme**: [Monokai Pro](https://www.monokai.pro/)
+- **Editor Theme**: [Bluloco](https://github.com/mistweaverco/bluloco)
 - **Editor Font**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads)
-- **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
+- **Terminal**: [WezTerm](https://wezfurlong.org/wezterm/)
 - **Terminal Multiplexer**: [Tmux](https://github.com/tmux/tmux)
 - **Terminal Multiplexer Theme**: [Tmux Sexy](https://github.com/mistweaverco/tmux-sexy)
 
