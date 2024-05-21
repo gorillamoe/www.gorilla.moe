@@ -18,11 +18,13 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 ## Editor + Terminal
 
 - **Editor**: [Neovim](https://neovim.io/)
+  - **Configuration**: [Neovimfiles](https://github.com/gorillamoe/neovimfiles)
 - **Editor Theme**: [Bluloco](https://github.com/mistweaverco/bluloco.nvim)
 - **Editor Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
 - **Terminal**: [WezTerm](https://wezfurlong.org/wezterm/)
 - **Terminal Multiplexer**: [Tmux](https://github.com/tmux/tmux)
 - **Terminal Multiplexer Theme**: [Tmux Sexy](https://github.com/mistweaverco/tmux-sexy)
+- **Dotfiles**: [Dotfiles](https://github.com/gorillamoe/dotfiles)
 
 ## Desktop Apps
 
