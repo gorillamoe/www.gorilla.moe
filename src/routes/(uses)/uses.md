@@ -1,6 +1,6 @@
 ---
 title: Uses
-description: A list of software I use on a daily basis
+description: A list of services, hard- and software I use on a daily basis
 date: '2024-05-20'
 categories:
   - linux
