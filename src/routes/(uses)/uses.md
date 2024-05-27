@@ -45,3 +45,4 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 - **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD with [Pop!\_OS](https://pop.system76.com/)
 - **External screen**: [Samsung LC27F396FHUXEN](https://amzn.to/3TRQ4uP)
 - **Keyboard**: [Vortex Pok3r](/pok3r.jpg)
+- **Touchpad**: [seenda Touchpad](https://amzn.to/3R27VgD)
