@@ -26,7 +26,7 @@
 	data={{
 		title: 'Marco Kellershoff a.k.a. Gorilla Moe',
 		description:
-			'Marco Kellershoff a.k.a. Gorilla Moe is a Web-, Android-, iOS-, Java- and CSharp developer.'
+			"Marco Kellershoff a.k.a. Gorilla Moe is a loud 📢 introvert who loves ❤️ CI/CD, Cloud ☁️ & on-prem ✨, automates all the things 🤖 and keeps pushing 🦍 the limits and can't live withoutLinux 🐧 and Neovim 🖥️!"
 	}}
 />
 
