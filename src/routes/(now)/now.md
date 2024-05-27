@@ -1,7 +1,7 @@
 ---
 title: Now page
 description: What I am doing right now.
-date: '2024-05-20'
+date: '2024-05-27'
 categories:
   - linux
   - software
@@ -10,6 +10,10 @@ categories:
 ---
 
 Here is a list of things I am currently working on or learning.
+
+## Wishlist
+
+I currently migrated my [wishlist](/wishlist) to a simple markdown file.
 
 ## Tracking time
 

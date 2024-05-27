@@ -26,11 +26,10 @@ The order of the items is not random.
 It's more like a priority list.
 
 1. [Voyager split ergonomic keyboard](https://www.zsa.io/voyager/buy)
-
-- Cosmic Nomad (Black)
-- **Keycaps** Black Printed US Keycaps
-- **Keyswitches** Tactile (Brown)
-
-2. [Samsung UHD Curved Monitor U32R590CWP](https://amzn.to/4aDTAOu)
-3. [Maxano 64GB Kit 2X 32GB RAM compatible with Lenovo ThinkPad T580](https://amzn.to/44VHOxJ)
-4. [Anker PowerConf S500](https://amzn.to/4dY66va)
+1. Cosmic Nomad (Black)
+1. **Keycaps** Black Printed US Keycaps
+1. **Keyswitches** Tactile (Brown)
+1. [Samsung UHD Curved Monitor U32R590CWP](https://amzn.to/4aDTAOu)
+1. [AnkerWork C310 Webcam](https://amzn.to/3WXtnqH)
+1. [Maxano 64GB Kit 2X 32GB RAM compatible with Lenovo ThinkPad T580](https://amzn.to/44VHOxJ)
+1. [Anker PowerConf S500](https://amzn.to/4dY66va)
