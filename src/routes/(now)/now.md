@@ -11,9 +11,23 @@ categories:
 
 Here is a list of things I am currently working on or learning.
 
+## i3 + Polybar + Rofi
+
+In my continous quest to find the perfect desktop setup,
+when it comes to productivity and aesthetics, I'm yet again back to i3wm.
+I am currently working on a new setup with i3, Polybar and Rofi.
+
+Back in the days I used i3wm with dmenu and a custom statusbar and
+was quite happy with it, but then I switched to regualar Gnome, MacOS and now Pop!\_OS.
+
+I am quite happy with Pop!\_OS, its launcher, it's speed and simplicity,
+but I'm always eager to improve and I see a lot of potential in going back i3wm.
+
+Follow my journey with i3wm on my [dotfiles repo](https://github.com/gorillamoe/dotfiles).
+
 ## Wishlist
 
-I currently migrated my [wishlist](/wishlist) to a simple markdown file.
+I migrated my [wishlist](/wishlist) to a simple markdown file.
 
 ## Tracking time
 

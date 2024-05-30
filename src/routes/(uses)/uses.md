@@ -28,6 +28,9 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 ## Desktop Apps
 
+- **Window Manager**: [i3wm](https://i3wm.org/)
+  - **Statusbar**: [Polybar](https://polybar.github.io/)
+  - **Dmenu on steroids**: [Rofi](https://davatorium.github.io/rofi/)
 - **Browser**: [Google Chrome](https://www.google.com/chrome/)
 - **E-Mail Client**: [Gmail Web](https://mail.google.com/)
 - **Office Suite**: [Google Docs](https://docs.google.com/)
