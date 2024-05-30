@@ -7,7 +7,7 @@
 	data={{
 		title: 'About me',
 		description:
-			"Hello, I'm Marco Kellershoff. I craft apps with the use of Neovim on Arch Linux every day."
+			"Hello, I'm Marco Kellershoff. I craft things with the use of ShellFu and Neovim on Linux every day."
 	}}
 />
 
@@ -15,17 +15,19 @@
 	<div class="inner">
 		<p>Hello, I'm Marco Kellershoff.</p>
 		<p>
-			I craft
+			I'm A loud 📢 introvert who loves ❤️ CI/CD, Cloud ☁️ and on-premise ✨, generally speaking,
+			all things DevOps 🥷.
+		</p>
+		<p>
+			I tend to automate everything 🤖 and can't live without
 			<AboutLinkComponent
 				data={{
 					nobr: true,
-					href: '/apps',
-					color: 'yellow',
-					text: 'apps',
-					hrefSup: '/about/apps'
+					href: 'https://pop.system76.com/',
+					color: 'orange',
+					text: 'Linux'
 				}}
-			/>
-			with the use of
+			/> 🐧 and
 			<AboutLinkComponent
 				data={{
 					nobr: true,
@@ -34,34 +36,45 @@
 					text: 'Neovim',
 					hrefSup: '/about/neovim'
 				}}
-			/>
-			on
+			/>.
+		</p>
+		<p>
+			If you're interested in the tools I use, check out my
 			<AboutLinkComponent
 				data={{
 					nobr: true,
-					href: 'https://pop.system76.com/',
-					color: 'orange',
-					text: 'Pop!_OS'
+					href: '/uses',
+					color: 'yellow',
+					text: 'uses'
 				}}
-			/>
-			every day.
-		</p>
-		<p>
-			If you're
+			/> page, and if you want to know what I'm up to right now, check out my
 			<AboutLinkComponent
 				data={{
 					href: '/now',
 					color: 'poisonousgreen',
-					text: 'curious'
+					text: 'now'
 				}}
-			/>, you can follow me on
+			/> page.
+		</p>
+		<p>
+			I also keep track of
 			<AboutLinkComponent
 				data={{
-					href: 'https://bsky.app/profile/gorilla.moe',
+					href: '/books',
 					color: 'elephantblue',
-					text: 'Bluesky'
+					text: 'books'
 				}}
-			/>,
+			/> I read and the things I
+			<AboutLinkComponent
+				data={{
+					href: '/wishlist',
+					color: 'purple',
+					text: 'want'
+				}}
+			/>.
+		</p>
+		<p>
+			You can find me on
 			<AboutLinkComponent
 				data={{
 					nobr: true,
@@ -70,14 +83,7 @@
 					text: 'Twitter',
 					hrefSup: '/about/twitter'
 				}}
-			/>,
-			<AboutLinkComponent
-				data={{
-					href: 'https://instagram.com/gorilla.moe',
-					color: 'purple',
-					text: 'Instagram'
-				}}
-			/> and/or
+			/>, and
 			<AboutLinkComponent
 				data={{
 					nobr: true,
@@ -86,7 +92,7 @@
 					text: 'Github',
 					hrefSup: '/about/collab'
 				}}
-			/>
+			/>.
 		</p>
 		<p>Want to know even more about me?</p>
 		<p>
