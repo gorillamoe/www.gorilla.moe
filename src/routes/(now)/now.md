@@ -18,7 +18,7 @@ when it comes to productivity and aesthetics, I'm yet again back to i3wm.
 I am currently working on a new setup with i3, Polybar and Rofi.
 
 Back in the days I used i3wm with dmenu and a custom statusbar and
-was quite happy with it, but then I switched to regualar Gnome, MacOS and now Pop!\_OS.
+was quite happy with it, but then I switched to regular Gnome, MacOS and now Pop!\_OS.
 
 I am quite happy with Pop!\_OS, its launcher, it's speed and simplicity,
 but I'm always eager to improve and I see a lot of potential in going back i3wm.
