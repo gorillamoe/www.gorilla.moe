@@ -15,7 +15,7 @@
 	<div class="inner">
 		<p>Hello, I'm Marco Kellershoff.</p>
 		<p>
-			I'm A loud 📢 introvert who loves ❤️ CI/CD, Cloud ☁️ and on-premise ✨, generally speaking,
+			I'm a loud 📢 introvert who loves ❤️ CI/CD, Cloud ☁️ and on-premise ✨, generally speaking,
 			all things DevOps 🥷.
 		</p>
 		<p>
@@ -39,22 +39,22 @@
 			/>.
 		</p>
 		<p>
-			If you're interested in the tools I use, check out my
+			Maybe you're interested in the tools I
 			<AboutLinkComponent
 				data={{
 					nobr: true,
 					href: '/uses',
 					color: 'yellow',
-					text: 'uses'
+					text: 'use'
 				}}
-			/> page, and if you want to know what I'm up to right now, check out my
+			/>, or you want to know what I'm up to right
 			<AboutLinkComponent
 				data={{
 					href: '/now',
 					color: 'poisonousgreen',
 					text: 'now'
 				}}
-			/> page.
+			/>. I got you 😎.
 		</p>
 		<p>
 			I also keep track of

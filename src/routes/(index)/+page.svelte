@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import HeadComponent from '$lib/HeadComponent.svelte';
-	import LinkIcon from '$lib/icons/fontawesome/link.svelte';
+	import HeartIcon from '$lib/icons/fontawesome/heart.svelte';
 	import CardIcon from '$lib/icons/fontawesome/id-card.svelte';
 	import GitHubIcon from '$lib/icons/fontawesome/github.svelte';
 	import TwitterIcon from '$lib/icons/fontawesome/x-twitter.svelte';
@@ -47,9 +47,6 @@
 			<a href="/about" id="aboutmelink" title="About Me Page" class="card-icon">
 				<CardIcon />
 			</a>
-			<a href="/now" title="This page is about what I am doing right now" class="link-icon">
-				<LinkIcon />
-			</a>
 			<a
 				href="https://github.com/gorillamoe"
 				title="Check out my Github profile"
@@ -63,6 +60,9 @@
 				class="twitter-icon"
 			>
 				<TwitterIcon />
+			</a>
+			<a href="https://ko-fi.com/gorillamoe" title="Buy me a coffee" class="heart-icon">
+				<HeartIcon />
 			</a>
 		</div>
 	</div>
@@ -102,10 +102,18 @@
 		border: 0 none;
 	}
 
-	.link-icon :global(svg),
+	.heart-icon :global(svg):hover,
+	.card-icon :global(svg):hover,
+	.github-icon :global(svg):hover,
+	.twitter-icon :global(svg):hover {
+		fill: #ff6480;
+	}
+
+	.heart-icon :global(svg),
 	.card-icon :global(svg),
 	.github-icon :global(svg),
 	.twitter-icon :global(svg) {
+		transition: fill 0.5s;
 		display: inline-block;
 		cursor: pointer;
 		height: 32px;
