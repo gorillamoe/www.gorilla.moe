@@ -22,7 +22,7 @@
 	data={{
 		title: 'Marco Kellershoff a.k.a. Gorilla Moe',
 		description:
-			"Marco Kellershoff a.k.a. Gorilla Moe is a loud 📢 introvert who can't live withoutLinux 🐧 and Neovim 🖥️!"
+			"Marco Kellershoff a.k.a. Gorilla Moe is a loud 📢 introvert who can't live without Linux 🐧 and Neovim 🖥️!"
 	}}
 />
 
