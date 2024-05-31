@@ -17,6 +17,11 @@ h6 {
 	color: var(--color-banana-yellow);
 }
 
+h2 {
+	font-size: 2rem;
+	color: var(--color-red);
+}
+
 article {
 	font-family: var(--font-sans);
 }
