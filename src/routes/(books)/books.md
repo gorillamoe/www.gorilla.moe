@@ -140,3 +140,19 @@ I plan on doing a short review for each book in the future.
 
 - **Rating**: 🍌🍌🍌🍌🍌
 - **Authors**: Allan & Barbara Pease
+
+## Want to read
+
+This is an incomplete list of german and english books I want to read.
+
+### The DevOps Handbook
+
+- **Authors**: Gene Kim, Patrick Debois, John Willis, Jez Humble, Nicole Forsgren
+
+### The Phoenix Project
+
+- **Authors**: Gene Kim, Kevin Behr, George Spafford
+
+### The Unicorn Project
+
+- **Author**: Gene Kim
