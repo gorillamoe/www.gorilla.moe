@@ -61,7 +61,7 @@
 			<AboutLinkComponent
 				data={{
 					href: '/books',
-					color: 'elephantblue',
+					color: 'red',
 					text: 'books'
 				}}
 			/> I read and the things I
