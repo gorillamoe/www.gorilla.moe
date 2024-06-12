@@ -1,7 +1,7 @@
 ---
 title: Now page
 description: What I am doing right now.
-date: '2024-05-27'
+date: '2024-06-12'
 categories:
   - linux
   - software
@@ -10,6 +10,28 @@ categories:
 ---
 
 Here is a list of things I am currently working on or learning.
+
+## ZSH hacking
+
+I previously used `bash` as my shell, but I recently switched to `zsh`.
+
+I started out with oh-my-zsh,
+but I quickly realized that it's too bloated for my taste.
+
+The startup time was a bit slow and I didn't need most of the features.
+So I started to build my own setup from scratch.
+
+With all the things shaved off that I don't need,
+I managed to spin up a new shell twice as fast as before.
+
+The greatest impact on the startup time was the removal of the `nvm` script.
+
+But as I need `nvm` for my daily work,
+I decided to try out lazy loading the `nvm` script.
+
+This helped to shave off quite some time from the startup time.
+
+I'm quite happy with the [results](https://github.com/gorillamoe/dotfiles/tree/trunk/configurations/zsh).
 
 ## i3 + Polybar + Rofi
 
