@@ -11,6 +11,14 @@ categories:
 
 Here is a list of things I am currently working on or learning.
 
+## i3 to Sway Migration
+
+I am currently migrating from i3 to sway.
+
+Everything seems to work as I wish, except for the multi-touch gestures.
+
+I have to find a replacement for touchegg 😢.
+
 ## ZSH hacking
 
 I previously used `bash` as my shell, but I recently switched to `zsh`.
