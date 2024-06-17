@@ -5,6 +5,7 @@
 	import CardIcon from '$lib/icons/fontawesome/id-card.svelte';
 	import GitHubIcon from '$lib/icons/fontawesome/github.svelte';
 	import TwitterIcon from '$lib/icons/fontawesome/x-twitter.svelte';
+	import BlueskyIcon from '$lib/icons/fontawesome/bluesky.svelte';
 
 	/** @type {HTMLElement} */
 	let swapper;
@@ -61,6 +62,13 @@
 			>
 				<TwitterIcon />
 			</a>
+			<a
+				href="https://bsky.app/profile/gorilla.moe"
+				title="Check out my Bluesky account"
+				class="bluesky-icon"
+			>
+				<BlueskyIcon />
+			</a>
 			<a href="https://ko-fi.com/gorillamoe" title="Buy me a coffee" class="heart-icon">
 				<HeartIcon />
 			</a>
@@ -105,14 +113,16 @@
 	.heart-icon :global(svg):hover,
 	.card-icon :global(svg):hover,
 	.github-icon :global(svg):hover,
-	.twitter-icon :global(svg):hover {
+	.twitter-icon :global(svg):hover,
+	.bluesky-icon :global(svg):hover {
 		fill: #ff6480;
 	}
 
 	.heart-icon :global(svg),
 	.card-icon :global(svg),
 	.github-icon :global(svg),
-	.twitter-icon :global(svg) {
+	.twitter-icon :global(svg),
+	.bluesky-icon :global(svg) {
 		transition: fill 0.5s;
 		display: inline-block;
 		cursor: pointer;
