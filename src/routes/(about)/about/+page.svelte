@@ -23,7 +23,7 @@
 			<AboutLinkComponent
 				data={{
 					nobr: true,
-					href: 'https://pop.system76.com/',
+					href: 'https://ubuntu.com/',
 					color: 'orange',
 					text: 'Linux'
 				}}
