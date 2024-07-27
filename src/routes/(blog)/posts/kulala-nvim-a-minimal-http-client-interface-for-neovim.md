@@ -24,7 +24,7 @@ needed a way to interact with the REST and GraphQL APIs of our services.
 
 Yeah, I could have used Postman, but I wanted to have something integrated into Neovim.
 
-I has gathered quite some stars at github and
+It has gathered quite some stars on github and
 received some feedback from the [community on github](https://github.com/mistweaverco/kulala.nvim).
 
 [reddit](https://www.reddit.com/r/neovim/search/?q=kulala&type=link) folks also seem to like it.
