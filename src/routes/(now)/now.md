@@ -1,7 +1,7 @@
 ---
 title: Now page
 description: What I am doing right now.
-date: '2024-06-12'
+date: '2024-07-27'
 categories:
   - linux
   - software
@@ -11,13 +11,46 @@ categories:
 
 Here is a list of things I am currently working on or learning.
 
-## i3 to Sway Migration
+## Working on kulala.nvim and kulala-fmt
 
-I am currently migrating from i3 to sway.
+I am currently working on a new Neovim plugin called [kulala.nvim](https://kulala.mwco.app).
 
-Everything seems to work as I wish, except for the multi-touch gestures.
+It is a replacement for the achieved [rest.nvim](https://github.com/rest-nvim/rest.nvim) plugin.
 
-I have to find a replacement for touchegg 😢.
+I started it, because I started a new job and
+I needed a better tool for my daily work (mainly working with APIs).
+
+I also started a new formatter called [kulala-fmt](https://github.com/mistweaverco/kulala-fmt).
+
+It is a formatter for `.http` and `.rest` files and accompanies the kulala.nvim plugin.
+
+## Getting started with bitbucket
+
+We are using Bitbucket at work and I am currently getting all the ins and outs of it.
+
+But, to be honest, I am not a big fan of it. I'm more of a GitHub person.
+
+I'm missing a lot of features that GitHub has, like the GitHub CLI, GitHub Actions, GitHub Packages, etc.
+
+## Started a new job
+
+I started a new job at [TBInt](https://tbint.de) as a Cloud-Native Backend Developer.
+
+I am working with Python, TypeScript, Docker, GCP, Terraform, GQL, SAP and a lot of other cool 😎 stuff.
+
+That's so cool, because I previously (mostly) worked with AWS, Terraform, Docker, gRPC and TypeScript.
+
+I am excited to work with a great team and to learn ✨ a lot of new things and make an impact 🥷.
+
+I've never heard of TBInt before, but they are such a great 💪 and huge 🐋 company.
+
+## Back to Gnome
+
+Here I am again, back to Gnome.
+
+I tried to switch to i3 and then to sway, but I missed some features and the simplicity of Gnome.
+
+Too be honest, it just gets the job done and gets out of the way.
 
 ## ZSH hacking
 
@@ -40,76 +73,3 @@ I decided to try out lazy loading the `nvm` script.
 This helped to shave off quite some time from the startup time.
 
 I'm quite happy with the [results](https://github.com/gorillamoe/dotfiles/tree/trunk/configurations/zsh).
-
-## i3 + Polybar + Rofi
-
-In my continous quest to find the perfect desktop setup,
-when it comes to productivity and aesthetics, I'm yet again back to i3wm.
-I am currently working on a new setup with i3, Polybar and Rofi.
-
-Back in the days I used i3wm with dmenu and a custom statusbar and
-was quite happy with it, but then I switched to regular Gnome, MacOS and now Pop!\_OS.
-
-I am quite happy with Pop!\_OS, its launcher, it's speed and simplicity,
-but I'm always eager to improve and I see a lot of potential in going back i3wm.
-
-Follow my journey with i3wm on my [dotfiles repo](https://github.com/gorillamoe/dotfiles).
-
-## Wishlist
-
-I migrated my [wishlist](/wishlist) to a simple markdown file.
-
-## Tracking time
-
-My wife needed a time tracking tool for her work.
-
-The requirements were simple:
-
-- Track time ⏰ for different projects
-- Offline 🙈 first citizen
-- No bullshit 💩 like ads or tracking or login requirements or subscription fees
-- Export the data as PDF
-- Ideally it should work well with Linux 🐧, Mac and Windows
-
-I didn't research much, but I didn't find anything that fits the bill.
-
-So I decided to build a simple time tracking tool myself.
-It started off as a simple TUI app in Go,
-but I quickly realized that I my wife would prefer a GUI.
-
-So I started building a simple Electron app.
-Then I migrated everything from Electron and plain JS
-to React, TypeScript and Vite including a CI/CD pipeline.
-
-Welcome to [timetrack ⏰](https://timetrack.mistweaver.co).
-
-## Move to Pop!\_OS
-
-I recently moved from [ArchLinux](https://www.archlinux.org) (10y+)
-to MacOS (because work-related stuff) and now I settled with ❤️
-[Pop!\_OS](https://pop.system76.com/).
-
-## Fresh start
-
-I cleaned up my [dotfiles repo](https://github.com/gorillamoe/dotfiles).
-
-I recently moved from [ArchLinux](https://www.archlinux.org) (10y+)
-to MacOS (because work-related stuff) and now I settled with ❤️
-[Pop!\_OS](https://pop.system76.com/).
-
-## What are you using?
-
-I created a [uses page](/uses) to list the tools and software I use.
-
-## Powered by SvelteKit
-
-I have migrated [this site](/) to SvelteKit.
-
-The site is now statically generated and hosted on a cheap Hetzner cloud instance.
-The deployment is automated with GitHub Actions.
-
-## Learning SvelteKit
-
-I am currently learning SvelteKit,
-a framework for building web applications with Svelte.
-I am excited to see how it compares to other frameworks like React and Vue.

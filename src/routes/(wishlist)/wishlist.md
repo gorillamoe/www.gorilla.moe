@@ -1,7 +1,7 @@
 ---
 title: Wishlist
 description: A list of things I want to buy.
-date: '2024-05-27'
+date: '2024-07-27'
 categories:
   - linux
   - macos
@@ -25,11 +25,6 @@ It's more like a reminder for myself.
 The order of the items is not random.
 It's more like a priority list.
 
-- [Voyager split ergonomic keyboard](https://www.zsa.io/voyager/buy)
-  - Cosmic Nomad (Black)
-  - **Keycaps** Black Printed US Keycaps
-  - **Keyswitches** Tactile (Brown)
-- [Samsung UHD Curved Monitor U32R590CWP](https://amzn.to/4aDTAOu)
 - [AnkerWork C310 Webcam](https://amzn.to/3WXtnqH)
 - [Maxano 64GB Kit 2X 32GB RAM compatible with Lenovo ThinkPad T580](https://amzn.to/44VHOxJ)
 - [Anker PowerConf S500](https://amzn.to/4dY66va)

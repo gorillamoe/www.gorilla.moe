@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2024-05-20'
+date: '2024-07-27'
 categories:
   - linux
   - macos
@@ -28,13 +28,13 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 ## Desktop Apps
 
-- **Window Manager**: [sway](https://swaywm.org/)
-  - **Statusbar**: [Waybar](https://github.com/Alexays/Waybar)
-  - **Dmenu on steroids**: [Rofi](https://davatorium.github.io/rofi/)
+- **Window Manager**: [Mutter](<https://en.wikipedia.org/wiki/Mutter_(software)>)
+  - **Desktop Environment**: [Gnome](https://en.wikipedia.org/wiki/GNOME)
 - **Browser**: [Google Chrome](https://www.google.com/chrome/)
-- **E-Mail Client**: [Gmail Web](https://mail.google.com/)
+- **E-Mail Client**: [Gmail Web](https://mail.google.com/) & [Geary](https://wiki.gnome.org/Apps/Geary)
 - **Office Suite**: [Google Docs](https://docs.google.com/)
 - **Video Editing**: [FFmpeg](https://ffmpeg.org/) & [Shotcut](https://shotcut.org/)
+- **Graphics Editing**: [imagemagick](https://imagemagick.org/) & [GIMP](https://gimp.org) & [Inkscape](https://inkscape.org/)
 
 ## Hosting
 
@@ -45,7 +45,10 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 ## Workstation + Gear
 
-- **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD with [Pop!\_OS](https://pop.system76.com/)
-- **External screen**: [Samsung LC27F396FHUXEN](https://amzn.to/3TRQ4uP)
-- **Keyboard**: [Vortex Pok3r](/pok3r.jpg)
-- **Touchpad**: [seenda Touchpad](https://amzn.to/3R27VgD)
+- **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD with [Ubuntu 24.04](https://ubuntu.com/)
+- **External screen**: [Samsung UHD Curved Monitor U32R590CWP](/resources/uses/samsung-uhd-curved-monitor-u32r590cwp.jpg)
+- **Keyboard**: [Vortex 10 Limited Edition](/resources/uses/vortex-10-limited-edition.jpg)
+- **Touchpad**: [seenda Touchpad](/resources/uses/seenda-touchpad.jpg)
+- **Microphone**: [Tonor Q9 USB Condenser Microphone](/resources/uses/tonor-q9-usb-condenser-mic.jpg)
+- **Webcam**: [Logitech C920 HD Pro](/resources/uses/logitech-c920-hd-pro.jpg)
+  - **Lighting**: [LitONES 2.7k - 6.5k](/resources/uses/litones.jpg)

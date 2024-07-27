@@ -29,7 +29,9 @@
 		</p>
 		<p>
 			I'm currently in love <span class="red">&hearts;</span> with my
-			<a href="/pok3r.jpg" class="orange">Pok3r keyboard and my custom keycaps</a>.
+			<a href="/resources/uses/vortex-10-limited-edition.jpg" class="orange"
+				>Vortex 10 Limited Edition keyboard</a
+			>.
 		</p>
 	</div>
 </div>

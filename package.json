@@ -30,14 +30,14 @@
 		"husky": "9.0.11",
 		"install": "0.13.0",
 		"mdsvex": "0.11.0",
-		"npm": "10.5.0",
+		"npm": "^10.8.2",
 		"prettier": "3.1.1",
 		"prettier-plugin-svelte": "3.1.2",
 		"svelte": "4.2.7",
 		"svelte-check": "3.6.0",
 		"svelte-sitemap": "2.6.0",
 		"typescript": "5.4.3",
-		"vite": "5.2.4",
+		"vite": "^5.3.5",
 		"vitest": "1.2.0"
 	},
 	"type": "module"
