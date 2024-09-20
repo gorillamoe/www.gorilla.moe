@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2024-07-27'
+date: '2024-09-20'
 categories:
   - linux
   - macos
@@ -19,11 +19,12 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 - **Editor**: [Neovim](https://neovim.io/)
   - **Configuration**: [Neovimfiles](https://github.com/gorillamoe/neovimfiles)
-- **Editor Theme**: [Bluloco](https://github.com/mistweaverco/bluloco.nvim)
-- **Editor Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+  - **Editor Theme**: [Retro](https://github.com/mistweaverco/retro-theme.nvim)
 - **Terminal**: [WezTerm](https://wezfurlong.org/wezterm/)
+  - **Terminal Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+  - **Terminal Theme**: [Retro](https://github.com/mistweaverco/retro-theme.terminal)
 - **Terminal Multiplexer**: [Tmux](https://github.com/tmux/tmux)
-- **Terminal Multiplexer Theme**: [Tmux Sexy](https://github.com/mistweaverco/tmux-sexy)
+  - **Terminal Multiplexer Theme**: [Retro](https://github.com/mistweaverco/retro-theme.tmux)
 - **Dotfiles**: [Dotfiles](https://github.com/gorillamoe/dotfiles)
 
 ## Desktop Apps
