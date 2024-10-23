@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2024-09-20'
+date: '2024-10-23'
 categories:
   - linux
   - macos
@@ -20,7 +20,7 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 - **Editor**: [Neovim](https://neovim.io/)
   - **Configuration**: [Neovimfiles](https://github.com/gorillamoe/neovimfiles)
   - **Editor Theme**: [Retro](https://github.com/mistweaverco/retro-theme.nvim)
-- **Terminal**: [WezTerm](https://wezfurlong.org/wezterm/)
+- **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
   - **Terminal Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
   - **Terminal Theme**: [Retro](https://github.com/mistweaverco/retro-theme.terminal)
 - **Terminal Multiplexer**: [Tmux](https://github.com/tmux/tmux)
@@ -51,5 +51,5 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 - **Keyboard**: [Vortex 10 Limited Edition](/resources/uses/vortex-10-limited-edition.jpg)
 - **Touchpad**: [seenda Touchpad](/resources/uses/seenda-touchpad.jpg)
 - **Microphone**: [Tonor Q9 USB Condenser Microphone](/resources/uses/tonor-q9-usb-condenser-mic.jpg)
-- **Webcam**: [Logitech C920 HD Pro](/resources/uses/logitech-c920-hd-pro.jpg)
+- **Webcam**: [AnkerWork C310 Webcam](https://amzn.to/3WXtnqH)
   - **Lighting**: [LitONES 2.7k - 6.5k](/resources/uses/litones.jpg)
