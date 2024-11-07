@@ -47,9 +47,9 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 ## Workstation + Gear
 
 - **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD with [Ubuntu 24.04](https://ubuntu.com/)
-- **External screen**: [Samsung UHD Curved Monitor U32R590CWP](/resources/uses/samsung-uhd-curved-monitor-u32r590cwp.jpg)
+- **External screen**: [LG UltraWide Curved QHD Monitor 35WN75CP-B](/resources/uses/lg-uw-curved-qhd-monitor-35wn75cp-b.jpg)
 - **Keyboard**: [Vortex 10 Limited Edition](/resources/uses/vortex-10-limited-edition.jpg)
 - **Touchpad**: [seenda Touchpad](/resources/uses/seenda-touchpad.jpg)
 - **Microphone**: [Tonor Q9 USB Condenser Microphone](/resources/uses/tonor-q9-usb-condenser-mic.jpg)
-- **Webcam**: [AnkerWork C310 Webcam](https://amzn.to/3WXtnqH)
+- **Webcam**: [AnkerWork C310 Webcam](/resources/uses/anker-work-c310-webcam.jpg)
   - **Lighting**: [LitONES 2.7k - 6.5k](/resources/uses/litones.jpg)
