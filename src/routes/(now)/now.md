@@ -1,7 +1,7 @@
 ---
 title: Now page
 description: What I am doing right now.
-date: '2024-07-27'
+date: '2024-11-23'
 categories:
   - linux
   - software
@@ -10,6 +10,16 @@ categories:
 ---
 
 Here is a list of things I am currently working on or learning.
+
+## Working on bananas 🍌
+
+I am currently working on a new project called [bananas](https://getbananas.net).
+
+Bananas Screen Sharing is a simple and easy-to-use screen sharing tool for
+Mac, Windows, and Linux.
+
+It utilizes a peer-to-peer connection to share your screen with others,
+without the need for an account or any server infrastructure.
 
 ## Working on kulala.nvim and kulala-fmt
 
