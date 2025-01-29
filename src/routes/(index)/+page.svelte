@@ -4,7 +4,6 @@
 	import HeartIcon from '$lib/icons/fontawesome/heart.svelte';
 	import CardIcon from '$lib/icons/fontawesome/id-card.svelte';
 	import GitHubIcon from '$lib/icons/fontawesome/github.svelte';
-	import TwitterIcon from '$lib/icons/fontawesome/x-twitter.svelte';
 	import BlueskyIcon from '$lib/icons/fontawesome/bluesky.svelte';
 
 	/** @type {HTMLElement} */
@@ -54,13 +53,6 @@
 				class="github-icon"
 			>
 				<GitHubIcon />
-			</a>
-			<a
-				href="https://twitter.com/thisgorilla"
-				title="Check out my Twitter account"
-				class="twitter-icon"
-			>
-				<TwitterIcon />
 			</a>
 			<a
 				href="https://bsky.app/profile/gorilla.moe"
@@ -113,7 +105,6 @@
 	.heart-icon :global(svg):hover,
 	.card-icon :global(svg):hover,
 	.github-icon :global(svg):hover,
-	.twitter-icon :global(svg):hover,
 	.bluesky-icon :global(svg):hover {
 		fill: #ff6480;
 	}
@@ -121,7 +112,6 @@
 	.heart-icon :global(svg),
 	.card-icon :global(svg),
 	.github-icon :global(svg),
-	.twitter-icon :global(svg),
 	.bluesky-icon :global(svg) {
 		transition: fill 0.5s;
 		display: inline-block;

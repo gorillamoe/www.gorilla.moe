@@ -78,10 +78,10 @@
 			<AboutLinkComponent
 				data={{
 					nobr: true,
-					href: 'https://twitter.com/thisgorilla',
+					href: 'https://bsky.app/profile/gorilla.moe',
 					color: 'blue',
-					text: 'Twitter',
-					hrefSup: '/about/twitter'
+					text: 'Bluesky',
+					hrefSup: '/about/bluesky'
 				}}
 			/>, and
 			<AboutLinkComponent
