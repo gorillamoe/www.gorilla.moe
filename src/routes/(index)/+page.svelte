@@ -35,12 +35,8 @@
 				<img src="/minimal-gorilla-dark-512.png" alt="Minimalistic Dark Gorilla Moe Logo" />
 			</picture>
 			<picture>
-				<source srcset="/me-heforshe.webp" type="image/webp" />
-				<img
-					src="/me-heforshe.png"
-					alt="Marco Kellershoff a.k.a. Gorilla Moe holding a sign saying he for she."
-					class="hidden"
-				/>
+				<source srcset="/avatar.webp" type="image/webp" />
+				<img src="/avatar.png" alt="Marco Kellershoff a.k.a. Gorilla Moe." class="hidden" />
 			</picture>
 		</div>
 		<div class="get-in-touch">
