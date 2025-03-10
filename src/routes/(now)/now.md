@@ -1,7 +1,7 @@
 ---
 title: Now page
 description: What I am doing right now.
-date: '2024-11-23'
+date: '2025-03-10'
 categories:
   - linux
   - software
@@ -10,6 +10,36 @@ categories:
 ---
 
 Here is a list of things I am currently working on or learning.
+
+## Kimbia 🐆
+
+A minimal cross-platform task runner.
+
+You can use Kimbia to run a series of tasks like linting, testing, building, and deploying your application.
+
+You could also use a Makefile, bash- or npm-scripts, but Kimbia is easier to use and reason about.
+
+Additionally, Kimbia supports dotenv files out of the box, is cross-platform, has documentation built-in and a simple and clean configuration file format.
+
+Give it a [try](https://kimbia.mwco.app) and [let me know](https://bsky.app/profile/gorilla.moe) what you think.
+
+## back to the arch 🐧
+
+I'm back to Arch Linux, specifically to Manjaro.
+
+I tried Ubuntu, but had some issues with the display, the performance, and occasionally freezing.
+
+## getzana.net 📦
+
+Zana is a minimal TUI for managing LSP servers, DAP servers, linters, and formatters, for Neovim, but not limited to just Neovim.
+
+## getkulala.net 🐼
+
+I am again working on the [kulala](https://getkulala.net) family.
+
+Kulala is a minimal REST-Client Interface and set of tools for working with RESTful APIs. It also supports GraphQL.
+
+I am currently working on a new product: [Kulala for Desktop](https://github.com/mistweaverco/kulala).
 
 ## Working on bananas 🍌
 

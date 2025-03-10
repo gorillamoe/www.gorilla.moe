@@ -1,7 +1,7 @@
 ---
 title: Wishlist
 description: A list of things I want to buy.
-date: '2024-10-23'
+date: '2025-03-10'
 categories:
   - linux
   - macos
@@ -25,4 +25,4 @@ It's more like a reminder for myself.
 The order of the items is not random.
 It's more like a priority list.
 
-- [Maxano 64GB Kit 2X 32GB RAM compatible with Lenovo ThinkPad T580](https://amzn.to/44VHOxJ)
+- [StarFighter](https://de.starlabs.systems/pages/starfighter)

@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2024-10-23'
+date: '2025-03-10'
 categories:
   - linux
   - macos
@@ -46,7 +46,7 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 ## Workstation + Gear
 
-- **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD with [Ubuntu 24.04](https://ubuntu.com/)
+- **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD with [Manjaro Linux](https://manjaro.org/)
 - **External screen**: [LG UltraWide Curved QHD Monitor 35WN75CP-B](/resources/uses/lg-uw-curved-qhd-monitor-35wn75cp-b.jpg)
 - **Keyboard**: [Vortex 10 Limited Edition](/resources/uses/vortex-10-limited-edition.jpg)
 - **Touchpad**: [seenda Touchpad](/resources/uses/seenda-touchpad.jpg)
