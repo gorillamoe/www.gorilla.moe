@@ -22,7 +22,7 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
   - **Editor Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.nvim)
 - **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
   - **Terminal Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
-  - **Terminal Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.terminal)
+  - **Terminal Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.kitty)
 - **Terminal Multiplexer**: [Tmux](https://github.com/tmux/tmux)
   - **Terminal Multiplexer Theme**: [Retro](https://github.com/mistweaverco/retro-theme.tmux)
 - **Dotfiles**: [Dotfiles](https://github.com/gorillamoe/dotfiles)
