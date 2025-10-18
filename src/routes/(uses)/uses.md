@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2025-03-10'
+date: '2025-10-18'
 categories:
   - linux
   - macos
@@ -19,10 +19,10 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 - **Editor**: [Neovim](https://neovim.io/)
   - **Configuration**: [Neovimfiles](https://github.com/gorillamoe/neovimfiles)
-  - **Editor Theme**: [Retro](https://github.com/mistweaverco/retro-theme.nvim)
+  - **Editor Theme**: [Retro](https://github.com/mistweaverco/vhs-era-theme.nvim)
 - **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
   - **Terminal Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
-  - **Terminal Theme**: [Retro](https://github.com/mistweaverco/retro-theme.terminal)
+  - **Terminal Theme**: [Retro](https://github.com/mistweaverco/vhs-era-theme.terminal)
 - **Terminal Multiplexer**: [Tmux](https://github.com/tmux/tmux)
   - **Terminal Multiplexer Theme**: [Retro](https://github.com/mistweaverco/retro-theme.tmux)
 - **Dotfiles**: [Dotfiles](https://github.com/gorillamoe/dotfiles)
@@ -48,7 +48,7 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 
 - **Laptop**: ThinkPad T580 / 32GB RAM / 1TB SSD with [Manjaro Linux](https://manjaro.org/)
 - **External screen**: [LG UltraWide Curved QHD Monitor 35WN75CP-B](/resources/uses/lg-uw-curved-qhd-monitor-35wn75cp-b.jpg)
-- **Keyboard**: [Vortex 10 Limited Edition](/resources/uses/vortex-10-limited-edition.jpg)
+- **Keyboard**: [ZSA Voyager](/resources/uses/zsa-voyager.mp4)
 - **Touchpad**: [seenda Touchpad](/resources/uses/seenda-touchpad.jpg)
 - **Microphone**: [Tonor Q9 USB Condenser Microphone](/resources/uses/tonor-q9-usb-condenser-mic.jpg)
 - **Webcam**: [AnkerWork C310 Webcam](/resources/uses/anker-work-c310-webcam.jpg)
