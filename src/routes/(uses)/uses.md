@@ -24,7 +24,6 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
   - **Terminal Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
   - **Terminal Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.terminal)
 - **Terminal Multiplexer**: [WezTerm built-in](https://github.com/gorillamoe/dotfiles/blob/trunk/configurations/wezterm/wezterm/wezterm-tmux.lua)
-  - **Terminal Multiplexer Theme**: [Retro](https://github.com/mistweaverco/retro-theme.tmux)
 - **Dotfiles**: [Dotfiles](https://github.com/gorillamoe/dotfiles)
 
 ## Desktop Apps
