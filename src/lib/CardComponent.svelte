@@ -14,6 +14,7 @@
 </script>
 
 <div class="card">
+	<!-- svelte-ignore a11y-missing-attribute -->
 	<a class="jump" id={createJumpId(data.githubSlug)}>
 		{#if data.imgsrc}
 			<img src={data.imgsrc} alt={data.imgalt} />

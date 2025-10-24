@@ -6,7 +6,7 @@
 	<span class="nobr">
 		<a href={data.href} class={data.color}>{data.text}</a>
 		{#if data.hrefSup}
-			<a class="sup" href={data.hrefSup}>
+			<a class="sup" href={data.hrefSup} aria-label="Superscript link">
 				<sup class={data.color}></sup>
 			</a>
 		{/if}
@@ -14,7 +14,7 @@
 {:else}
 	<a href={data.href} class={data.color}>{data.text}</a>
 	{#if data.hrefSup}
-		<a class="sup" href={data.hrefSup}>
+		<a class="sup" href={data.hrefSup} aria-label="Superscript link">
 			<sup class={data.color}></sup>
 		</a>
 	{/if}
