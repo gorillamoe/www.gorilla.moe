@@ -1,7 +1,7 @@
 h1 {
-	font-size: var(--font-size-3xl);
-	margin-top: 0;
-	margin-bottom: 0;
+	font-family: var(--font-sans);
+	font-size: var(--font-size-xxl);
+	color: var(--color-title);
 }
 
 .container {
@@ -17,18 +17,9 @@ li {
 	padding-inline-start: 0;
 }
 
-a {
-	color: var(--link-color);
-	text-decoration: none;
-	border-bottom: 1px dashed var(--link-color);
-}
-
-a:hover {
-	color: var(--link-hover-color);
-	border-bottom-color: var(--link-hover-color);
-}
-
 time {
 	font-family: var(--font-mono);
 	font-size: var(--font-size-xs);
+	display: block;
+	text-align: right;
 }

@@ -8,20 +8,21 @@
 </svelte:head>
 
 <div class="container">
-	<h1>Programming snippets, documentation and stories about me and my life</h1>
+	<h1>Weblog</h1>
 
 	<ul>
 		{#each data.posts as post}
-			<li>
-				<h2>
+			<li class="list-item">
+				<h2 class="list-title">
+					{post.metadata.title}
 					<a href={post.path}>
-						{post.metadata.title}
+						<span class="fa fa-link" aria-hidden="true"></span>
 					</a>
 				</h2>
+				<p>{post.metadata.description}</p>
 				<time datetime={new Date(post.metadata.date).toISOString()}>
 					⏰ Last updated {post.metadata.date}
 				</time>
-				<p>{post.metadata.description}</p>
 			</li>
 		{/each}
 	</ul>
