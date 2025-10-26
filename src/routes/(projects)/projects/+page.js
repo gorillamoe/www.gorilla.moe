@@ -22,7 +22,7 @@ import { error } from '@sveltejs/kit';
  * @returns {Promise<MarkdownFile>} - The markdown file
  */
 const loadMarkdownContent = async () => {
-	const modules = import.meta.glob('../now.md');
+	const modules = import.meta.glob('../projects.md');
 	const module = modules['../projects.md'];
 	const markdown = /** @type {MarkdownFile} */ (await module());
 	if (!markdown.metadata) {

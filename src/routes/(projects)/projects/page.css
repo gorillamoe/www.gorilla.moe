@@ -70,3 +70,7 @@ a:hover {
 	border-radius: 5px;
 	white-space: nowrap;
 }
+
+li {
+	margin-bottom: 0.5rem;
+}

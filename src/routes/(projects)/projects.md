@@ -13,10 +13,13 @@ categories:
 
 Here is a list of projects I started or I'm involved in.
 
-- [Bananas - A simple and easy-to-use P2P screen sharing tool for Mac, Windows, and Linux](https://getbananas.net)
-- [Kulala - A API-Client Interface and set of tools for working with all sorts of APIs](https://getkulala.net)
-- [Zana - TUI for managing LSP- and DAP-servers, linters, and formatters](https://getzana.net)
-- [Kulala for VSCode - Kulala inside VSCode](#kulala-for-vscode-🐼)
-- [Kulala Core - The soon-to-be backend for all the kulala tools](https://github.com/mistweaverco/kulala-core)
+- [Bananas](https://getbananas.net) - A simple and easy-to-use P2P screen sharing tool for Mac, Windows, and Linux
+- [Kulala](https://getkulala.net) - A API-Client Interface and set of tools for working with all sorts of APIs
+- [Zana](https://getzana.net) - TUI for managing LSP- and DAP-servers, linters, and formatters
+- Kulala for VSCode - Kulala inside VSCode
+- [Kulala Core](https://github.com/mistweaverco/kulala-core) - The soon-to-be backend for all the kulala tools
 - [VHS Era Theme for terminals](https://github.com/mistweaverco/vhs-era-theme.terminal)
-- [VHS Era Theme for Neovim](https://github.com/mistweaverco/vhs-era-theme.nvim) [OpenDeck Ajazz - OpenDeck Fork](https://opendeck.mwco.app) [Kuba - No more sending `.env` files via email or chat to your team members](https://kuba.mwco.app) [Kimbia - Multipurpose, X-Platform, Task Runner](https://kimbia.mwco.app)
+- [VHS Era Theme for Neovim](https://github.com/mistweaverco/vhs-era-theme.nvim)
+- [OpenDeck Ajazz - OpenDeck Fork](https://opendeck.mwco.app)
+- [Kuba](https://kuba.mwco.app) - No more sending `.env` files via email or chat to your team members
+- [Kimbia](https://kimbia.mwco.app) - Multipurpose, X-Platform, Task Runner
