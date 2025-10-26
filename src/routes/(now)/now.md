@@ -1,7 +1,7 @@
 ---
 title: Now page
 description: What I am doing right now.
-date: '2025-03-10'
+date: '2025-10-26'
 categories:
   - linux
   - software
@@ -10,6 +10,61 @@ categories:
 ---
 
 Here is a list of things I am currently working on or learning.
+
+## Kulala for VSCode 🐼
+
+I got a ruff start of a Kulala extension for VSCode.
+It's still in the early stages, but it works quite well.
+
+## Kulala Core
+
+The kulala-core will become the backend for all the kulala tools.
+It parses `.http` files and exectutes requests,
+including scripts, without any external requirements.
+
+This project aims to replace the requirement for cURL,
+any custom parsing logic and nodejs for scripting.
+
+This will make kulala tools faster, more reliable,
+and easier to use.
+
+Also it will make it easier to build new tools,
+like a kulala extension for VSCode.
+
+See the current progress here:
+
+- [GitHub Repository](https://github.com/mistweaverco/kulala-core)
+
+## VHS Era 🎞️
+
+I started a new project called VHS Era.
+
+There are currently two themes available:
+
+- [VHS Era for terminals (wezterm & kitty)](https://github.com/mistweaverco/vhs-era-theme.terminal)
+- [VHS Era for Neovim](https://github.com/mistweaverco/vhs-era-theme.nvim)
+
+## OpenDeck Ajazz 🎛️
+
+I recently got an Ajazz AKP05 stream deck clone.
+
+To get it to work on Linux,
+I [forked](https://opendeck.mwco.app) the
+[OpenDeck](https://github.com/nekename/OpenDeck) project
+and added support for the Ajazz AKP05.
+
+## Kuba 🔒
+
+Securely and easily access your environment variables.
+
+No more sending `.env` files via email or chat to your team members.
+
+Kuba helps you to get rid of `.env` files.
+Pass env directly from GCP Secret Manager,
+AWS Secrets Manager, Azure Key Vault,
+and OpenBao to your application.
+
+- [Website](https://kuba.mwco.app)
 
 ## Kimbia 🐆
 
