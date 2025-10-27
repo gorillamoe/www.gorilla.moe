@@ -17,7 +17,7 @@
 	--link-color: #ee5396;
 	--link-hover-color: #525252;
 	--link-visited-color: #ee5396;
-	--color-title: #e3e8e1;
+	--color-title: #33b1ff;
 	--color-sub-title: #ee5396;
 	--color-list-title: #e3e8e1;
 	--color-list-border: #525252;
@@ -59,7 +59,6 @@ body {
 }
 
 h2.list-title {
-	color: var(--color-list-title);
 	margin-top: 0;
 	margin-bottom: 0.5rem;
 }
@@ -71,38 +70,35 @@ li.list-item {
 	padding-bottom: 0.5rem;
 }
 
-h1 > a,
-h2 > a,
-h3 > a,
-h4 > a,
-h5 > a,
-h6 > a {
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
 	text-decoration: none;
 	border-bottom: none;
 	margin-left: 0.5rem;
-	color: var(--color-grey);
+	color: var(--link-back-hover-color);
 }
 
-h1 a > span.fa.fa-arrow-left,
-h1 a > span.fa.fa-link,
-h2 a > span.fa.fa-link,
-h3 a > span.fa.fa-link,
-h4 a > span.fa.fa-link,
-h5 a > span.fa.fa-link,
-h6 a > span.fa.fa-link {
+h1 a:hover > span.fa.fa-arrow-left,
+h2 a:hover > span.fa.fa-link,
+h3 a:hover > span.fa.fa-link,
+h4 a:hover > span.fa.fa-link,
+h5 a:hover > span.fa.fa-link,
+h6 a:hover > span.fa.fa-link {
+	color: var(--link-back-hover-color);
+	border-bottom: none;
+}
+
+a span.fa.fa-arrow-left,
+a span.fa.fa-link {
 	color: var(--link-back-color);
 	border-bottom: none;
 }
 
-h1 a > span.fa.fa-arrow-left:hover,
-h1 a > span.fa.fa-link:hover,
-h2 a > span.fa.fa-link:hover,
-h3 a > span.fa.fa-link:hover,
-h4 a > span.fa.fa-link:hover,
-h5 a > span.fa.fa-link:hover,
-h6 a > span.fa.fa-link {
-	color: var(--link-back-hover-color);
-	border-bottom: none;
+a span.fa.fa-link {
+	margin-left: 0.5rem;
 }
 
 h2,

@@ -13,9 +13,9 @@
 	<ul>
 		{#each data.posts as post}
 			<li class="list-item">
-				<h2 class="list-title">
-					{post.metadata.title}
+				<h2>
 					<a href={post.path} aria-label="Permalink to {post.metadata.title}">
+						{post.metadata.title}
 						<span class="fa fa-link" aria-hidden="true"></span>
 					</a>
 				</h2>

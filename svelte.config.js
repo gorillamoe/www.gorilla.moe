@@ -24,7 +24,7 @@ const config = {
 				[
 					rehypeAutolinkHeadings,
 					{
-						behavior: 'append',
+						behavior: 'wrap',
 						content: {
 							type: 'element',
 							tagName: 'span',
