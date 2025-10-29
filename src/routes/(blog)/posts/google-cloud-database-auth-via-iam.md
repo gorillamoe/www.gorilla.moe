@@ -43,7 +43,7 @@ Before you begin, ensure you have the following prerequisites in place:
 - A Cloud SQL instance running PostgreSQL or MySQL.
 - The `gcloud` command-line tool installed and configured.
 - Appropriate IAM roles assigned to users (e.g., Cloud SQL Client role).
-- [Bun](bun.com) installed for running JavaScript/TypeScript code.
+- [Bun](https://bun.com) installed for running JavaScript/TypeScript code.
 
 ```json filename="package.json"
 {
