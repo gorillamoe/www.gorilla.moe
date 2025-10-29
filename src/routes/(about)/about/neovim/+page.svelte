@@ -29,8 +29,8 @@
 		</p>
 		<p>
 			I'm currently in love <span class="red">&hearts;</span> with my
-			<a href="/resources/uses/vortex-10-limited-edition.jpg" class="orange"
-				>Vortex 10 Limited Edition keyboard</a
+			<a href="/resources/uses/zsa-voyager.mp4" class="orange"
+				>ZSA Voyager</a
 			>.
 		</p>
 	</div>
