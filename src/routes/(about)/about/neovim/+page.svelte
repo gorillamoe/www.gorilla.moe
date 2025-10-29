@@ -29,9 +29,7 @@
 		</p>
 		<p>
 			I'm currently in love <span class="red">&hearts;</span> with my
-			<a href="/resources/uses/zsa-voyager.mp4" class="orange"
-				>ZSA Voyager</a
-			>.
+			<a href="/resources/uses/zsa-voyager.mp4" class="orange">ZSA Voyager</a>.
 		</p>
 	</div>
 </div>
