@@ -1,7 +1,7 @@
 ---
 title: Die Fahrt hat 6 Stunden gedauert
 description: Die Fahrt nach Peine hat 6 Stunden gedauert. Chaos mit Nora, dem Auto und dem ADAC.
-date: '2010-05-21'
+created: '2010-05-21'
 categories:
   - familie
   - peine

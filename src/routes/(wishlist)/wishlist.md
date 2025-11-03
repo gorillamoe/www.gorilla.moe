@@ -1,7 +1,7 @@
 ---
 title: Wishlist
 description: A list of things I want to buy.
-date: '2025-03-10'
+date: '2025-11-03'
 categories:
   - linux
   - macos
@@ -25,4 +25,4 @@ It's more like a reminder for myself.
 The order of the items is not random.
 It's more like a priority list.
 
-- [StarFighter](https://de.starlabs.systems/pages/starfighter)
+- [Retroid Pocket 6 - 12G/256GB - Stick Top](https://www.goretroid.com/en-de/collections/frontpage/products/retroid-pocket-6-handheld?variant=48076837585120)

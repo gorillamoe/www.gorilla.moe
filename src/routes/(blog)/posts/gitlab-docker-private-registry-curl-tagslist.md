@@ -1,7 +1,7 @@
 ---
 title: How to get a list of tags from a private GitLab Docker Registry with curl
 description: We tried to mirror the Docker images (all tags) of the private GitLab Docker Registry from a project we sourced to an external company. This has been a real struggle, because I haven't done this before and I had no idea how to get this thing going.
-date: '2018-10-30 16:28:15'
+created: '2018-10-30 16:28:15'
 categories:
   - gitlab
   - devops

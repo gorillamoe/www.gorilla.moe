@@ -1,7 +1,7 @@
 ---
 title: My Favorite Linux Software
 description: A list of my favorite software for Linux.
-date: '2024-03-25'
+created: '2024-03-25'
 categories:
   - linux
   - software

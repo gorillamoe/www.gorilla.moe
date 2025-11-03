@@ -1,7 +1,7 @@
 ---
 title: Back to Ubuntu and Gnome again
 description: Why I switched back to Ubuntu and Gnome again
-date: '2024-07-27 19:35'
+created: '2024-07-27 19:35'
 categories:
   - linux
   - gnome

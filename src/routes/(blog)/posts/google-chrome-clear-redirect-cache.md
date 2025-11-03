@@ -1,7 +1,7 @@
 ---
 title: Clear Redirect Cache in Google Chrome
 description: How to clear the redirect cache in Google Chrome
-date: '2018-06-29 13:35:37'
+created: '2018-06-29 13:35:37'
 categories:
   - google chrome
   - cache

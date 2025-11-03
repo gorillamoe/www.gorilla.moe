@@ -1,7 +1,7 @@
 ---
 title: Migrating a GitLab Instance to Another Server
 description: Migrating a GitLab instance to another server is a breeze thanks to the built-in backup and restore functionality.
-date: '2018-08-16 01:13:21.000'
+created: '2018-08-16 01:13:21.000'
 categories:
   - gitlab
   - devops

@@ -20,8 +20,13 @@
 					</a>
 				</h2>
 				<p>{post.metadata.description}</p>
-				<time datetime={new Date(post.metadata.date).toISOString()}>
-					⏰ Last updated {post.metadata.date}
+				{#if post.metadata.updated}
+					<time datetime={new Date(post.metadata.updated).toISOString()}>
+						⚡ Last updated {post.metadata.updated}
+					</time>
+				{/if}
+				<time datetime={new Date(post.metadata.created).toISOString()}>
+					🗓️ Published {post.metadata.created}
 				</time>
 			</li>
 		{/each}

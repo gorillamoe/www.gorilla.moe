@@ -1,7 +1,7 @@
 ---
 title: How to sign and notarize a binary for Apple macOS in CI/CD
 description: A step-by-step guide on signing and notarizing macOS binaries in a CI/CD pipeline.
-date: '2025-10-29 16:42:00'
+created: '2025-10-29 16:42:00'
 categories:
   - devops
   - dev

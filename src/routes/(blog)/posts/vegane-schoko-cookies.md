@@ -1,7 +1,7 @@
 ---
 title: Vegane Schoko-Cookies
 description: Vegane Schoko-Cookies sind einfach und schnell zubereitet. Das Rezept ist einfach und schnell zubereitet.
-date: '2017-10-04 20:57:27'
+created: '2017-10-04 20:57:27'
 categories:
   - vegan
   - kochen

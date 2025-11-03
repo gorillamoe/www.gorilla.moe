@@ -1,7 +1,7 @@
 ---
 title: NGINX Configuration File Using Let's Encrypt SSL HTTPS Certificate
 description: This is somewhat my default configuration file for all my websites I run.
-date: '2018-11-01 16:11:11'
+created: '2018-11-01 16:11:11'
 categories:
   - devops
   - dev

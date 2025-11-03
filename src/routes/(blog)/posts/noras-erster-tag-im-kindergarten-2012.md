@@ -1,7 +1,7 @@
 ---
 title: Noras erster Tag im Kindergarten
 description: Nora hat heute ihren ersten Tag im Kindergarten hinter sich gebracht.
-date: '2012-08-15'
+created: '2012-08-15'
 categories:
   - familie
   - nora

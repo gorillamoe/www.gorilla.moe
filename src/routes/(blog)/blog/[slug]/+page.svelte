@@ -5,7 +5,10 @@
 <svelte:head>
 	<title>{data.metadata.title}</title>
 	<meta name="description" content={data.metadata.description} />
-	<meta property="article:published_time" content={data.metadata.date} />
+	{#if data.metadata.updated}<meta
+			property="article:published_time"
+			content={data.metadata.updated}
+		/>{:else}<meta property="article:published_time" content={data.metadata.created} />{/if}
 	<style>
 		@import './page.css';
 	</style>
@@ -18,8 +21,13 @@
 		</a>
 		{data.metadata.title}
 	</h1>
-	<time datetime={new Date(data.metadata.date).toISOString()}>
-		⏰ Last updated {data.metadata.date}
+	{#if data.metadata.updated}
+		<time datetime={new Date(data.metadata.updated).toISOString()}>
+			⚡ Last updated: {data.metadata.updated}
+		</time>
+	{/if}
+	<time datetime={new Date(data.metadata.created).toISOString()}>
+		🗓️ Published: {data.metadata.created}
 	</time>
 	<svelte:component this={data.content} />
 </article>

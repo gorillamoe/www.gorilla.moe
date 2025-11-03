@@ -14,7 +14,7 @@
 <article>
 	<h1 class="title">{data.metadata.title}</h1>
 	<time datetime={new Date(data.metadata.date).toISOString()}>
-		⏰ Last updated {data.metadata.date}
+		⚡ Last updated: {data.metadata.date}
 	</time>
 	<svelte:component this={data.content} />
 </article>

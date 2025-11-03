@@ -1,7 +1,7 @@
 ---
 title: FFmpeg - height not divisible by 2
 description: How to fix the error "height not divisible by 2" in FFmpeg
-date: '2025-01-29 19:44'
+created: '2025-01-29 19:44'
 categories:
   - linux
   - ubuntu

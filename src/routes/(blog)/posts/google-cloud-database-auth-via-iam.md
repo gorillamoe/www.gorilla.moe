@@ -1,7 +1,7 @@
 ---
 title: How to use IAM authentication with Google Cloud SQL for PostgreSQL or MySQL
 description: Learn how to set up and use IAM authentication for Google Cloud SQL databases, enhancing security and simplifying access management for PostgreSQL and MySQL instances.
-date: '2025-10-29 16:42:00'
+created: '2025-10-29 16:42:00'
 categories:
   - devops
   - dev

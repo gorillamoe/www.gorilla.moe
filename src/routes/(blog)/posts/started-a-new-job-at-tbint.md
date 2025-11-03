@@ -1,7 +1,7 @@
 ---
 title: Started a new job at TBInt
 description: Why I started a new job at TBInt
-date: '2024-07-27 19:43'
+created: '2024-07-27 19:43'
 categories:
   - linux
   - stroeer

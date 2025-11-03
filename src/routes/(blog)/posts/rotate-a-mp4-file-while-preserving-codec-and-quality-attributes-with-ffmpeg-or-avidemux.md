@@ -1,7 +1,7 @@
 ---
 title: Rotate a MP4 file while preserving codec and quality attributes with FFmpeg or Avidemux
 description: How to rotate a MP4 file while preserving codec and quality attributes with FFmpeg or Avidemux
-date: '2013-05-14'
+created: '2013-05-14'
 categories:
   - ffmpeg
   - avidemux

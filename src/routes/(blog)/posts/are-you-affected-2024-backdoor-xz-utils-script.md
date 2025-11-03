@@ -1,7 +1,7 @@
 ---
 title: Are you affected by the 2024 backdoor in xz-utils?
 description: How to check if you are affected by the 2024 backdoor in xz-utils.
-date: '2024-03-31 13:48'
+created: '2024-03-31 13:48'
 categories:
   - linux
   - opsec

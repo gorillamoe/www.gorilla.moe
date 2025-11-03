@@ -1,7 +1,7 @@
 ---
 title: Kulala.nvim - A minimal HTTP client interface for Neovim
 description: A story about how I came to build Kulala.nvim, a minimal HTTP client interface for Neovim
-date: '2024-07-27 19:45'
+created: '2024-07-27 19:45'
 categories:
   - linux
   - windows

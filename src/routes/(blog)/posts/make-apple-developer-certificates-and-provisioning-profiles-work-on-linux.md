@@ -1,7 +1,7 @@
 ---
 title: Make Apple Developer Certificates and Provisioning Profiles Work on Linux
 description: How to make Apple Developer Certificates and Provisioning Profiles work on Linux.
-date: '2025-03-10 01:01:00'
+created: '2025-03-10 01:01:00'
 categories:
   - devops
   - dev

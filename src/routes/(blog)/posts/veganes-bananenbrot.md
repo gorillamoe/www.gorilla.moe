@@ -1,7 +1,7 @@
 ---
 title: Veganes Bananenbrot
 description: Ein einfaches Rezept für veganes Bananenbrot.
-date: '2018-07-08 10:51:00'
+created: '2018-07-08 10:51:00'
 categories:
   - kochen
   - vegan

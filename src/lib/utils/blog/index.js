@@ -2,7 +2,8 @@
  * @typedef {Object} PostMetadata
  * @property {string} title - The title of the post
  * @property {string} description - The description of the post
- * @property {string} date - The date of the post
+ * @property {string} created - The date the post was created
+ * @property {string|undefined} updated - The date the post was last updated
  * @property {boolean} published - Whether the post is published
  */
 

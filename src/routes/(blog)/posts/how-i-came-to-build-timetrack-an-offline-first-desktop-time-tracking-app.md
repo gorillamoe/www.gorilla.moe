@@ -1,7 +1,8 @@
 ---
 title: How I came to build timetrack
 description: A story about how I came to build timetrack, an offline-first desktop time tracking app
-date: '2024-05-21 22:33'
+created: '2024-05-21 22:33'
+updated: '2025-11-03 12:51'
 categories:
   - linux
   - windows
@@ -89,4 +90,4 @@ Then I fixed it and I was able to build the app for all platforms.
 
 I'm happy with the result and my wife is happy with the app.
 
-Maybe you want to try it out, too, here it is: [timetrack.mistweaver.co](https://timetrack.mistweaver.co).
+Maybe you want to try it out, too, here it is: [timetrack.mwco.app](https://timetrack.mwco.app).

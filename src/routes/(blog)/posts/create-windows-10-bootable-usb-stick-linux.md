@@ -1,7 +1,7 @@
 ---
 title: Create Windows 10 Bootable USB Stick on Linux
 description: How to create a Windows 10 bootable USB stick on Linux.
-date: '2019-07-07 11:28:28.000'
+created: '2019-07-07 11:28:28.000'
 categories:
   - windows10
   - windows
