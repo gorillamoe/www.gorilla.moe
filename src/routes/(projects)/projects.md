@@ -1,7 +1,7 @@
 ---
 title: Projects
 description: A list of projects I started or I'm involved in.
-date: '2025-11-03'
+date: '2025-11-11'
 categories:
   - linux
   - software
@@ -17,6 +17,7 @@ Here is a list of projects I started or I'm involved in.
 - [Kulala](https://getkulala.net) - A API-Client Interface and set of tools for working with all sorts of APIs
 - [Zana](https://getzana.net) - TUI for managing LSP- and DAP-servers, linters, and formatters
 - [Kuba](https://kuba.mwco.app) - No more sending `.env` files via email or chat to your team members
+- [White Noise](https://white-noise.mwco.app) - A simple white noise generator for focus and relaxation
 - [Timetrack](https://timetrack.mwco.app) - A simple, offline-first, time tracking app with a focus on privacy
 - Kulala for VSCode - Kulala inside VSCode
 - [Kulala Core](https://github.com/mistweaverco/kulala-core) - The soon-to-be backend for all the kulala tools
