@@ -1,7 +1,7 @@
 ---
 title: Journey
 description: My journey through various jobs, projects, and experiences in the tech world.
-date: '2025-11-11'
+date: '2025-11-15'
 categories:
   - linux
   - software
@@ -16,7 +16,7 @@ My journey through various jobs, projects, and experiences in the tech world.
 ## 2024 - Present - Cloud Native Backend Developer at TB International GmbH
 
 Planned, built and deployed an
-image service which enables all services at TB.
+image service which enables all services at TB International to have a centralized service for image resolution.
 
 It resolves product-images by GTIN,
 internal item-code or t-number (which is specific to an automated store TB owns).
