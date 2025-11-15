@@ -94,7 +94,24 @@
 				}}
 			/>.
 		</p>
-		<p>I have 15+ years experience in the broad field of IT.</p>
+		<p>I have 
+      <AboutLinkComponent
+				data={{
+					href: '/journey',
+					color: 'yellow',
+					text: '15+ years experience'
+				}}
+			/>
+      in the broad field of IT, including some personal
+      <AboutLinkComponent
+				data={{
+          nobr: true,
+					href: '/projects',
+					color: 'poisonousgreen',
+					text: 'projects'
+				}}
+			/>.
+    </p>
 		<p>You can find me living a peaceful ✌🏾 life in Germany 🇩🇪 with my wife, my daughter and our three dogs 🐶 from the animal rescue.</p>
     <p>Want to know even more about me?</p>
 		<p>
