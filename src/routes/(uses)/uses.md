@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2025-11-03'
+date: '2025-11-15'
 categories:
   - linux
   - macos
@@ -58,3 +58,12 @@ This page is inspired by [Web Bos's page](https://wesbos.com/uses).
 - **Microphone**: [Tonor Q9 USB Condenser Microphone](/resources/uses/tonor-q9-usb-condenser-mic.jpg)
 - **Webcam**: [AnkerWork C310 Webcam](/resources/uses/anker-work-c310-webcam.jpg)
   - **Lighting**: [LitONES 2.7k - 6.5k](/resources/uses/litones.jpg)
+
+## Various other stuff
+
+- **Watch**: [Amazfit Bip 6](https://us.amazfit.com/products/bip-6)
+- **Gaming**: [Anbernic RG 477M](https://anbernic.com/en-de/products/rg477m)
+- **Streaming**:
+  - Netflix
+  - Amazon Prime
+  - Audible
