@@ -112,7 +112,7 @@
 				}}
 			/>.
     </p>
-		<p>You can find me living a peaceful ✌🏾 life in Germany 🇩🇪 with my wife, my daughter and our three dogs 🐶 from the animal rescue.</p>
+		<p>You can find me living a peaceful ✌🏾 life in Germany 🇩🇪 with my wife, my daughter and our dogs 🐶.</p>
     <p>Want to know even more about me?</p>
 		<p>
 			Check out my
