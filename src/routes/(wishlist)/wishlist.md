@@ -1,7 +1,7 @@
 ---
 title: Wishlist
 description: A list of things I want to buy.
-date: '2025-11-03'
+date: '2025-12-10'
 categories:
   - linux
   - macos
@@ -25,4 +25,6 @@ It's more like a reminder for myself.
 The order of the items isn't random.
 It's more like a priority list.
 
-- [Retroid Pocket 6 - 12G/256GB - Stick Top](https://www.goretroid.com/en-de/collections/frontpage/products/retroid-pocket-6-handheld?variant=48076837585120)
+- [HiBy Digital M300 (128GB + 2TB Expandable, Black)](https://amzn.to/48w99di)
+  - [SanDisk Extreme microSDXC (1TB)](https://amzn.to/4oMsOdJ)
+- [Kobo Clara Colour (16GB, Black)](https://amzn.to/4pwYAg5)
