@@ -94,26 +94,30 @@
 				}}
 			/>.
 		</p>
-		<p>I have 
-      <AboutLinkComponent
+		<p>
+			I have
+			<AboutLinkComponent
 				data={{
 					href: '/journey',
 					color: 'yellow',
 					text: '15+ years experience'
 				}}
 			/>
-      in the broad field of IT, including some personal
-      <AboutLinkComponent
+			in the broad field of IT, including some personal
+			<AboutLinkComponent
 				data={{
-          nobr: true,
+					nobr: true,
 					href: '/projects',
 					color: 'poisonousgreen',
 					text: 'projects'
 				}}
 			/>.
-    </p>
-		<p>You can find me living a peaceful ✌🏾 life in Germany 🇩🇪 with my wife, my daughter and our dogs 🐶.</p>
-    <p>Want to know even more about me?</p>
+		</p>
+		<p>
+			You can find me living a peaceful ✌🏾 life in Germany 🇩🇪 with my wife, my daughter and our dogs
+			🐶.
+		</p>
+		<p>Want to know even more about me?</p>
 		<p>
 			Check out my
 			<AboutLinkComponent
