@@ -3,6 +3,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
 import rehypeSlug from 'rehype-slug-custom-id';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import mdsvexShiki from '@mistweaverco/mdsvex-shiki';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -17,8 +18,14 @@ const config = {
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [
-		vitePreprocess(),
+		vitePreprocess({}),
 		mdsvex({
+			highlight: {
+				highlighter: await mdsvexShiki({
+					displayLanguage: true,
+					copyButton: true
+				})
+			},
 			rehypePlugins: [
 				rehypeSlug,
 				[
