@@ -4,15 +4,13 @@
   "workspaces": {
     "": {
       "name": "www.gorilla.moe",
-      "dependencies": {
-        "@mistweaverco/mdsvex-shiki": "1.0.5",
-      },
       "devDependencies": {
         "@fontsource/jetbrains-mono": "5.2.8",
         "@fontsource/manrope": "5.2.8",
         "@fontsource/nanum-pen-script": "5.2.7",
         "@fontsource/permanent-marker": "5.2.7",
         "@fortawesome/fontawesome-free": "7.1.0",
+        "@mistweaverco/mdsvex-shiki": "1.0.5",
         "@sveltejs/adapter-auto": "7.0.0",
         "@sveltejs/adapter-static": "3.0.10",
         "@sveltejs/kit": "2.47.3",
@@ -39,7 +37,6 @@
   },
   "trustedDependencies": [
     "esbuild",
-    "@mistweaverco/mdsvex-shiki",
   ],
   "packages": {
     "@aashutoshrathi/word-wrap": ["@aashutoshrathi/word-wrap@1.2.6", "", {}, "sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA=="],
