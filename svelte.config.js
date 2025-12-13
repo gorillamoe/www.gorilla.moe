@@ -5,6 +5,11 @@ import rehypeSlug from 'rehype-slug-custom-id';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import mdsvexShiki from '@mistweaverco/mdsvex-shiki';
 
+const highlighter = await mdsvexShiki({
+  displayLanguage: true,
+	copyButton: true
+});
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -21,10 +26,7 @@ const config = {
 		vitePreprocess({}),
 		mdsvex({
 			highlight: {
-				highlighter: await mdsvexShiki({
-					displayLanguage: true,
-					copyButton: true
-				})
+				highlighter
 			},
 			rehypePlugins: [
 				rehypeSlug,
