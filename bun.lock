@@ -10,7 +10,7 @@
         "@fontsource/nanum-pen-script": "5.2.7",
         "@fontsource/permanent-marker": "5.2.7",
         "@fortawesome/fontawesome-free": "7.1.0",
-        "@mistweaverco/mdsvex-shiki": "1.0.5",
+        "@mistweaverco/mdsvex-shiki": "1.0.12",
         "@sveltejs/adapter-auto": "7.0.0",
         "@sveltejs/adapter-static": "3.0.10",
         "@sveltejs/kit": "2.47.3",
@@ -141,7 +141,7 @@
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.25", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ=="],
 
-    "@mistweaverco/mdsvex-shiki": ["@mistweaverco/mdsvex-shiki@1.0.5", "https://npm.pkg.github.com/download/@mistweaverco/mdsvex-shiki/1.0.5/f88ac21bb1774e8fad9181a639e2c8e6f2f24443", { "dependencies": { "@shikijs/transformers": "3.19.0", "shiki": "3.19.0" }, "peerDependencies": { "typescript": "5.9.3" } }, "sha512-3feUwozZ5L/hNw4f8SYJyX8GsKWKN6OuBgnGaRNEfnUbAx93XK7cJeQagvy6o6MY1QccmF+TZYKHTpUHShztmQ=="],
+    "@mistweaverco/mdsvex-shiki": ["@mistweaverco/mdsvex-shiki@1.0.12", "https://npm.pkg.github.com/download/@mistweaverco/mdsvex-shiki/1.0.12/9ffe283cd3513aeac30a5615a88b646f0040ede4", { "dependencies": { "@shikijs/transformers": "3.19.0", "shiki": "3.19.0" }, "peerDependencies": { "typescript": "5.9.3" } }, "sha512-/wFgrpprZxdPBpjFdoG9Qe7hShyO8SUSDudFP/HhHaaYRNpjZMXOjaOTgI3R9hySr7yP310/311B1ZaM8o2j2A=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],
 
