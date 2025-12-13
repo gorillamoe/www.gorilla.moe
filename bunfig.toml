@@ -1,0 +1,2 @@
+[install.scopes]
+"@mistweaverco" = { url = "https://npm.pkg.github.com/" }

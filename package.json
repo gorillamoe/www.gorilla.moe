@@ -42,5 +42,12 @@
 		"vite": "7.1.12",
 		"vitest": "4.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"trustedDependencies": [
+		"@mistweaverco/mdsvex-shiki",
+		"esbuild"
+	],
+	"dependencies": {
+		"@mistweaverco/mdsvex-shiki": "1.0.5"
+	}
 }

@@ -1,5 +1,6 @@
 <script>
 	export let data;
+	import { copyAction } from '@mistweaverco/mdsvex-shiki';
 </script>
 
 <svelte:head>
@@ -29,5 +30,7 @@
 	<time datetime={new Date(data.metadata.created).toISOString()}>
 		🗓️ Published: {data.metadata.created}
 	</time>
-	<svelte:component this={data.content} />
+	<div use:copyAction>
+		<svelte:component this={data.content} />
+	</div>
 </article>
