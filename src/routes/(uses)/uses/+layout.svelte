@@ -8,10 +8,17 @@
 <div class="layout-container-uses">
 	<div class="layout-centered-uses">
 		<div class="layout-uses">
-			<main>
+			<main class="uses">
 				<slot />
 			</main>
 		</div>
 		<Footer />
 	</div>
 </div>
+
+<style>
+	:global(html:has(main.uses)) :global(body:has(main.uses)) {
+		font-size: 1rem;
+		text-align: left;
+	}
+</style>
