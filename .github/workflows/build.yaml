@@ -48,11 +48,7 @@ jobs:
             linux-bun-${{ hashFiles('**/bun.lock') }}
       - name: Install dependencies
         run: bun install --frozen-lockfile
+      - name: Sync SvelteKit
+        run: bun run sv-sync
       - name: Create Website
         run: bun run build
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'build'

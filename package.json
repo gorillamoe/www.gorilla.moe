@@ -3,6 +3,7 @@
 	"version": "2.0.0",
 	"private": true,
 	"scripts": {
+		"sv-sync": "svelte-kit sync",
 		"dev": "vite dev",
 		"build": "vite build",
 		"postbuild": "svelte-sitemap -d https://gorilla.moe -i google*.html",
