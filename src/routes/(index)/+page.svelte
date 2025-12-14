@@ -80,7 +80,7 @@
 
 	header {
 		font-family: 'Permanent Marker', cursive;
-		font-size: 2rem;
+		font-size: 2.7rem;
 	}
 
 	.inner {

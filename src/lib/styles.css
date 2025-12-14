@@ -15,28 +15,11 @@
 	color: var(--color-text);
 }
 
-html,
-body {
+:global(html),
+:global(body) {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	text-align: center;
 	position: relative;
-	font-size: 1.5rem;
-	color: #fff;
-	background-color: #272b30;
-}
-
-.container {
-	display: flex;
-}
-
-main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 100%;
 }

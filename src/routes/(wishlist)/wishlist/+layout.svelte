@@ -8,10 +8,17 @@
 <div class="layout-container-uses">
 	<div class="layout-centered-uses">
 		<div class="layout-uses">
-			<main>
+			<main class="wishlist">
 				<slot />
 			</main>
 		</div>
 		<Footer />
 	</div>
 </div>
+
+<style>
+	:global(html:has(main.wishlist)) :global(body:has(main.wishlist)) {
+		font-size: 1rem;
+		text-align: left;
+	}
+</style>

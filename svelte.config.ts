@@ -4,9 +4,9 @@ import { mdsvex } from 'mdsvex';
 import rehypeSlug from 'rehype-slug-custom-id';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import { mdsvexShiki } from '@mistweaverco/mdsvex-shiki';
+import type { Config } from '@sveltejs/kit';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
+const config: Config = {
 	kit: {
 		adapter: adapter({
 			pages: 'build',
@@ -22,8 +22,7 @@ const config = {
 		mdsvex({
 			highlight: {
 				highlighter: await mdsvexShiki({
-					displayLanguage: true,
-					copyButton: true
+					displayLanguage: true
 				})
 			},
 			rehypePlugins: [
