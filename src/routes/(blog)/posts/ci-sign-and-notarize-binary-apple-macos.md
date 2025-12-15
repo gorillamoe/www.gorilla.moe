@@ -21,7 +21,7 @@ The script creates a temporary keychain,
 imports the certificate,
 and sets up necessary outputs for later steps in the pipeline.
 
-```bash filename="ci-import-apple-certs.sh"
+```bash path="scripts/ci-import-apple-certs.sh"
 #!/usr/bin/env bash
 
 # Needs to be run in macOS environment
@@ -100,7 +100,7 @@ echo -n "$AUTH_KEY_BASE64" | base64 --decode -o "$AUTH_KEY_PATH"
 Once the certificate and provisioning profile are imported,
 you can sign and notarize your macOS binary using the following commands:
 
-```bash filename="ci-sign-and-notarize-binary.sh"
+```bash path="scripts/ci-sign-and-notarize-binary.sh"
 #!/usr/bin/env bash
 
 # Needs to be run in macOS environment
@@ -188,7 +188,7 @@ fi
 
 Here is an example of how to use the above scripts in a GitHub Actions workflow:
 
-```yaml filename=".github/workflows/macos-sign-and-notarize.yml"
+```yaml path=".github/workflows/macos-sign-and-notarize.yml"
 ---
 name: Release
 
