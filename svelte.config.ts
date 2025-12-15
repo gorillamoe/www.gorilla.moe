@@ -22,7 +22,8 @@ const config: Config = {
 		mdsvex({
 			highlight: {
 				highlighter: await mdsvexShiki({
-					displayLanguage: true
+					displayLanguage: true,
+					displayPath: true
 				})
 			},
 			rehypePlugins: [

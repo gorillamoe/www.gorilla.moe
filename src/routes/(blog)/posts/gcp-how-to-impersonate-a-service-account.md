@@ -26,7 +26,7 @@ has the `roles/run.invoker` role on the cloud run function.
 
 Via terraform, we can do this:
 
-```hcl
+```hcl path="iac/iam.tf"
 resource "google_cloud_run_v2_service_iam_member" "big_corp_invoker" {
   location   = google_cloudfunctions2_function.default.location
   name       = google_cloudfunctions2_function.default.name
@@ -38,7 +38,7 @@ resource "google_cloud_run_v2_service_iam_member" "big_corp_invoker" {
 
 Or via gcloud cli:
 
-```bash
+```bash path="scripts/grant-run-invoker.sh"
 gcloud run services add-iam-policy-binding my-cloud-run-function \
   --member="serviceAccount:serviceAccount:joe-runner@big-corp.iam.gserviceaccount.com" \
   --role="roles/run.invoker" \
@@ -49,7 +49,7 @@ gcloud run services add-iam-policy-binding my-cloud-run-function \
 Make sure that the user account that wants to impersonate the service account
 has the `roles/iam.serviceAccountTokenCreator` role on the service account.
 
-```bash
+```bash path="scripts/grant-token-creator.sh"
 gcloud projects add-iam-policy-binding big-corp \
   --member=user:gorilla.moe@mistweaverco.com \
   --role='roles/iam.serviceAccountTokenCreator'
@@ -58,7 +58,7 @@ gcloud projects add-iam-policy-binding big-corp \
 And now, you want to grant a specific service account
 access to invoke the cloud run.
 
-```bash
+```bash path="scripts/grant-token-creator-sa.sh"
 gcloud iam service-accounts \
   add-iam-policy-binding \
   joe-runner@big-corp.iam.gserviceaccount.com \
@@ -70,7 +70,7 @@ gcloud iam service-accounts \
 Finally, to get a token that impersonates the service account,
 and can be used to invoke the cloud run function:
 
-```bash
+```bash path="scripts/get-impersonation-token.sh"
 gcloud auth print-access-token \
   --impersonate-service-account=joe-runner@big-corp.iam.gserviceaccount.com
 ```
@@ -78,7 +78,7 @@ gcloud auth print-access-token \
 This will return an access token that you can use
 to invoke the cloud run function
 
-```bash
+```bash path="scripts/invoke-cloud-run-with-impersonation.sh"
 export GCP_BEARER_TOKEN=$(gcloud auth print-access-token \
   --impersonate-service-account=joe-runner@big-corp.iam.gserviceaccount.com)
 if [ -z "$GCP_BEARER_TOKEN" ]; then
