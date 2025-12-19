@@ -45,7 +45,7 @@ Before you begin, ensure you have the following prerequisites in place:
 - Appropriate IAM roles assigned to users (e.g., Cloud SQL Client role).
 - [Bun](https://bun.com) installed for running JavaScript/TypeScript code.
 
-```json filename="package.json"
+```json path="package.json"
 {
 	"name": "db-iam-example",
 	"module": "index.ts",
@@ -67,7 +67,7 @@ Before you begin, ensure you have the following prerequisites in place:
 The `index.ts` file contains the main application logic
 to spin up a web server and query the database.
 
-```typescript filename="prisma/schema.prisma"
+```typescript path="prisma/schema.prisma"
 import { connect } from './db';
 import { Hono } from 'hono';
 
@@ -107,7 +107,7 @@ export default {
 The `db.ts` file contains the logic to connect to the
 Google Cloud SQL database using IAM authentication.
 
-```typescript filename="db.ts"
+```typescript path="db.ts"
 import { resolve } from 'node:path';
 import { AuthTypes, Connector, IpAddressTypes } from '@google-cloud/cloud-sql-connector';
 import { PrismaClient } from './generated/prisma/client';
@@ -143,7 +143,7 @@ export async function connect({ instanceConnectionName, user, database }: Connec
 
 The `prisma.config.ts` file contains the Prisma configuration:
 
-```typescript filename="prisma.config.ts"
+```typescript path="prisma.config.ts"
 import { defineConfig } from 'prisma/config';
 
 export default defineConfig({
@@ -160,7 +160,7 @@ export default defineConfig({
 
 The `prisma/schema.prisma` file defines the Prisma schema:
 
-```prisma filename="prisma/schema.prisma"
+```prisma path="prisma/schema.prisma"
 generator client {
   provider = "prisma-client"
   output   = "../generated/prisma"
