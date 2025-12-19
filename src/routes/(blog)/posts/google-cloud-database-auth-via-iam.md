@@ -2,6 +2,7 @@
 title: How to use IAM authentication with Google Cloud SQL for PostgreSQL or MySQL
 description: Learn how to set up and use IAM authentication for Google Cloud SQL databases, enhancing security and simplifying access management for PostgreSQL and MySQL instances.
 created: '2025-10-29 16:42:00'
+updated: '2025-12-19 22:00:00'
 categories:
   - devops
   - dev
@@ -47,60 +48,60 @@ Before you begin, ensure you have the following prerequisites in place:
 
 ```json path="package.json"
 {
-	"name": "db-iam-example",
-	"module": "index.ts",
-	"type": "module",
-	"private": true,
-	"devDependencies": {
-		"@google-cloud/cloud-sql-connector": "1.8.4",
-		"@prisma/client": "6.18.0",
-		"@types/bun": "latest",
-		"hono": "4.10.3",
-		"prisma": "6.18.0"
-	},
-	"peerDependencies": {
-		"typescript": "^5"
-	}
+  "name": "db-iam-example",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@google-cloud/cloud-sql-connector": "1.8.4",
+    "@prisma/client": "6.18.0",
+    "@types/bun": "latest",
+    "hono": "4.10.3",
+    "prisma": "6.18.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
 }
 ```
 
 The `index.ts` file contains the main application logic
 to spin up a web server and query the database.
 
-```typescript path="prisma/schema.prisma"
+```typescript path="index.ts"
 import { connect } from './db';
 import { Hono } from 'hono';
 
 async function getNow(): Promise<string> {
-	const { prisma, close } = await connect({
-		// Replace with your instance connection name
-		instanceConnectionName: 'my-gcp-project-name:europe-west3:some-instance-name',
-		// This is the database service account configured to use IAM authentication
-		// Normally a service account email is used here, but for Cloud SQL IAM auth,
-		// just the username part is sufficient.
-		user: 'mwco-sql-sa',
-		database: 'my_database_name'
-	});
-	try {
-		const now = await prisma.$queryRaw`SELECT NOW() as now`;
-		await close();
-		return now[0].now;
-	} catch (e) {
-		console.log('Error occured, closing!');
-		await close();
-		throw e;
-	}
+  const { prisma, close } = await connect({
+    // Replace with your instance connection name
+    instanceConnectionName: 'my-gcp-project-name:europe-west3:some-instance-name',
+    // This is the database service account configured to use IAM authentication
+    // Normally a service account email is used here, but for Cloud SQL IAM auth,
+    // just the username part is sufficient.
+    user: 'mwco-sql-sa',
+    database: 'my_database_name'
+  });
+  try {
+    const now = await prisma.$queryRaw`SELECT NOW() as now`;
+    await close();
+    return now[0].now;
+  } catch (e) {
+    console.log('Error occured, closing!');
+    await close();
+    throw e;
+  }
 }
 
 const app = new Hono();
 app.get('/', async (c) => {
-	const now = await getNow();
-	return c.json({ now });
+  const now = await getNow();
+  return c.json({ now });
 });
 
 export default {
-	port: 8080,
-	fetch: app.fetch
+  port: 8080,
+  fetch: app.fetch
 };
 ```
 
@@ -113,31 +114,31 @@ import { AuthTypes, Connector, IpAddressTypes } from '@google-cloud/cloud-sql-co
 import { PrismaClient } from './generated/prisma/client';
 
 interface ConnectOptions {
-	instanceConnectionName: string;
-	user: string;
-	database: string;
+  instanceConnectionName: string;
+  user: string;
+  database: string;
 }
 
 export async function connect({ instanceConnectionName, user, database }: ConnectOptions) {
-	const path = resolve('mysqld.sock');
-	const connectorInstance = new Connector();
-	await connectorInstance.startLocalProxy({
-		instanceConnectionName,
-		ipType: IpAddressTypes.PRIVATE,
-		authType: AuthTypes.IAM,
-		listenOptions: { path }
-	});
+  const path = resolve('mysqld.sock');
+  const connectorInstance = new Connector();
+  await connectorInstance.startLocalProxy({
+    instanceConnectionName,
+    ipType: IpAddressTypes.PRIVATE,
+    authType: AuthTypes.IAM,
+    listenOptions: { path }
+  });
 
-	const datasourceUrl = `mysql://${user}@localhost/${database}?socket=${process.cwd()}/mysqld.sock`;
-	const prisma = new PrismaClient({ datasourceUrl });
+  const datasourceUrl = `mysql://${user}@localhost/${database}?socket=${process.cwd()}/mysqld.sock`;
+  const prisma = new PrismaClient({ datasourceUrl });
 
-	return {
-		prisma,
-		async close() {
-			await prisma.$disconnect();
-			connectorInstance.close();
-		}
-	};
+  return {
+    prisma,
+    async close() {
+      await prisma.$disconnect();
+      connectorInstance.close();
+    }
+  };
 }
 ```
 
@@ -147,14 +148,14 @@ The `prisma.config.ts` file contains the Prisma configuration:
 import { defineConfig } from 'prisma/config';
 
 export default defineConfig({
-	schema: 'prisma/schema.prisma',
-	migrations: {
-		path: 'prisma/migrations'
-	},
-	engine: 'classic',
-	datasource: {
-		url: ''
-	}
+  schema: 'prisma/schema.prisma',
+  migrations: {
+    path: 'prisma/migrations'
+  },
+  engine: 'classic',
+  datasource: {
+    url: ''
+  }
 });
 ```
 
@@ -198,7 +199,7 @@ You should see a JSON response with the current timestamp from the database.
 
 ```json
 {
-	"now": "2025-10-29T16:42:00.123Z"
+  "now": "2025-10-29T16:42:00.123Z"
 }
 ```
 
