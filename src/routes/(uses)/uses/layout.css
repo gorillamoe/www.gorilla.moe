@@ -1,57 +1,57 @@
 :root {
-	--font-sans: 'Manrope', sans-serif;
-	--font-mono: 'JetBrains Mono', monospace;
-	--page-bg-color: #272b30;
-	--page-color: #fff;
-	--layout-bg-color: #333647;
-	--page-accent-color: #f00;
-	--font-size-xs: 0.8rem;
-	--font-size-s: 0.9rem;
-	--font-size-m: 1rem;
-	--font-size-l: 1.2rem;
-	--font-size-xl: 1.5rem;
-	--font-size-xxl: 2rem;
-	--font-size-3xl: 3rem;
-	--link-color: #19cf85;
-	--link-hover-color: #ffd866;
-	--link-visited-color: #19cf85;
-	--color-poisonous-green: #19cf85;
-	--color-banana-yellow: #ffd866;
-	--color-neovim-blue: #3c92d1;
-	--color-orange: #fc9867;
-	--color-elephant-blue: #7e8bbd;
-	--color-purple: #ab9df2;
-	--color-grey: #aaa;
-	--color-turquoise-blue: #67ffdc;
-	--color-blue: #78dce8;
+  --font-sans: 'Manrope', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --page-bg-color: #272b30;
+  --page-color: #fff;
+  --layout-bg-color: #333647;
+  --page-accent-color: #f00;
+  --font-size-xs: 0.8rem;
+  --font-size-s: 0.9rem;
+  --font-size-m: 1rem;
+  --font-size-l: 1.2rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 2rem;
+  --font-size-3xl: 3rem;
+  --link-color: #19cf85;
+  --link-hover-color: #ffd866;
+  --link-visited-color: #19cf85;
+  --color-poisonous-green: #19cf85;
+  --color-banana-yellow: #ffd866;
+  --color-neovim-blue: #3c92d1;
+  --color-orange: #fc9867;
+  --color-elephant-blue: #7e8bbd;
+  --color-purple: #ab9df2;
+  --color-grey: #aaa;
+  --color-turquoise-blue: #67ffdc;
+  --color-blue: #78dce8;
 }
 
 html,
 body {
-	margin: 0;
-	padding: 0;
-	color: var(--page-color);
-	accent-color: var(--page-accent-color);
-	background-color: var(--page-bg-color);
+  margin: 0;
+  padding: 0;
+  color: var(--page-color);
+  accent-color: var(--page-accent-color);
+  background-color: var(--page-bg-color);
 }
 
 .layout-container-uses {
-	display: block;
+  display: block;
 }
 
 .layout-centered-uses {
-	margin: 0 auto;
-	max-width: 776px;
+  margin: 0 auto;
+  max-width: 776px;
 }
 
 .layout-uses {
-	margin: 1rem 1rem;
-	background-color: var(--layout-bg-color);
-	padding: 1rem;
-	border-radius: 0.5rem;
+  margin: 1rem 1rem;
+  background-color: var(--layout-bg-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 footer {
-	margin: 1rem 1rem;
-	text-align: right;
+  margin: 1rem 1rem;
+  text-align: right;
 }

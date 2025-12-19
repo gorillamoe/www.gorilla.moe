@@ -6,10 +6,10 @@
 <svelte:head>
 	<title>{data.metadata.title}</title>
 	<meta name="description" content={data.metadata.description} />
-	{#if data.metadata.updated}<meta
+	{#if data.metadata.updated}<meta property="article:published_time" content={data.metadata.updated} />{:else}<meta
 			property="article:published_time"
-			content={data.metadata.updated}
-		/>{:else}<meta property="article:published_time" content={data.metadata.created} />{/if}
+			content={data.metadata.created}
+		/>{/if}
 	<style>
 		@import './page.css';
 	</style>

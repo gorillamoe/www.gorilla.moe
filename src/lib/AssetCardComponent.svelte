@@ -18,9 +18,7 @@
 	<a class="jump" id={createJumpId(data.title)} aria-hidden="true"></a>
 	<a href={data.coverSrc}><img src={data.previewSrc} alt={data.title} /></a>
 	<div class="container">
-		<a href={data.avatarSrc} style="color:#{data.cssColor};"
-			><h4>{data.title} #{data.cssColor}</h4></a
-		>
+		<a href={data.avatarSrc} style="color:#{data.cssColor};"><h4>{data.title} #{data.cssColor}</h4></a>
 	</div>
 </div>
 

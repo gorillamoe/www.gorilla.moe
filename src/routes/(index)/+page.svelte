@@ -43,18 +43,10 @@
 			<a href="/about" id="aboutmelink" title="About Me Page" class="card-icon">
 				<CardIcon />
 			</a>
-			<a
-				href="https://github.com/gorillamoe"
-				title="Check out my Github profile"
-				class="github-icon"
-			>
+			<a href="https://github.com/gorillamoe" title="Check out my Github profile" class="github-icon">
 				<GitHubIcon />
 			</a>
-			<a
-				href="https://bsky.app/profile/gorilla.moe"
-				title="Check out my Bluesky account"
-				class="bluesky-icon"
-			>
+			<a href="https://bsky.app/profile/gorilla.moe" title="Check out my Bluesky account" class="bluesky-icon">
 				<BlueskyIcon />
 			</a>
 			<a href="https://ko-fi.com/gorillamoe" title="Buy me a coffee" class="heart-icon">

@@ -6,8 +6,7 @@
 <HeadComponent
 	data={{
 		title: 'About me',
-		description:
-			"Hello, I'm Marco Kellershoff. I craft things with the use of ShellFu and Neovim on Linux every day."
+		description: "Hello, I'm Marco Kellershoff. I craft things with the use of ShellFu and Neovim on Linux every day."
 	}}
 />
 
@@ -15,8 +14,7 @@
 	<div class="inner">
 		<p>Hello, I'm Marco Kellershoff.</p>
 		<p>
-			I'm a loud 📢 introvert who loves ❤️ CI/CD, Cloud ☁️ and on-premise ✨, generally speaking,
-			all things DevOps 🥷.
+			I'm a loud 📢 introvert who loves ❤️ CI/CD, Cloud ☁️ and on-premise ✨, generally speaking, all things DevOps 🥷.
 		</p>
 		<p>
 			I tend to automate everything 🤖 and can't live without
@@ -113,10 +111,7 @@
 				}}
 			/>.
 		</p>
-		<p>
-			You can find me living a peaceful ✌🏾 life in Germany 🇩🇪 with my wife, my daughter and our dogs
-			🐶.
-		</p>
+		<p>You can find me living a peaceful ✌🏾 life in Germany 🇩🇪 with my wife, my daughter and our dogs 🐶.</p>
 		<p>Want to know even more about me?</p>
 		<p>
 			Check out my

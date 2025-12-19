@@ -1,25 +1,25 @@
 h1 {
-	font-family: var(--font-sans);
-	font-size: var(--font-size-xxl);
-	color: var(--color-title);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-xxl);
+  color: var(--color-title);
 }
 
 .container {
-	font-family: var(--font-sans);
+  font-family: var(--font-sans);
 }
 
 ul {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 li {
-	padding-inline-start: 0;
+  padding-inline-start: 0;
 }
 
 time {
-	font-family: var(--font-mono);
-	font-size: var(--font-size-xs);
-	display: block;
-	text-align: right;
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  display: block;
+  text-align: right;
 }

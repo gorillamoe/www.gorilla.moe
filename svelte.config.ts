@@ -7,45 +7,45 @@ import { mdsvexShiki } from '@mistweaverco/mdsvex-shiki';
 import type { Config } from '@sveltejs/kit';
 
 const config: Config = {
-	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: undefined,
-			precompress: true,
-			strict: true
-		})
-	},
-	extensions: ['.svelte', '.md'],
-	preprocess: [
-		vitePreprocess({}),
-		mdsvex({
-			highlight: {
-				highlighter: await mdsvexShiki({
-					displayLanguage: true,
-					displayPath: true
-				})
-			},
-			rehypePlugins: [
-				rehypeSlug,
-				[
-					rehypeAutolinkHeadings,
-					{
-						behavior: 'wrap',
-						content: {
-							type: 'element',
-							tagName: 'span',
-							properties: {
-								ariaHidden: 'true',
-								className: ['fa', 'fa-link']
-							}
-						}
-					}
-				]
-			],
-			extension: '.md'
-		})
-	]
+  kit: {
+    adapter: adapter({
+      pages: 'build',
+      assets: 'build',
+      fallback: undefined,
+      precompress: true,
+      strict: true
+    })
+  },
+  extensions: ['.svelte', '.md'],
+  preprocess: [
+    vitePreprocess({}),
+    mdsvex({
+      highlight: {
+        highlighter: await mdsvexShiki({
+          displayLanguage: true,
+          displayPath: true
+        })
+      },
+      rehypePlugins: [
+        rehypeSlug,
+        [
+          rehypeAutolinkHeadings,
+          {
+            behavior: 'wrap',
+            content: {
+              type: 'element',
+              tagName: 'span',
+              properties: {
+                ariaHidden: 'true',
+                className: ['fa', 'fa-link']
+              }
+            }
+          }
+        ]
+      ],
+      extension: '.md'
+    })
+  ]
 };
 
 export default config;

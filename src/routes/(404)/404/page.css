@@ -1,9 +1,9 @@
 h1 {
-	font-family: var(--font-sans);
-	font-size: var(--font-size-xxl);
-	color: var(--color-title);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-xxl);
+  color: var(--color-title);
 }
 
 .container {
-	font-family: var(--font-sans);
+  font-family: var(--font-sans);
 }
