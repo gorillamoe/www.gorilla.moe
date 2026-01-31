@@ -1,7 +1,7 @@
 ---
 title: Wishlist
 description: A list of things I want to buy.
-date: '2025-12-10'
+date: '2026-01-31'
 categories:
   - linux
   - macos
@@ -25,6 +25,4 @@ It's more like a reminder for myself.
 The order of the items isn't random.
 It's more like a priority list.
 
-- [HiBy Digital M300 (128GB + 2TB Expandable, Black)](https://amzn.to/48w99di)
-  - [SanDisk Extreme microSDXC (1TB)](https://amzn.to/4oMsOdJ)
-- [Kobo Clara Colour (16GB, Black)](https://amzn.to/4pwYAg5)
+- [Saint Young Men 1](https://www.kobo.com/de/de/ebook/saint-young-men-1)
