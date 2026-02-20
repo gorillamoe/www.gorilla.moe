@@ -39,7 +39,7 @@
     "prettier-plugin-svelte": "3.4.0",
     "rehype-autolink-headings": "7.1.0",
     "rehype-slug-custom-id": "2.0.0",
-    "svelte": "5.41.4",
+    "svelte": "5.51.5",
     "svelte-check": "4.3.3",
     "svelte-sitemap": "2.7.1",
     "typescript": "5.9.3",
