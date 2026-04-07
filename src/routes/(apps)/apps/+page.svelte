@@ -5,10 +5,8 @@
 </script>
 
 <HeadComponent
-	data={{
-		title: 'Apps brought to you by Marco Kellershoff a.k.a. Gorilla Moe',
-		description: 'A list of apps brought to you by Marco Kellershoff a.k.a. Gorilla Moe.'
-	}}
+		title= 'Apps brought to you by Marco Kellershoff a.k.a. Gorilla Moe',
+		description= 'A list of apps brought to you by Marco Kellershoff a.k.a. Gorilla Moe.'
 />
 
 <DefaultContainerComponent>

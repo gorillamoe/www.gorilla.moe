@@ -4,10 +4,8 @@
 </script>
 
 <HeadComponent
-	data={{
-		title: 'About me',
-		description: "Hello, I'm Marco Kellershoff. I craft things with the use of ShellFu and Neovim on Linux every day."
-	}}
+	title= 'About me'
+	description= "Hello, I'm Marco Kellershoff. I craft things with the use of ShellFu and Neovim on Linux every day."
 />
 
 <div class="container">

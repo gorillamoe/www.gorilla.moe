@@ -1,22 +1,21 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
-	import BackButtonIcon from '$lib/icons/fontawesome/arrow-circle-left.svelte';
+	import BackButtonIcon from '$lib/icons/fontawesome/arrow-circle-left.svg?raw';
 
-	/** @type {HTMLElement} */
-	let backButton;
+	let backButton: HTMLElement | null = null;
 
-	export let data;
+	const { path } = $props();
 
 	onMount(() => {
-		backButton.addEventListener('click', () => {
-			goto(data.path);
+		backButton?.addEventListener('click', () => {
+			goto(path);
 		});
 	});
 </script>
 
 <div class="back-button-container" bind:this={backButton}>
-	<BackButtonIcon />
+	<span class="icon">{@html BackButtonIcon}</span>
 </div>
 
 <style>

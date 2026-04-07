@@ -1,18 +1,16 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 
-	/** @type {HTMLElement} */
-	let speaker;
-	/** @type {HTMLAudioElement} */
-	let audio;
+	let speaker: HTMLElement | null = null;
+	let audio: HTMLAudioElement | null = null;
 
 	onMount(() => {
-		speaker.addEventListener('click', () => {
-			speaker.classList.toggle('mute');
-			if (audio.paused) {
-				audio.play();
+		speaker?.addEventListener('click', () => {
+			speaker?.classList.toggle('mute');
+			if (audio?.paused) {
+				audio?.play();
 			} else {
-				audio.pause();
+				audio?.pause();
 			}
 		});
 	});

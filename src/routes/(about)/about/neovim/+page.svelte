@@ -1,16 +1,14 @@
-<script>
+<script lang="ts">
 	import HeadComponent from '$lib/HeadComponent.svelte';
 	import BackButtonComponent from '$lib/BackButtonComponent.svelte';
 </script>
 
 <HeadComponent
-	data={{
-		title: 'Neovim, better than sliced-bread',
-		description: 'I started using Vim in 2012 and the learning curve was very steep, but it was really worth it.'
-	}}
+		title= 'Neovim, better than sliced-bread'
+		description= 'I started using Vim in 2012 and the learning curve was very steep, but it was really worth it.'
 />
 
-<BackButtonComponent data={{ path: '/about' }} />
+<BackButtonComponent path='/about' />
 
 <div class="container">
 	<div class="inner">

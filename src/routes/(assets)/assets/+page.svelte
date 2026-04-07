@@ -1,14 +1,12 @@
-<script>
+<script lang="ts">
 	import HeadComponent from '$lib/HeadComponent.svelte';
 	import DefaultContainerComponent from '$lib/DefaultContainerComponent.svelte';
 	import AssetCardComponent from '$lib/AssetCardComponent.svelte';
 </script>
 
 <HeadComponent
-	data={{
-		title: 'Assets',
-		description: 'This is a list of some assets I crafted.'
-	}}
+		title='Assets'
+		description='This is a list of some assets I crafted.'
 />
 
 <DefaultContainerComponent>
@@ -16,13 +14,11 @@
 	<p>This is a list of some assets I crafted.</p>
 
 	<AssetCardComponent
-		data={{
-			title: 'Banana Yellow',
-			cssColor: 'ffd866',
-			previewSrc: '/resources/assets/banana-yellow.png',
-			avatarSrc: '/resources/assets/gorilla-banana-yellow-2048x2048.png',
-			coverSrc: '/resources/assets/cover-banana-yellow-3840x2160.png'
-		}}
+			title='Banana Yellow'
+			cssColor='ffd866'
+			previewSrc='/resources/assets/banana-yellow.png'
+			avatarSrc='/resources/assets/gorilla-banana-yellow-2048x2048.png'
+			coverSrc='/resources/assets/cover-banana-yellow-3840x2160.png'
 	/>
 </DefaultContainerComponent>
 

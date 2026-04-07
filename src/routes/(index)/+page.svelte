@@ -1,17 +1,16 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import HeadComponent from '$lib/HeadComponent.svelte';
-	import HeartIcon from '$lib/icons/fontawesome/heart.svelte';
-	import CardIcon from '$lib/icons/fontawesome/id-card.svelte';
-	import GitHubIcon from '$lib/icons/fontawesome/github.svelte';
-	import BlueskyIcon from '$lib/icons/fontawesome/bluesky.svelte';
+	import HeartIcon from '$lib/icons/fontawesome/heart.svg?raw'
+	import CardIcon from '$lib/icons/fontawesome/id-card.svg?raw'
+	import GitHubIcon from '$lib/icons/fontawesome/github.svg?raw'
+	import BlueskyIcon from '$lib/icons/fontawesome/bluesky.svg?raw'
 
-	/** @type {HTMLElement} */
-	let swapper;
+	let swapper: HTMLElement | null = null;
 
 	onMount(() => {
-		swapper.addEventListener('click', () => {
-			swapper.querySelectorAll('img').forEach((img) => {
+		swapper?.addEventListener('click', () => {
+			swapper?.querySelectorAll('img').forEach((img) => {
 				img.classList.toggle('hidden');
 			});
 		});
@@ -19,11 +18,9 @@
 </script>
 
 <HeadComponent
-	data={{
-		title: 'Marco Kellershoff a.k.a. Gorilla Moe',
-		description:
+	title='Marco Kellershoff a.k.a. Gorilla Moe'
+	description=
 			"Marco Kellershoff a.k.a. Gorilla Moe is a loud 📢 introvert who can't live without Linux 🐧 and Neovim 🖥️!"
-	}}
 />
 
 <div class="container">
@@ -41,16 +38,24 @@
 		</div>
 		<div class="get-in-touch">
 			<a href="/about" id="aboutmelink" title="About Me Page" class="card-icon">
-				<CardIcon />
+				<span class="icon">
+					{@html CardIcon}
+				</span>
 			</a>
 			<a href="https://github.com/gorillamoe" title="Check out my Github profile" class="github-icon">
-				<GitHubIcon />
+				<span class="icon">
+					{@html GitHubIcon}
+				</span>
 			</a>
 			<a href="https://bsky.app/profile/gorilla.moe" title="Check out my Bluesky account" class="bluesky-icon">
-				<BlueskyIcon />
+				<span class="icon">
+					{@html BlueskyIcon}
+				</span>
 			</a>
 			<a href="https://ko-fi.com/gorillamoe" title="Buy me a coffee" class="heart-icon">
-				<HeartIcon />
+				<span class="icon">
+					{@html HeartIcon}
+				</span>
 			</a>
 		</div>
 	</div>

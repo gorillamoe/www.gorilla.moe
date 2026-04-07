@@ -1,16 +1,14 @@
-<script>
+<script lang="ts">
 	import HeadComponent from '$lib/HeadComponent.svelte';
 	import BackButtonComponent from '$lib/BackButtonComponent.svelte';
 </script>
 
 <HeadComponent
-	data={{
-		title: 'Collaboration',
-		description: 'Git is my favorite version control system, but I can work with Subversion, too.'
-	}}
+		title='Collaboration'
+		description='Git is my favorite version control system, but I can work with Subversion, too.'
 />
 
-<BackButtonComponent data={{ path: '/about' }} />
+<BackButtonComponent path='/about' />
 
 <div class="container">
 	<div class="inner">

@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2025-12-10'
+date: '2026-04-08'
 categories:
   - linux
   - macos
@@ -35,8 +35,10 @@ I live in the terminal, so I need some tools to get my work done.
 
 These are the ones I use nearly every day:
 
+- [**Turborepo**](https://turborepo.dev/): Monorepo build system
 - [**Zana**](https://getzana.net/): Install and update LSP/DAP servers, DAP servers, linters, and formatters
 - [**Kuba**](https://kuba.mwco.app/): Easily access your secrets without messing with dotenv files.
+- [**vite+**](https://viteplus.dev/): Manage your runtime, package manager, and frontend stack with one tool
 - [**Terraform**](https://www.terraform.io/): Infrastructure as Code tool
   - [**Terragrunt**](https://terragrunt.gruntwork.io/): For everything more complex than pretty basic Terraform
   - [**Terramate**](https://terramate.io/): Just because our legacy infrastructure is using this 🙈
@@ -55,11 +57,17 @@ These are the ones I use nearly every day:
   - [**gh**](https://cli.github.com/): GitHub CLI
 - [**ESlint**](https://eslint.org/): Linter for JavaScript and TypeScript
 - [**Prettier**](https://prettier.io/): Code formatter
+- [**Stylelint**](https://stylelint.io/): Linter for CSS and Tailwind CSS
+- [**Oxlint**](https://oxc.rs/docs/guide/usage/linter.html): high-performance linter for JavaScript and TypeScript
+- [**Oxfmt**](https://oxc.rs/docs/guide/usage/formatter.html): high-performance code formatter for JavaScript and TypeScript
 - [**Black**](https://black.readthedocs.io/en/stable/): Code formatter for Python
 - [**Vale**](https://vale.sh/): Linter for prose
 - [**Yazi**](https://yazi-rs.github.io/): Blazing fast terminal file manager written in Rust, based on async I/O.
 - [**ripgrep**](https://github.com/BurntSushi/ripgrep): Fast search tool
 - [**jq**](https://stedolan.github.io/jq/): Command-line JSON processor
+- [**csvq**](https://mithrandie.github.io/csvq/): Command-line tool for querying CSV files using SQL-like syntax
+- [**fzf**](https://junegunn.github.io/fzf/): Command-line fuzzy finder
+- [**pnpm**](https://pnpm.io/): Fast and disk space efficient package manager for JavaScript
 
 ## Programming
 
@@ -67,9 +75,9 @@ Maybe, just maybe, I forgot something... 🙈
 
 ### Runtimes
 
-- [**bun**](https://bun.sh/): JavaScript runtime
+- [**bun**](https://bun.sh/): JavaScript runtime, package manager, and bundler
 - [**Node.js**](https://nodejs.org/): JavaScript runtime
-- [**Deno**](https://deno.land/): JavaScript and TypeScript
+- [**Deno**](https://deno.land/): JavaScript and TypeScript runtime with a focus on security and modern features
 
 ### Frameworks
 
@@ -81,6 +89,7 @@ Maybe, just maybe, I forgot something... 🙈
 ### Libraries
 
 - [**Prisma**](https://www.prisma.io/): ORM for Node.js and TypeScript
+- [**Drizzle ORM**](https://orm.drizzle.team/): ORM for Node.js and TypeScript, with a focus on type safety
 - [**Tailwind CSS**](https://tailwindcss.com/): CSS framework
   - [**DaisyUI**](https://daisyui.com/): UI component library for Tailwind CSS
 
@@ -140,6 +149,12 @@ Maybe, just maybe, I forgot something... 🙈
 
 - **Window Manager**: [Mutter](<https://en.wikipedia.org/wiki/Mutter_(software)>)
   - **Desktop Environment**: [Gnome](https://en.wikipedia.org/wiki/GNOME)
+    - **Extensions**: [](https://extensions.gnome.org/extension/8834/copyous/)
+      - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+      - [Copyus](https://extensions.gnome.org/extension/8834/copyous/)
+      - [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
+      - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
+      - [Frequency Boost Switch](https://extensions.gnome.org/extension/4792/frequency-boost-switch/)
 - **Browser**: [Google Chrome](https://www.google.com/chrome/)
 - **E-Mail Client**: [Gmail Web](https://mail.google.com/) and [Geary](https://wiki.gnome.org/Apps/Geary)
 - **Office Suite**: [Google Docs](https://docs.google.com/) and [LibreOffice](https://www.libreoffice.org/)
@@ -155,7 +170,7 @@ Maybe, just maybe, I forgot something... 🙈
   - RAM: 96GB DDR5
   - SSD: 4TB NVME
   - Keyboard: US International
-  - OS: [Manjaro Linux](https://manjaro.org/)
+  - OS: [CachyOS](https://cachyos.org/)
 - **External screen**: [LG UltraWide Curved QHD Monitor 35WN75CP-B](/resources/uses/lg-uw-curved-qhd-monitor-35wn75cp-b.jpg)
 - **Keyboard**: [ZSA Voyager](/resources/uses/zsa-voyager.mp4)
 - **Touchpad**: [seenda Touchpad](/resources/uses/seenda-touchpad.jpg)
@@ -167,7 +182,9 @@ Maybe, just maybe, I forgot something... 🙈
 ## Various other stuff
 
 - **Watch**: [Amazfit Bip 6](https://us.amazfit.com/products/bip-6)
-- **Gaming**: [Odin2 Portal](https://www.ayntec.com/products/odin2-portal?variant=46016396198080)
+- **Gaming**: [Ayn Odin 2 Portal Max](https://www.ayntec.com/products/odin2-portal?variant=46016396198080)
+  - [GeForce Now](https://www.nvidia.com/en-us/geforce-now/)
+  - [GameNative](https://gamenative.app/)
 - **Streaming**:
   - Netflix
   - Amazon Prime

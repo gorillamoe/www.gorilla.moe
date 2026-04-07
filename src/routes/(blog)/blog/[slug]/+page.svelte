@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
 	export let data;
-	import { copyAction } from '@mistweaverco/mdsvex-shiki';
+	import { copyAction } from '@mistweaverco/mdsvex-shiki/copyAction';
 </script>
 
 <svelte:head>

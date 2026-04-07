@@ -1,6 +1,15 @@
 import { error } from '@sveltejs/kit';
+import { fetchMarkdownPosts } from '$lib/utils/blog';
 import type { ComponentType } from 'svelte';
 import type { Load } from '@sveltejs/kit';
+
+/** Tells the static prerender which `/blog/[slug]` paths exist (crawl does not discover API-driven links). */
+export const entries = async () => {
+	const posts = await fetchMarkdownPosts();
+	return posts
+		.filter((p) => p.metadata.published)
+		.map((p) => ({ slug: p.path.replace(/^blog\//, '') }));
+};
 
 interface PostMetadata {
   title: string;

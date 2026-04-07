@@ -1,8 +1,8 @@
-<script>
-	export let data;
+<script lang="ts">
+	const { title, description } = $props();
 </script>
 
 <svelte:head>
-	<title>{data.title}</title>
-	<meta name="description" content={data.description} />
+	<title>{title}</title>
+	<meta name="description" content={description} />
 </svelte:head>

@@ -1,11 +1,11 @@
-<script>
-	import GithubIcon from './icons/fontawesome/github.svelte';
+<script lang="ts">
+	import GithubIcon from './icons/fontawesome/github.svg?raw';
 	export let data;
 
 	/**
 	 * @param {string} slug
 	 */
-	function createJumpId(slug) {
+	function createJumpId(slug: string): string {
 		return slug
 			.split('/')[1]
 			.replace(/[^a-z0-9-_]/gi, '-')
@@ -30,7 +30,7 @@
 		<p>{data.text}</p>
 	</div>
 	<a class="github" href="https://github.com/{data.githubSlug}">
-		<GithubIcon />
+		<span class="icon">{@html GithubIcon}</span>
 	</a>
 </div>
 

@@ -1,17 +1,15 @@
-<script>
+<script lang="ts">
 	import HeadComponent from '$lib/HeadComponent.svelte';
 	import BackButtonComponent from '$lib/BackButtonComponent.svelte';
 </script>
 
 <HeadComponent
-	data={{
-		title: 'Bluesky',
-		description:
+		title='Bluesky'
+		description=
 			"Because Twitter has become a toxic place, full of hate and misinformation, I'm trying to find a new home on Bluesky."
-	}}
 />
 
-<BackButtonComponent data={{ path: '/about' }} />
+<BackButtonComponent path='/about' />
 
 <div class="container">
 	<div class="inner">
