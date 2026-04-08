@@ -7,11 +7,6 @@ import { getMdsvexShikiHighlighter } from "@mistweaverco/mdsvex-shiki";
 import type { Config } from "@sveltejs/kit";
 import type { Plugin, Settings } from "unified";
 
-const highlighter = await getMdsvexShikiHighlighter({
-  displayLanguage: true,
-  displayPath: true,
-});
-
 const config: Config = {
   kit: {
     adapter: adapter({
@@ -30,7 +25,10 @@ const config: Config = {
     vitePreprocess(),
     mdsvex({
       highlight: {
-        highlighter,
+        highlighter: await getMdsvexShikiHighlighter({
+          displayLanguage: true,
+          displayPath: true,
+        }),
       },
       rehypePlugins: [
         rehypeSlug as unknown as Plugin,
