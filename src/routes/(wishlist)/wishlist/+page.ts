@@ -37,7 +37,7 @@ export const load: Load = async () => {
     const content = markdown.default;
     return {
       metadata,
-      content
+      content,
     };
   } catch (e) {
     const ex = e as Error;

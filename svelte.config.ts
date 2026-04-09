@@ -1,26 +1,26 @@
-import adapter from "@sveltejs/adapter-static";
-import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
-import { mdsvex } from "mdsvex";
-import rehypeSlug from "rehype-slug-custom-id";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import { getMdsvexShikiHighlighter } from "@mistweaverco/mdsvex-shiki";
-import type { Config } from "@sveltejs/kit";
-import type { Plugin, Settings } from "unified";
+import adapter from '@sveltejs/adapter-static';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import { mdsvex } from 'mdsvex';
+import rehypeSlug from 'rehype-slug-custom-id';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import { getMdsvexShikiHighlighter } from '@mistweaverco/mdsvex-shiki';
+import type { Config } from '@sveltejs/kit';
+import type { Plugin, Settings } from 'unified';
 
 const config: Config = {
   kit: {
     adapter: adapter({
-      pages: "build",
-      assets: "build",
+      pages: 'build',
+      assets: 'build',
       fallback: undefined,
       precompress: true,
       strict: true,
     }),
     alias: {
-      $lib: "./src/lib",
+      $lib: './src/lib',
     },
   },
-  extensions: [".svelte", ".md"],
+  extensions: ['.svelte', '.md'],
   preprocess: [
     vitePreprocess(),
     mdsvex({
@@ -35,19 +35,19 @@ const config: Config = {
         [
           rehypeAutolinkHeadings as unknown as Plugin,
           {
-            behavior: "wrap",
+            behavior: 'wrap',
             content: {
-              type: "element",
-              tagName: "span",
+              type: 'element',
+              tagName: 'span',
               properties: {
-                ariaHidden: "true",
-                className: ["fa", "fa-link"],
+                ariaHidden: 'true',
+                className: ['fa', 'fa-link'],
               },
             },
           } as unknown as Settings,
         ],
       ],
-      extension: ".md",
+      extension: '.md',
     }),
   ],
 };

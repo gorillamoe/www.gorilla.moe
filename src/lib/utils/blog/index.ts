@@ -21,18 +21,12 @@ interface PostModule {
  * @returns All markdown posts
  */
 export const fetchMarkdownPosts = async (): Promise<Post[]> => {
-  const allPostFiles = import.meta.glob<PostModule>(
-    "./../../../routes/(blog)/posts/*.md",
-  );
+  const allPostFiles = import.meta.glob<PostModule>('./../../../routes/(blog)/posts/*.md');
 
   const allPosts = await Promise.all(
     Object.entries(allPostFiles).map(async ([p, resolver]) => {
       const post = await resolver();
-      const slug =
-        p
-          .split("/")
-          .pop()
-          ?.replace(/\.md$/, "") ?? "";
+      const slug = p.split('/').pop()?.replace(/\.md$/, '') ?? '';
       const path = `blog/${slug}`;
       const metadata = post.metadata;
 

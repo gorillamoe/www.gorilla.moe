@@ -80,7 +80,7 @@ async function getNow(): Promise<string> {
     // Normally a service account email is used here, but for Cloud SQL IAM auth,
     // just the username part is sufficient.
     user: 'mwco-sql-sa',
-    database: 'my_database_name'
+    database: 'my_database_name',
   });
   try {
     const now = await prisma.$queryRaw`SELECT NOW() as now`;
@@ -101,7 +101,7 @@ app.get('/', async (c) => {
 
 export default {
   port: 8080,
-  fetch: app.fetch
+  fetch: app.fetch,
 };
 ```
 
@@ -126,7 +126,7 @@ export async function connect({ instanceConnectionName, user, database }: Connec
     instanceConnectionName,
     ipType: IpAddressTypes.PRIVATE,
     authType: AuthTypes.IAM,
-    listenOptions: { path }
+    listenOptions: { path },
   });
 
   const datasourceUrl = `mysql://${user}@localhost/${database}?socket=${process.cwd()}/mysqld.sock`;
@@ -137,7 +137,7 @@ export async function connect({ instanceConnectionName, user, database }: Connec
     async close() {
       await prisma.$disconnect();
       connectorInstance.close();
-    }
+    },
   };
 }
 ```
@@ -150,12 +150,12 @@ import { defineConfig } from 'prisma/config';
 export default defineConfig({
   schema: 'prisma/schema.prisma',
   migrations: {
-    path: 'prisma/migrations'
+    path: 'prisma/migrations',
   },
   engine: 'classic',
   datasource: {
-    url: ''
-  }
+    url: '',
+  },
 });
 ```
 

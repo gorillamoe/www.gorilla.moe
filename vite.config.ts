@@ -1,27 +1,27 @@
-import { sveltekit } from "@sveltejs/kit/vite";
-import { defineConfig } from "vite-plus";
+import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vite-plus';
 
 export default defineConfig({
   lint: {
-    plugins: ["oxc", "typescript", "unicorn", "react"],
+    plugins: ['oxc', 'typescript', 'unicorn', 'react'],
     categories: {
-      correctness: "warn",
+      correctness: 'warn',
     },
     env: {
       builtin: true,
     },
-    ignorePatterns: ["node_modules/**", "build/**", ".svelte-kit/**"],
+    ignorePatterns: ['node_modules/**', 'build/**', '.svelte-kit/**'],
     rules: {},
     overrides: [
       {
-        files: ["*.svelte", "**/*.svelte"],
+        files: ['*.svelte', '**/*.svelte'],
         rules: {
-          "no-inner-declarations": "off",
-          "no-self-assign": "off",
-          "svelte/comment-directive": "error",
-          "svelte/system": "error",
+          'no-inner-declarations': 'off',
+          'no-self-assign': 'off',
+          'svelte/comment-directive': 'error',
+          'svelte/system': 'error',
         },
-        jsPlugins: ["eslint-plugin-svelte"],
+        jsPlugins: ['eslint-plugin-svelte'],
       },
     ],
     options: {
@@ -32,10 +32,10 @@ export default defineConfig({
   fmt: {
     useTabs: false,
     singleQuote: true,
-    trailingComma: "none",
+    trailingComma: 'all',
     printWidth: 120,
     sortPackageJson: false,
-    ignorePatterns: ["pnpm-lock.yaml", "package-lock.json", "yarn.lock"],
+    ignorePatterns: ['pnpm-lock.yaml', 'package-lock.json', 'yarn.lock'],
   },
   plugins: [sveltekit()],
 });

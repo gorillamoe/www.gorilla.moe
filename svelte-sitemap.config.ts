@@ -1,9 +1,9 @@
-import type { OptionsSvelteSitemap } from "svelte-sitemap";
+import type { OptionsSvelteSitemap } from 'svelte-sitemap';
 
 const config: OptionsSvelteSitemap = {
-  domain: "https://gorilla.moe",
+  domain: 'https://gorilla.moe',
   trailingSlashes: false,
-  ignore: ["/404.html", "/500.html", "/google*.html"],
+  ignore: ['/404.html', '/500.html', '/google*.html'],
 };
 
 export default config;
