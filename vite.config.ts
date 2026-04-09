@@ -2,6 +2,7 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite-plus';
 
 export default defineConfig({
+  logLevel: 'silent',
   lint: {
     plugins: ['oxc', 'typescript', 'unicorn', 'react'],
     categories: {
