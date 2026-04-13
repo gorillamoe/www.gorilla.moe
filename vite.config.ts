@@ -2,7 +2,7 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite-plus';
 
 export default defineConfig({
-  logLevel: 'silent',
+  logLevel: process.env.NODE_ENV === 'production' ? 'silent' : 'info',
   lint: {
     plugins: ['oxc', 'typescript', 'unicorn', 'react'],
     categories: {
