@@ -39,7 +39,7 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**bat**](https://github.com/sharkdp/bat): a cat(1) clone with wings.
 - [**black**](https://black.readthedocs.io/en/stable/): code formatter for python
 - [**cek**](https://github.com/bschaatsbergen/cek): explore the (overlay) filesystem and layers of oci container images, without running them
-- [**cidr**](https://github.com/bschaatsbergen/cek): simplifies IPv4/IPv6 CIDR network prefix management with counting, overlap checking, explanation, and subdivision
+- [**cidr**](https://github.com/bschaatsbergen/cidr): simplifies IPv4/IPv6 CIDR network prefix management with counting, overlap checking, explanation, and subdivision
 - [**cliamp**](https://www.cliamp.stream/): a retro music player inspired by winamp, built for the terminal
 - [**csvq**](https://mithrandie.github.io/csvq/): command-line tool for querying csv files using sql-like syntax
 - [**direnv**](http://direnv.net/): unclutter your .profile
