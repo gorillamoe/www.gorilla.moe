@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2026-04-14'
+date: '2026-04-22'
 categories:
   - linux
   - macos
@@ -44,6 +44,7 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**csvq**](https://mithrandie.github.io/csvq/): command-line tool for querying csv files using sql-like syntax
 - [**direnv**](http://direnv.net/): unclutter your .profile
 - [**docker**](https://www.docker.com/): Containerization platform
+- [**dust**](https://github.com/bootandy/dust): a more intuitive version of du in rust - quickly analyze disk usage and find space hogs with ease
 - [**eslint**](https://eslint.org/): linter for javascript and typescript
 - [**evalcache**](https://github.com/mroth/evalcache): zsh plugin to cache eval loads to improve shell startup time
 - [**fastfetch**](https://github.com/fastfetch-cli/fastfetch): neofetch like system information tool
