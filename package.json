@@ -27,33 +27,33 @@
     "@mistweaverco/mdsvex-shiki": "1.3.6",
     "@sveltejs/adapter-auto": "7.0.1",
     "@sveltejs/adapter-static": "3.0.10",
-    "@sveltejs/kit": "2.57.1",
+    "@sveltejs/kit": "2.59.0",
     "@sveltejs/vite-plugin-svelte": "7.0.0",
     "@types/eslint": "9.6.1",
     "@types/node": "25.6.0",
     "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-svelte": "3.17.0",
+    "eslint-plugin-svelte": "3.17.1",
     "husky": "9.1.7",
     "install": "0.13.0",
     "jiti": "2.6.1",
     "mdsvex": "0.12.7",
-    "npm-check-updates": "20.0.1",
+    "npm-check-updates": "22.1.0",
     "rehype-autolink-headings": "7.1.0",
     "rehype-slug-custom-id": "2.0.0",
     "shiki": "4.0.2",
-    "svelte": "5.55.3",
-    "svelte-check": "4.4.6",
+    "svelte": "5.55.5",
+    "svelte-check": "4.4.7",
     "svelte-sitemap": "3.1.0",
-    "typescript": "5.9.3",
+    "typescript": "6.0.3",
     "unified": "11.0.5",
-    "vite": "8.0.8",
-    "vite-plus": "0.1.16",
-    "vitest": "4.1.4"
+    "vite": "8.0.10",
+    "vite-plus": "0.1.20",
+    "vitest": "4.1.5"
   },
   "trustedDependencies": [
     "esbuild"
   ],
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.33.2",
   "pnpm": {
     "overrides": {
       "cookie@<0.7.0": "0.7.0"
