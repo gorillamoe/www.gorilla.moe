@@ -1,7 +1,7 @@
 ---
 title: Projects
 description: A list of projects I started or I'm involved in.
-date: '2025-12-25'
+date: '2026-05-02'
 categories:
   - linux
   - software
@@ -12,6 +12,17 @@ categories:
 ---
 
 Here is a list of projects I started or I'm involved in.
+
+## Excalidraw Desktop
+
+[Excalidraw Desktop](https://github.com/mistweaverco/excalidraw-desktop)
+Unofficial, offline-first desktop client for Excalidraw on Windows,
+macOS, and Linux.
+It's a complete rewrite and tries to be as close to the web version as possible,
+while also adding some features like:
+
+- Enchanced library management
+- Free for all P2P collaboration, without required sign-ins (wip)
 
 ## Bananas Screen Sharing
 
