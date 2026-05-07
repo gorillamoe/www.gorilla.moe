@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer>
 	<p>
-		Coded by <a href="/">Marco Kellershoff a.k.a. Gorilla Moe 🦍🍌</a> - Powered by
+		Hand-crafted by <a href="/">Marco Kellershoff a.k.a. Gorilla Moe 🦍🍌</a> - Powered by
 		<a class="powered-by-svelte" href="https://kit.svelte.dev/">SvelteKit</a>
 		- &copy {new Date().getFullYear()}
 	</p>
