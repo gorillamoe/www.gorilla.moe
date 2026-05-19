@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2026-04-22'
+date: '2026-05-19'
 categories:
   - linux
   - macos
@@ -198,9 +198,9 @@ This is the software I use on a daily basis for my desktop work:
       - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
       - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
       - [Copyus](https://extensions.gnome.org/extension/8834/copyous/)
+      - [PaperWM](https://extensions.gnome.org/extension/6099/paperwm/)
       - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
       - [Frequency Boost Switch](https://extensions.gnome.org/extension/4792/frequency-boost-switch/)
-      - [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
 - **Browser**: [Google Chrome](https://www.google.com/chrome/)
 - **E-Mail Client**: [Gmail Web](https://mail.google.com/) and [Geary](https://wiki.gnome.org/Apps/Geary)
 - **Office Suite**: [Google Docs](https://docs.google.com/) and [LibreOffice](https://www.libreoffice.org/)
