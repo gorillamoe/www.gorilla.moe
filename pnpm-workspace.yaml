@@ -1,0 +1,24 @@
+---
+minimumReleaseAgeExclude:
+  - '@types/node@25.9.1'
+  - '@vitest/expect@4.1.7'
+  - '@vitest/mocker@4.1.7'
+  - '@vitest/pretty-format@4.1.7'
+  - '@vitest/runner@4.1.7'
+  - '@vitest/snapshot@4.1.7'
+  - '@vitest/spy@4.1.7'
+  - '@vitest/utils@4.1.7'
+  - '@voidzero-dev/vite-plus-core@0.1.22'
+  - '@voidzero-dev/vite-plus-darwin-arm64@0.1.22'
+  - '@voidzero-dev/vite-plus-darwin-x64@0.1.22'
+  - '@voidzero-dev/vite-plus-linux-arm64-gnu@0.1.22'
+  - '@voidzero-dev/vite-plus-linux-arm64-musl@0.1.22'
+  - '@voidzero-dev/vite-plus-linux-x64-gnu@0.1.22'
+  - '@voidzero-dev/vite-plus-linux-x64-musl@0.1.22'
+  - '@voidzero-dev/vite-plus-test@0.1.22'
+  - '@voidzero-dev/vite-plus-win32-arm64-msvc@0.1.22'
+  - '@voidzero-dev/vite-plus-win32-x64-msvc@0.1.22'
+  - vite-plus@0.1.22
+  - vitest@4.1.7
+overrides:
+  "cookie@<0.7.0": "0.7.0"
