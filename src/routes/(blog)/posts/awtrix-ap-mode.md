@@ -61,7 +61,7 @@ Content-Type: application/json
 
 ### REMOVE_RAINBOW_TEXT
 
-POST http://{{ IP }}/api/notify HTTP/1.1
+POST http://{{ IP }}/api/notify/dismiss HTTP/1.1
 Content-Type: application/json
 
 {}
