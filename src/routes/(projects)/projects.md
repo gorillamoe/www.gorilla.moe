@@ -1,7 +1,7 @@
 ---
 title: Projects
 description: A list of projects I started or I'm involved in.
-date: '2026-05-02'
+date: '2026-06-13'
 categories:
   - linux
   - software
@@ -12,6 +12,18 @@ categories:
 ---
 
 Here is a list of projects I started or I'm involved in.
+
+## Kulala API Testing Tools
+
+[Kulala](https://kulala.app) started as an API-Client Interface
+for Neovim, but has since evolved into a full-fledged API testing
+suite of applications.
+
+The recent release of Kulala-Core and rewrite of Kulala.nvim
+utilizing it, was a huge milestone for the project.
+
+It makes it easier to build new tools, like the Kulala extension for VSCode,
+and also makes the existing tools faster, more reliable, and easier to maintain.
 
 ## Excalidraw Desktop
 
@@ -37,12 +49,6 @@ Just share your screen and start collaborating.
 
 Bananas 🍌 creates a unique 🌟 connection url 🌐 for you to
 share with your friends, family, or colleagues.
-
-## Kulala API Testing Tools
-
-[Kulala](https://getkulala.net) started as an API-Client Interface
-for Neovim, but has since evolved into a full-fledged API testing
-suite of applications.
 
 ## Zana - the niche LSP/DAP/Formatter/Linter manager
 

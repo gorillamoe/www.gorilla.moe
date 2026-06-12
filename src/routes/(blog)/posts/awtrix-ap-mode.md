@@ -25,6 +25,7 @@ use the default password
 ```
 
 ### Configure
+
 Open a web browser on your connected device and
 navigate to [192.168.4.1](http://192.168.4.1).
 

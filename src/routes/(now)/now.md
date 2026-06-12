@@ -1,7 +1,7 @@
 ---
 title: Now page
 description: What I am doing right now.
-date: '2025-10-26'
+date: '2026-06-13'
 categories:
   - linux
   - software
@@ -11,29 +11,29 @@ categories:
 
 Here is a list of things I am currently working on or learning.
 
+## Kulala for Neovim 🐼
+
+The recent big release of the 6x branch (Kulala.nvim meets Kulala-Core)
+was a huge milestone for the project.
+
 ## Kulala for VSCode 🐼
 
 I got a ruff start of a Kulala extension for VSCode.
 It's still in the early stages, but it works quite well.
 
-## Kulala Core
+## Kulala Core 🐼
 
-The kulala-core will become the backend for all the kulala tools.
+The kulala-core ~~will become ~~ is the backend for all
+the kulala tools.
+
 It parses `.http` files and exectutes requests,
 including scripts, without any external requirements.
-
-This project aims to replace the requirement for cURL,
-any custom parsing logic and nodejs for scripting.
 
 This will make kulala tools faster, more reliable,
 and easier to use.
 
-Also it will make it easier to build new tools,
+It makes it easier to build new tools,
 like a kulala extension for VSCode.
-
-See the current progress here:
-
-- [GitHub Repository](https://github.com/mistweaverco/kulala-core)
 
 ## VHS Era 🎞️
 
