@@ -1,7 +1,7 @@
 ---
 title: Wishlist
 description: A list of things I want to buy.
-date: '2026-05-02'
+date: '2026-06-12'
 categories:
   - linux
   - macos
@@ -25,6 +25,7 @@ It's more like a reminder for myself.
 The order of the items isn't random.
 It's more like a priority list.
 
+- [The Psychology of Software Teams](https://www.routledge.com/The-Psychology-of-Software-Teams/Hicks/p/book/9781032963389)
 - [Thalia (Bookstore) Voucher](https://www.thalia.de/geschenkkarte/)
 - [StarPort Docking Station](https://de.starlabs.systems/products/starport?variant=43802986119422#)
 - [SanDisk Extreme microSDXC (1TB)](https://amzn.to/4oMsOdJ)

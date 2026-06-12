@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2026-05-19'
+date: '2026-06-12'
 categories:
   - linux
   - macos
@@ -64,6 +64,7 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**kuba**](https://kuba.mwco.app/): Easily access your secrets without messing with dotenv files
 - [**kubectl**](https://kubernetes.io/docs/tasks/tools/): Kubernetes CLI
 - [**kulala-cli**](https://cli.getkulala.net): Like httpYac, with support for GraphQL, gRPC, and websockets, compatible with JetBrains HTTP client
+- [**miller**](https://miller.readthedocs.io/en/): Query, shape, and reformat data files in various formats, including CSV, TSV, JSON, JSON Lines, YAML, and DCF
 - [**mise**](https://mise.jdx.dev/): the front-end to your dev env
 - [**oh-my-posh**](https://ohmyposh.dev/): Customisable and low-latency cross platform/shell prompt renderer
 - [**openvpn**](https://openvpn.net/): vpn solution that just works
@@ -198,8 +199,6 @@ This is the software I use on a daily basis for my desktop work:
       - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
       - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
       - [Copyus](https://extensions.gnome.org/extension/8834/copyous/)
-      - [PaperWM](https://extensions.gnome.org/extension/6099/paperwm/)
-      - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
       - [Frequency Boost Switch](https://extensions.gnome.org/extension/4792/frequency-boost-switch/)
 - **Browser**: [Google Chrome](https://www.google.com/chrome/)
 - **E-Mail Client**: [Gmail Web](https://mail.google.com/) and [Geary](https://wiki.gnome.org/Apps/Geary)
