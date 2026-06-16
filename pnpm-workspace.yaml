@@ -21,4 +21,4 @@ minimumReleaseAgeExclude:
   - vite-plus@0.1.22
   - vitest@4.1.7
 overrides:
-  "cookie@<0.7.0": "0.7.0"
+  'cookie@<0.7.0': '0.7.0'

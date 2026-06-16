@@ -15,7 +15,7 @@
     "test:watch": "vp test watch",
     "lint": "vp fmt --check . && vp lint .",
     "format": "vp fmt .",
-    "prepare": "husky",
+    "prepare": "vp config",
     "update:dependencies": "npm-check-updates -iu"
   },
   "devDependencies": {
@@ -33,7 +33,6 @@
     "@types/node": "25.9.1",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-svelte": "3.17.1",
-    "husky": "9.1.7",
     "install": "0.13.0",
     "jiti": "2.7.0",
     "mdsvex": "0.12.7",

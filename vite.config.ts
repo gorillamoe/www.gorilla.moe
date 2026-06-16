@@ -2,6 +2,9 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite-plus';
 
 export default defineConfig({
+  staged: {
+    '*': 'vp check --fix',
+  },
   logLevel: process.env.NODE_ENV === 'production' ? 'silent' : 'info',
   lint: {
     plugins: ['oxc', 'typescript', 'unicorn', 'react'],
@@ -11,7 +14,7 @@ export default defineConfig({
     env: {
       builtin: true,
     },
-    ignorePatterns: ['node_modules/**', 'build/**', '.svelte-kit/**'],
+    ignorePatterns: ['pnpm-lock.yaml', '**node_modules/**', '**build/**', '**.svelte-kit/**'],
     rules: {},
     overrides: [
       {
@@ -36,7 +39,7 @@ export default defineConfig({
     trailingComma: 'all',
     printWidth: 120,
     sortPackageJson: false,
-    ignorePatterns: ['pnpm-lock.yaml', 'package-lock.json', 'yarn.lock'],
+    ignorePatterns: ['pnpm-lock.yaml', '**node_modules/**', '**build/**', '**.svelte-kit/**'],
   },
   plugins: [sveltekit()],
 });
