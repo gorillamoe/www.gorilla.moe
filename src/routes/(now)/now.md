@@ -77,5 +77,5 @@ Then finally settled on CachyOS, which is a great Arch-based distro with a focus
 Zana is a minimal TUI for managing LSP servers, DAP servers, linters, and formatters, for Neovim, but not limited to just Neovim.
 
 [kulala.vscode-marketplace]: https://marketplace.visualstudio.com/items?itemName=mistweaverco.kulala
-[kulala.open-vsx]: https://open-vsx.org/extension/mistweaverco
+[kulala.open-vsx]: https://open-vsx.org/extension/mistweaverco/kulala
 [kulala-desktop-git]: https://github.com/mistweaverco/kulala-desktop
