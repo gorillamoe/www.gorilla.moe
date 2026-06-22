@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2026-06-12'
+date: '2026-06-22'
 categories:
   - linux
   - macos
@@ -23,10 +23,11 @@ terminal work:
 - **Editor**: [Neovim](https://neovim.io/)
   - **Configuration**: [Neovimfiles](https://github.com/gorillamoe/neovimfiles)
   - **Editor Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.nvim)
-- **Terminal**: [WezTerm](https://wezterm.org)
-  - **Terminal Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+- **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
+  - **Terminal Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and
+    [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
   - **Terminal Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.terminal)
-- **Terminal Multiplexer**: [WezTerm built-in](https://github.com/gorillamoe/dotfiles/blob/trunk/configurations/wezterm/wezterm/wezterm-tmux.lua)
+- **Terminal Multiplexer**: [Kitty built-in](https://github.com/gorillamoe/dotfiles/blob/main/configurations/kitty/kitty/keys.conf)
 - **Dotfiles**: [Dotfiles](https://github.com/gorillamoe/dotfiles)
 
 ## CLI tools
@@ -60,10 +61,9 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**hyperfine**](https://github.com/sharkdp/hyperfine): command-line benchmarking tool
 - [**imagick**](https://imagemagick.org/): Command-line tool for image manipulation
 - [**jq**](https://stedolan.github.io/jq/): command-line json processor
-- [**kimbia**](https://kimbia.mwco.app/): minimal cross-platform task runner.
 - [**kuba**](https://kuba.mwco.app/): Easily access your secrets without messing with dotenv files
 - [**kubectl**](https://kubernetes.io/docs/tasks/tools/): Kubernetes CLI
-- [**kulala-cli**](https://cli.getkulala.net): Like httpYac, with support for GraphQL, gRPC, and websockets, compatible with JetBrains HTTP client
+- [**kulala-cli**](https://github.com/mistweaverco/kulala-cli): Like httpYac, with support for GraphQL, gRPC, and websockets, compatible with JetBrains HTTP client
 - [**miller**](https://miller.readthedocs.io/en/): Query, shape, and reformat data files in various formats, including CSV, TSV, JSON, JSON Lines, YAML, and DCF
 - [**mise**](https://mise.jdx.dev/): the front-end to your dev env
 - [**oh-my-posh**](https://ohmyposh.dev/): Customisable and low-latency cross platform/shell prompt renderer
@@ -220,21 +220,32 @@ This is the hardware I use for my work:
 - **External screen**: [LG UltraWide Curved QHD Monitor 35WN75CP-B](/resources/uses/lg-uw-curved-qhd-monitor-35wn75cp-b.jpg)
 - **Keyboard**: [ZSA Voyager](/resources/uses/zsa-voyager.mp4)
 - **Touchpad**: [seenda Touchpad](/resources/uses/seenda-touchpad.jpg)
-- **Mouse**: [Logitech G300s](/resources/uses/logitech-g300s.jpg)
+- **Mouse**: [Logitech G300s][logitech-g300s]
 - **Microphone**: [Tonor Q9 USB Condenser Microphone](/resources/uses/tonor-q9-usb-condenser-mic.jpg)
 - **Webcam**: [AnkerWork C310 Webcam](/resources/uses/anker-work-c310-webcam.jpg)
   - **Lighting**: [LitONES 2.7k - 6.5k](/resources/uses/litones.jpg)
 
 ## Various other stuff
 
-This is some other stuff I use non-regularly, but still want to mention:
+This is some other stuff that I use on a daily basis,
+but doesn't fit into any of the above categories:
 
-- **Watch**: [Amazfit Bip 6](https://us.amazfit.com/products/bip-6)
-- **Gaming**: [Ayn Odin 2 Portal Max](https://www.ayntec.com/products/odin2-portal?variant=46016396198080)
-  - [GameNative](https://gamenative.app/)
-  - [GeForce Now](https://www.nvidia.com/en-us/geforce-now/)
-  - [Steam](https://store.steampowered.com/)
+- **Watch**: [Casio G-Shock GBD 200][casio-g-shock-gbd-200]
+  (previously [Amazfit Bip 6][amazfit-bip-6])
+- **Gaming**:
+  - [Ayn Odin 2 Portal Max][ayn-odin-2-portal-max]
+    - [GameNative](https://gamenative.app/)
+    - [GeForce Now](https://www.nvidia.com/en-us/geforce-now/)
+    - [Steam](https://store.steampowered.com/)
+  - [Miyoo Mini Plus][miyoo-mini-plus]
+    - [onion][onion]
 - **Streaming**:
   - Netflix
   - Amazon Prime
-  - Audible
+
+[casio-g-shock-gbd-200]: /resources/uses/casio-gshock-gbd200.jpg
+[amazfit-bip-6]: /resources/uses/amazfit-bip6.webp
+[ayn-odin-2-portal-max]: /resources/uses/ayn-odin2-portal-max.jpg
+[miyoo-mini-plus]: /resources/uses/miyoo-mini-plus.jpg
+[onion]: https://onionui.github.io/
+[logitech-g300s]: /resources/uses/logitech-g300s.jpg
