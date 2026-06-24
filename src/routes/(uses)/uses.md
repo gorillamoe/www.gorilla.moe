@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2026-06-22'
+date: '2026-06-24'
 categories:
   - linux
   - macos
@@ -144,7 +144,7 @@ These are the programming languages I use for my projects, sorted alphabetically
 These are the tools I use for design and prototyping, sorted alphabetically:
 
 - [**draw.io**](https://app.diagrams.net/): Simply the GOAT for diagramming
-- [**Excalidraw**](https://excalidraw-desktop.mwco.app/): Quick sketches and wireframes
+- [**Excalidraw**](https://github.com/mistweaverco/excalidraw-desktop): Quick sketches and wireframes
 - [**Figma**](https://www.figma.com/): For collaborative design work
 
 ### Cloud computing
@@ -206,6 +206,26 @@ This is the software I use on a daily basis for my desktop work:
 - **Video Editing**: [Shotcut](https://shotcut.org/)
 - **Graphics Editing**: [GIMP](https://gimp.org) & [Inkscape](https://inkscape.org/)
 - **Audio Editing**: [Audacity](https://www.audacityteam.org/)
+
+## Android Apps
+
+This is the software I use on a daily basis for on my Android devices:
+
+- **Browser**: [Google Chrome](https://play.google.com/store/apps/details?id=com.android.chrome)
+- **E-Mail Client**: [Gmail](https://play.google.com/store/apps/details?id=com.google.android.gm)
+- **Office Suite**
+  - **Documents**: [Google Docs](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs)
+  - **Scan**: [Genius Scan Enterprise 💰](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan)
+- **Video Editing**: [LumiaFusion 💰](https://play.google.com/store/apps/details?id=com.luma_touch.lumafusion)
+- **Gallery**: [Aves Gallery](http://play.google.com/store/apps/details?id=deckers.thibault.aves)
+- **MFA**: [Microsoft Authenticator](https://play.google.com/store/apps/details?id=com.azure.authenticator)
+- **File Explorer**: [FX File Explorer 💰](https://play.google.com/store/apps/details?id=nextapp.fx)
+- **Text Editor**: [QuickEdit Text Editor Pro 💰](https://play.google.com/store/apps/details?id=com.rhmsoft.edit.pro)
+- **SSH**: [ZestSSH 💰](https://play.google.com/store/apps/details?id=com.affluentlabs.zestssh)
+- **Health**
+  - **Food tracker**: [Nutrilio 💰](https://play.google.com/store/apps/details?id=net.nutrilio)
+  - **Weight tracker**: [Better Weight 💰](https://play.google.com/store/apps/details?id=com.betterweightapp)
+  - **Journal**: [Daylio 💰](https://play.google.com/store/apps/details?id=net.daylio)
 
 ## Workstation + Gear
 
