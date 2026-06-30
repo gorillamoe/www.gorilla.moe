@@ -1,5 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite-plus';
+import { defineConfig, type PluginOption } from 'vite-plus';
+import { svelteSitemap } from 'svelte-sitemap/vite';
 
 export default defineConfig({
   staged: {
@@ -41,5 +42,12 @@ export default defineConfig({
     sortPackageJson: false,
     ignorePatterns: ['pnpm-lock.yaml', '**node_modules/**', '**build/**', '**.svelte-kit/**'],
   },
-  plugins: [sveltekit()],
+  plugins: [
+    sveltekit() as unknown as PluginOption,
+    svelteSitemap({
+      domain: 'https://gorilla.moe',
+      trailingSlashes: false,
+      ignore: ['/404.html', '/500.html', '/google*.html'],
+    }) as unknown as PluginOption,
+  ],
 });
