@@ -28,8 +28,8 @@
 		<header>Just do it!</header>
 		<div class="swapper" bind:this={swapper}>
 			<picture>
-				<source srcset="/minimal-gorilla-dark-512.webp" type="image/webp" />
-				<img src="/minimal-gorilla-dark-512.png" alt="Minimalistic Dark Gorilla Moe Logo" />
+				<source srcset="/avatar-marco-2026-cyberpunk-512x512.webp" type="image/webp" />
+				<img src="/avatar-marco-2026-cyberpunk-512x512.png" alt="Minimalistic Dark Gorilla Moe Logo" />
 			</picture>
 			<picture>
 				<source srcset="/avatar.webp" type="image/webp" />
