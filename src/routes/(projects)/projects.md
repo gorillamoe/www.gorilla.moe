@@ -1,7 +1,7 @@
 ---
 title: Projects
 description: A list of projects I started or I'm involved in.
-date: '2026-06-13'
+date: '2026-07-08'
 categories:
   - linux
   - software
@@ -24,6 +24,58 @@ utilizing it, was a huge milestone for the project.
 
 It makes it easier to build new tools, like the Kulala extension for VSCode,
 and also makes the existing tools faster, more reliable, and easier to maintain.
+
+## WithSecrets
+
+[WithSecrets](https://withsecrets.com)
+(previously branded as kuba; swahili for vault)
+was born out of necessity (like almost all of my projects).
+
+I was tired of sending `.env` files via email or chat to my team members.
+
+Asking them to set up their local environment variables.
+Asking around for the right values.
+Taking care of not committing secrets to version control.
+
+I wanted a uncomplicated solution that would allow me to
+share environment variables with my team members
+in a secure and easy way.
+
+We're already using Google Cloud Secret Manager,
+managed via Terraform, for our production secrets.
+
+So I thought, why not use the same for local development?
+Previously, you had to basically either write your own scripts
+or use paid tools to sync secrets from GCP Secret Manager.
+Or even worse, copy and paste them manually into your `.env` files.
+
+WithSecrets solves this problem by allowing you to
+fetch secrets from GCP Secret Manager
+and pass them to your local applications.
+
+They're directly injected into the environment of your
+local development applications, without the need to
+store them in `.env` files.
+
+You can even convert existing `.env` files into
+WithSecrets configuration files,
+which are save to commit to version control.
+
+## nvpm 📦
+
+nvpm is a Command Line Interface (CLI) for managing tooling for Neovim,
+but it can also be used for other tools.
+
+It's biggest selling point is that
+it has a min-release-age built-in,
+preventing you from installing packages that are too new.
+
+- LSP servers
+- DAP servers
+- Linters
+- Formatters
+- Plugins
+- Themes
 
 ## Excalidraw Desktop
 
@@ -50,57 +102,6 @@ Just share your screen and start collaborating.
 Bananas 🍌 creates a unique 🌟 connection url 🌐 for you to
 share with your friends, family, or colleagues.
 
-## Zana - the niche LSP/DAP/Formatter/Linter manager
-
-I started [Zana](https://getzana.net) when I wanted to have something
-similar to Mason or LSPZero,
-but also wanted to have things work for other editors
-like VSCode, Emacs, etc.
-
-Also I wanted a CLI tool, which Mason doesn't have AFAIK.
-
-Plus, at that time, the Mason registry piled up with pull
-requests and issues, and I was worried about the future of the
-project.
-
-Turns out, I was wrong and Mason is doing great,
-but I still like Zana for its simplicity and ease of use.
-Probably I'm the only user of Zana right now, but
-I'm happy with that.
-
-### Kuba - local DX with secrets made easy and portable
-
-[Kuba](https://kuba.mwco.app) was born out of necessity (like almost all of my projects).
-
-I was tired of sending `.env` files via email or chat to my team members.
-
-Asking them to set up their local environment variables.
-Asking around for the right values.
-Taking care of not committing secrets to version control.
-
-I wanted a uncomplicated solution that would allow me to
-share environment variables with my team members
-in a secure and easy way.
-
-We're already using Google Cloud Secret Manager,
-managed via Terraform, for our production secrets.
-
-So I thought, why not use the same for local development?
-Previously, you had to basically either write your own scripts
-or use paid tools to sync secrets from GCP Secret Manager.
-Or even worse, copy and paste them manually into your `.env` files.
-
-Kuba solves this problem by allowing you to
-fetch secrets from GCP Secret Manager
-and pass them to your local applications.
-
-They're directly injected into the environment of your
-local development applications, without the need to
-store them in `.env` files.
-
-You can even convert existing `.env` files into
-Kuba configuration files.
-
 ## Other Projects
 
 - [White Noise](https://white-noise.mwco.app) - A simple white noise generator for focus and relaxation
@@ -120,8 +121,7 @@ Kuba configuration files.
   A minimal input styling plugin for the lazy 🦥 people for
   your favorite ⚡editor ❤️.
 - Kulala for VSCode - Kulala inside VSCode
-- [Kulala Core](https://github.com/mistweaverco/kulala-core) - The soon-to-be backend for all the kulala tools
+- [Kulala Core](https://github.com/mistweaverco/kulala-core) - The backend for all the kulala tools
 - [VHS Era Theme for terminals](https://github.com/mistweaverco/vhs-era-theme.terminal)
 - [VHS Era Theme for Neovim](https://neovim.theme.vhs-era.com)
 - [OpenDeck Ajazz - OpenDeck Fork](https://opendeck.mwco.app)
-- [Kimbia](https://kimbia.mwco.app) - Multipurpose, X-Platform, Task Runner

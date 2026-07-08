@@ -18,9 +18,9 @@
 </script>
 
 <HeadComponent
-	title='Marco Kellershoff a.k.a. Gorilla Moe'
+	title="Marco 'gorillamoe' Kellershoff"
 	description=
-			"Marco Kellershoff a.k.a. Gorilla Moe is a loud 📢 introvert who can't live without Linux 🐧 and Neovim 🖥️!"
+			"Marco Kellershoff a.k.a. gorillamoe / Gorilla Moe is a loud 📢 introvert who can't live without Linux 🐧 and Neovim 🖥️!"
 />
 
 <div class="container">
@@ -62,31 +62,46 @@
 </div>
 
 <style>
+	:global(html, body) {
+		height: 100%;
+	}
+
+	:global(body) {
+		margin: 0;
+	}
+
 	.container {
 		margin: 0;
 		padding: 0;
 		width: 100%;
-		height: auto;
-		min-height: 100vh;
+		min-height: 100dvh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		text-align: center;
 		position: relative;
 		font-size: 1.5rem;
 		color: #fff;
-		background-color: #1b1b1b;
+		background-color: #241533;
+		box-sizing: border-box;
 	}
 
 	header {
 		font-family: 'Permanent Marker', cursive;
-		font-size: 2.7rem;
+		font-size: clamp(3.25rem, 7vh, 5rem);
+		line-height: 1.05;
+		font-weight: 800;
+		overflow-wrap: anywhere;
 	}
 
 	.inner {
 		text-align: center;
 		width: 85%;
-		margin: auto;
-		min-height: calc(100vh - 4rem);
+		margin: 0 auto;
+		padding: 1.25rem;
 		font-family: monospace;
 		max-width: 530px;
+		box-sizing: border-box;
 	}
 
 	.get-in-touch a {
