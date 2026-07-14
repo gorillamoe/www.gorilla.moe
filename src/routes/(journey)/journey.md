@@ -1,7 +1,8 @@
 ---
 title: Journey
-description: My journey through various jobs, projects, and experiences in the tech world.
-date: '2025-11-15'
+description: |
+  My journey through various jobs, projects, and experiences in the tech world.
+date: '2026-07-14'
 categories:
   - linux
   - software
@@ -13,7 +14,18 @@ categories:
 
 My journey through various jobs, projects, and experiences in the tech world.
 
-## 2024 - Present - Cloud Native Backend Developer at TB International GmbH
+## 2026-04 - Present - Tech Lead at TB International GmbH
+
+Responsible for leading a team of developers and
+overseeing the development of various software projects.
+
+I have more meetings and less time to code,
+but I still try to stay hands-on with the codebase.
+
+I try to shape the architecture and design of our systems,
+and ensure that we follow best practices and maintain high quality.
+
+## 2024 - 2026-03 - Cloud Native Backend Developer at TB International GmbH
 
 Planned, built and deployed an
 image service which enables all services at TB International to have a centralized service for image resolution.
