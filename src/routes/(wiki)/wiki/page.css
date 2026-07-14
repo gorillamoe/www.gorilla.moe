@@ -1,0 +1,38 @@
+.wiki-root-content h1 {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-xxl);
+  color: var(--color-title);
+}
+
+.wiki-root-content {
+  font-family: var(--font-sans);
+}
+
+.wiki-root-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wiki-root-content li {
+  padding-inline-start: 0;
+}
+
+.wiki-root-content time {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  display: block;
+  text-align: right;
+}
+
+.wiki-root-content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.wiki-root-content ul.pages li {
+  border: 1px solid var(--color-border-card);
+  border-radius: var(--border-radius-card);
+  padding-inline-start: 0;
+  padding: var(--padding-card);
+}

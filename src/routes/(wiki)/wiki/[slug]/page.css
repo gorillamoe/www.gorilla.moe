@@ -1,0 +1,80 @@
+.wiki-page h1 {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-xxl);
+  color: var(--color-title);
+}
+
+.wiki-page h1.title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.wiki-page .back-link {
+  font-size: var(--font-size-sm);
+  margin-bottom: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.wiki-page h2,
+.wiki-page h3,
+.wiki-page h4,
+.wiki-page h5,
+.wiki-page h6 {
+  color: var(--color-sub-title);
+}
+
+article.wiki-page {
+  font-family: var(--font-sans);
+}
+
+.wiki-page time {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+}
+
+.wiki-page kbd {
+  background-color: var(--page-bg-color);
+  color: var(--page-color);
+  border-radius: 0.25rem;
+  border: 1px solid var(--color-grey);
+  box-shadow: 0 2px 0 1px var(--color-grey);
+  cursor: default;
+  font-family: var(--font-sans);
+  font-size: 0.75em;
+  line-height: 1;
+  min-width: 0.75rem;
+  display: inline-block;
+  text-align: center;
+  padding: 2px 5px;
+
+  position: relative;
+  top: -1px;
+}
+
+.wiki-page kbd:hover {
+  box-shadow: 0 1px 0 0.5px var(--color-banana-yellow);
+  top: 1px;
+}
+
+.wiki-page a {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--link-color);
+}
+
+.wiki-page a:hover {
+  color: var(--link-hover-color);
+  border-bottom-color: var(--link-hover-color);
+}
+
+.wiki-page :not(pre) > code {
+  padding: 3px 6px;
+  background-color: #272b30;
+  color: #f8f8f2;
+  font-family: var(--font-mono) monospace;
+  font-size: 14px;
+  border-radius: 5px;
+  white-space: nowrap;
+}

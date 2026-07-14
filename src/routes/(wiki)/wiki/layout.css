@@ -1,0 +1,125 @@
+:root {
+	--font-sans: system-ui,
+			-apple-system,
+			BlinkMacSystemFont,
+			'Segoe UI',
+			Roboto,
+			Helvetica,
+			Arial,
+			sans-serif;
+	--font-mono: 'Fira Mono', monospace;
+  --page-bg-color: #111111;
+  --page-color: #e3e8e1;
+  --layout-max-width: 1280px;
+  --layout-bg-color: #161616;
+  --page-accent-color: #ee5396;
+  --font-size-xs: 0.8rem;
+  --font-size-s: 0.9rem;
+  --font-size-m: 1rem;
+  --font-size-l: 1.2rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 2rem;
+  --font-size-3xl: 3rem;
+  --link-back-color: #525252;
+  --link-back-hover-color: #ee5396;
+  --link-color: #ee5396;
+  --link-hover-color: #525252;
+  --link-visited-color: #ee5396;
+  --color-title: #33b1ff;
+  --color-sub-title: #ee5396;
+  --color-list-title: #e3e8e1;
+  --color-list-border: #525252;
+  --color-list-description: #525252;
+  --color-poisonous-green: #69c379;
+  --color-banana-yellow: #d4a347;
+  --color-neovim-blue: #577fd5;
+  --color-orange: #fa8563;
+  --color-elephant-blue: #9794d0;
+  --color-purple: #9794d0;
+  --color-grey: #525252;
+  --color-turquoise-blue: #56b6c2;
+  --color-blue: #577fd5;
+  --color-border-card: #525252;
+  --border-radius-card: 0.5rem;
+  --padding-card: 0.5rem;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--page-color);
+  accent-color: var(--page-accent-color);
+  background-color: var(--page-bg-color);
+}
+
+.wiki {
+  display: block;
+}
+
+.wiki .layout-centered {
+  margin: 0 auto;
+  max-width: var(--layout-max-width);
+}
+
+.wiki main {
+  margin: 1rem 1rem;
+  background-color: var(--layout-bg-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.wiki h2 a,
+.wiki h3 a,
+.wiki h4 a,
+.wiki h5 a,
+.wiki h6 a {
+  text-decoration: none;
+  border-bottom: none;
+  margin-left: 0.5rem;
+  color: var(--link-back-hover-color);
+}
+
+.wiki h1 a:hover > span.fa.fa-arrow-left,
+.wiki h2 a:hover > span.fa.fa-link,
+.wiki h3 a:hover > span.fa.fa-link,
+.wiki h4 a:hover > span.fa.fa-link,
+.wiki h5 a:hover > span.fa.fa-link,
+.wiki h6 a:hover > span.fa.fa-link {
+  color: var(--link-back-hover-color);
+  border-bottom: none;
+}
+
+.wiki a span.fa.fa-arrow-left,
+.wiki a span.fa.fa-link {
+  color: var(--link-back-color);
+  border-bottom: none;
+}
+
+.wiki a span.fa.fa-link {
+  margin-left: 0.5rem;
+}
+
+.wiki h2,
+.wiki h3,
+.wiki h4,
+.wiki h5,
+.wiki h6 {
+  color: var(--color-sub-title);
+}
+
+.wiki a {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--link-color);
+}
+
+.wiki a:hover {
+  color: var(--link-hover-color);
+  border-bottom-color: var(--link-hover-color);
+}
+
+.wiki footer {
+  margin: 1rem 1rem;
+  text-align: right;
+}

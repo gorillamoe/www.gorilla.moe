@@ -27,8 +27,8 @@ importers:
         specifier: 7.3.0
         version: 7.3.0
       '@mistweaverco/mdsvex-shiki':
-        specifier: 1.3.7
-        version: 1.3.7
+        specifier: 1.4.1
+        version: 1.4.1
       '@sveltejs/adapter-auto':
         specifier: 7.0.1
         version: 7.0.1(@sveltejs/kit@2.68.0(@sveltejs/vite-plugin-svelte@7.1.2(svelte@5.56.4)(vite@8.1.1(@types/node@26.0.1)(jiti@2.7.0)))(svelte@5.56.4)(typescript@6.0.3)(vite@8.1.1(@types/node@26.0.1)(jiti@2.7.0)))
@@ -216,8 +216,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@mistweaverco/mdsvex-shiki@1.3.7':
-    resolution: {integrity: sha512-ajWlMymjgCZ607amiZS219A8DH0f4RJVDuECkaIOU1uR7RyRbAAbG+J7KmshOQbEz979AnBSMXC8oxH7mfmaxg==}
+  '@mistweaverco/mdsvex-shiki@1.4.1':
+    resolution: {integrity: sha512-GMGTf+GBPbgfGnv2o0e/X2e3tc4hdhvr8d6PIXl3psKie/zB4lfBzkn/KZd8rUzkvRgRpVFsUXC3VyG+ForB3w==}
 
   '@napi-rs/wasm-runtime@1.1.6':
     resolution: {integrity: sha512-ZLv/JdUfkvOy9eCnnBaGfiO+XimbjebAeO+MRQqD/B+FR1tnRN0tpKSJHRbE8sFfS6aqsXZ67TQjfwfsxULVbg==}
@@ -2015,7 +2015,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@mistweaverco/mdsvex-shiki@1.3.7': {}
+  '@mistweaverco/mdsvex-shiki@1.4.1': {}
 
   '@napi-rs/wasm-runtime@1.1.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
     dependencies:
