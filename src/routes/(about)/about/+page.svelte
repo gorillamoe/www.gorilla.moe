@@ -19,7 +19,7 @@
 			<AboutLinkComponent
 				data={{
 					nobr: true,
-					href: 'https://manjaro.org/',
+					href: 'https://cachyos.org/',
 					color: 'orange',
 					text: 'Linux'
 				}}
