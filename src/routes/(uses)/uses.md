@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2026-06-24'
+date: '2026-07-23'
 categories:
   - linux
   - macos
@@ -21,11 +21,10 @@ This is my pretty heavily customized setup for coding and
 terminal work:
 
 - **Editor**: [Neovim](https://neovim.io/)
-  - **Configuration**: [Neovimfiles](https://github.com/gorillamoe/neovimfiles)
+  - **Configuration**: [Neovim dotfiles](https://github.com/gorillamoe/neovimfiles)
   - **Editor Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.nvim)
 - **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
-  - **Terminal Fonts**: [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) and
-    [VictorMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+  - **Terminal Font**: [Maple Mono](https://font.subf.dev/en/)
   - **Terminal Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.terminal)
 - **Terminal Multiplexer**: [Kitty built-in](https://github.com/gorillamoe/dotfiles/blob/main/configurations/kitty/kitty/keys.conf)
 - **Dotfiles**: [Dotfiles](https://github.com/gorillamoe/dotfiles)
@@ -200,6 +199,8 @@ This is the software I use on a daily basis for my desktop work:
       - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
       - [Copyus](https://extensions.gnome.org/extension/8834/copyous/)
       - [Frequency Boost Switch](https://extensions.gnome.org/extension/4792/frequency-boost-switch/)
+      - [Bluetooth Battery Meter](https://extensions.gnome.org/extension/6670/bluetooth-battery-meter/)
+      - [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
 - **Browser**: [Google Chrome](https://www.google.com/chrome/)
 - **E-Mail Client**: [Gmail Web](https://mail.google.com/) and [Geary](https://wiki.gnome.org/Apps/Geary)
 - **Office Suite**: [Google Docs](https://docs.google.com/) and [LibreOffice](https://www.libreoffice.org/)
