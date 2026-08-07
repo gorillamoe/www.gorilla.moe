@@ -1,7 +1,7 @@
 ---
 title: Now page
 description: What I am doing right now.
-date: '2026-07-08'
+date: '2026-08-07'
 categories:
   - linux
   - software
@@ -9,7 +9,7 @@ categories:
   - dev
 ---
 
-## Terms used in this page
+## Terms Used in This Page
 
 Integrated Development Environment (IDE) - a software application that
 provides comprehensive facilities to computer
@@ -19,7 +19,7 @@ Language Server Protocol (LSP) - a protocol that
 defines how a language server communicates with a client
 (like an editor or IDE).
 
-Debug Adapter Protocol (DAP) - a protocol that
+Debug Adapter Protocol (`DAP`) - a protocol that
 defines how a debugger communicates with a client
 (like an editor or IDE).
 
@@ -27,73 +27,73 @@ Amazon Web Services (AWS) - a subsidiary of
 Amazon providing on-demand cloud computing platforms and
 APIs to individuals, companies, and governments.
 
-Google Cloud Platform (GCP), a suite of cloud computing services
+Google Cloud Platform (`GCP`), a suite of cloud computing services
 competing with AWS, Microsoft Azure, and others.
 
 Video Home System (VHS) - a standard for consumer-level analog video recording
 mostly used from the late 1970s to the early 2000s.
 
-Visual Studio (e)Xtensions (VSX) - a marketplace for
+Visual Studio `(e)Xtensions` (`VSX`) - a marketplace for
 extensions for Visual Studio Code and other editors.
 
 ---
 
 Here is a list of things I am currently working on or learning.
 
-## Kulala Desktop
+## `Kulala` Desktop
 
 Currently [cooking][kulala-desktop-git].
 
-## Kulala for (Visual Studio) Code
+## `Kulala` For (Visual Studio) Code
 
 Already available:
 
 - [Visual Studio Marketplace][kulala.vscode-marketplace]
-- [Open VSX Registry][kulala.open-vsx]
+- [`Open VSX Registry`][kulala.open-vsx]
 
-## Kulala for Neovim
+## `Kulala` For Neovim
 
-The recent big release of the 6x branch (Kulala.nvim meets Kulala-Core)
+The recent big release of the 6x branch (`kulala.nvim` meets `kulala-core`)
 was a huge milestone for the project.
 
-## Kulala Core
+## `kulala-core`
 
-The kulala-core ~will become~ is the backend for all
-the kulala tools.
+The `kulala-core` ~will become~ is the backend for all
+the `kulala` tools.
 
-It parses `.http` files and exectutes requests,
+It parses `.http` files and executes requests,
 including scripts, without any external requirements.
 
-This will make kulala tools faster, more reliable,
+This will make `kulala` tools faster, more reliable,
 and easier to use.
 
 It makes it easier to build new tools,
-like a kulala extension for VSCode.
+like a `kulala` extension for Visual Studio Code.
 
-## WithSecrets
+## `WithSecrets`
 
 Securely and easily access your environment variables.
 
 No more sending `.env` files via email or chat to your team members.
 
-Kuba helps you to get rid of `.env` files.
-Pass env directly from GCP Secret Manager,
+`WithSecrets` helps you to get rid of `.env` files.
+Pass env directly from `GCP` Secret Manager,
 AWS Secrets Manager, Azure Key Vault,
-and OpenBao to your application.
+and `OpenBao` to your application.
 
 - [Website](https://withsecrets.com)
 
-## nvpm 📦
+## `nvpm` 📦
 
-nvpm is a Command Line Interface (CLI) for managing tooling for Neovim,
+`nvpm` is a Command Line Interface (CLI) for managing tooling for Neovim,
 but it can also be used for other tools.
 
 It's biggest selling point is that
-it has a min-release-age built-in,
+it has a `min-release-age` built-in,
 preventing you from installing packages that are too new.
 
 - LSP servers
-- DAP servers
+- `DAP` servers
 - Linters
 - Formatters
 - Plugins
