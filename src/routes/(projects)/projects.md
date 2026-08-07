@@ -77,6 +77,21 @@ preventing you from installing packages that are too new.
 - Plugins
 - Themes
 
+## `Jujutsu.nvim` 🥷🏾
+
+[`Jujutsu.nvim`](https://github.com/mistweaverco/jujutsu.nvim),
+a [`Magit`](https://magit.vc/)-style `Jujutsu` (`jj`) interface for Neovim.
+
+It also features deep integration with all major forges:
+- `GitHub`
+- `GitLab`
+- `Bitbucket`
+- `Forgejo`
+- `Codeberg`
+
+See some [Screenshots](https://github.com/mistweaverco/jujutsu.nvim/wiki/Screenshots)
+for a preview of the interface.
+
 ## `Excalidraw` Desktop
 
 [`Excalidraw` Desktop](https://github.com/mistweaverco/excalidraw-desktop)
