@@ -40,16 +40,12 @@
     "rehype-slug-custom-id": "2.0.0",
     "svelte": "5.56.4",
     "svelte-check": "4.7.1",
-    "svelte-language-server": "0.18.3",
     "svelte-sitemap": "4.0.3",
     "typescript": "6.0.3",
     "unified": "11.0.5",
     "vite": "8.1.1",
     "vite-plus": "0.2.1",
     "vitest": "4.1.9"
-  },
-  "peerDependencies": {
-    "typescript": "6.0.2"
   },
   "trustedDependencies": [
     "esbuild"
