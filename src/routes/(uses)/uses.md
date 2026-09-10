@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2026-07-23'
+date: '2026-09-11'
 categories:
   - linux
   - macos
@@ -42,6 +42,7 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**cidr**](https://github.com/bschaatsbergen/cidr): simplifies IPv4/IPv6 CIDR network prefix management with counting, overlap checking, explanation, and subdivision
 - [**cliamp**](https://www.cliamp.stream/): a retro music player inspired by winamp, built for the terminal
 - [**csvq**](https://mithrandie.github.io/csvq/): command-line tool for querying csv files using sql-like syntax
+- [**dbx**](https://dbxio.com/en): DBeaver, but better
 - [**direnv**](http://direnv.net/): unclutter your .profile
 - [**docker**](https://www.docker.com/): Containerization platform
 - [**dust**](https://github.com/bootandy/dust): a more intuitive version of du in rust - quickly analyze disk usage and find space hogs with ease
@@ -75,6 +76,7 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**pnpm**](https://pnpm.io/): fast and disk space efficient package manager for javascript
 - [**podman**](https://podman.io/): Containerization platform
 - [**prettier**](https://prettier.io/): code formatter
+- [**remnix**](https://remnix.com/): Think of it as Atuins nerdy little sister, but BYO storage and hackable
 - [**ripgrep**](https://github.com/burntsushi/ripgrep): fast search tool
 - [**shellcheck**](https://github.com/koalaman/shellcheck): shellcheck, a static analysis tool for shell scripts
 - [**sshuttle**](https://github.com/sshuttle/sshuttle): transparent proxy server that works as a poor man's vpn
@@ -202,7 +204,7 @@ This is the software I use on a daily basis for my desktop work:
       - [Bluetooth Battery Meter](https://extensions.gnome.org/extension/6670/bluetooth-battery-meter/)
       - [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
 - **Browser**: [Google Chrome](https://www.google.com/chrome/)
-- **E-Mail Client**: [Gmail Web](https://mail.google.com/) and [Geary](https://wiki.gnome.org/Apps/Geary)
+- **E-Mail Client**: [Gmail Web](https://mail.google.com/) and [Vireo](https://vireo.hyprlab.co/)
 - **Office Suite**: [Google Docs](https://docs.google.com/) and [LibreOffice](https://www.libreoffice.org/)
 - **Video Editing**: [Shotcut](https://shotcut.org/)
 - **Graphics Editing**: [GIMP](https://gimp.org) & [Inkscape](https://inkscape.org/)

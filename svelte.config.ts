@@ -29,7 +29,7 @@ const config: Config = {
     mdsvex({
       highlight: {
         highlighter: await getMdsvexShikiHighlighter({
-          displayLanguage: true,
+          displayLang: true,
           displayPath: true,
         }),
       },
