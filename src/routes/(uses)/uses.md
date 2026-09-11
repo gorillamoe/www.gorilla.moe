@@ -66,6 +66,7 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**kulala-cli**](https://github.com/mistweaverco/kulala-cli): Like httpYac, with support for GraphQL, gRPC, and websockets, compatible with JetBrains HTTP client
 - [**miller**](https://miller.readthedocs.io/en/): Query, shape, and reformat data files in various formats, including CSV, TSV, JSON, JSON Lines, YAML, and DCF
 - [**mise**](https://mise.jdx.dev/): the front-end to your dev env
+- [**nvpm**](https://nvpm.dev/): Install and update LSP/DAP servers, DAP servers, linters, formatters and more
 - [**oh-my-posh**](https://ohmyposh.dev/): Customisable and low-latency cross platform/shell prompt renderer
 - [**openvpn**](https://openvpn.net/): vpn solution that just works
 - [**oryx**](https://github.com/pythops/oryx): tui for sniffing network traffic using ebpf
@@ -76,7 +77,7 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**pnpm**](https://pnpm.io/): fast and disk space efficient package manager for javascript
 - [**podman**](https://podman.io/): Containerization platform
 - [**prettier**](https://prettier.io/): code formatter
-- [**remnix**](https://remnix.com/): Think of it as Atuins nerdy little sister, but BYO storage and hackable
+- [**remnix**](https://remnix.app/): Think of it as Atuins nerdy little sister, but BYO storage and hackable
 - [**ripgrep**](https://github.com/burntsushi/ripgrep): fast search tool
 - [**shellcheck**](https://github.com/koalaman/shellcheck): shellcheck, a static analysis tool for shell scripts
 - [**sshuttle**](https://github.com/sshuttle/sshuttle): transparent proxy server that works as a poor man's vpn
@@ -94,7 +95,6 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**witr**](https://github.com/pranshuparmar/witr): Why is this running?
 - [**yazi**](https://yazi-rs.github.io/): blazing fast terminal file manager written in rust, based on async i/o.
 - [**yq**](https://github.com/mikefarah/yq): yq is a portable command-line yaml, json, xml, csv, toml, hcl and properties processor
-- [**zana**](https://getzana.net/): Install and update LSP/DAP servers, DAP servers, linters, and formatters
 - [**zns**](https://github.com/znscli/zns): cli tool for querying dns records with readable, colored output
 - [**zoxide**](https://github.com/ajeetdsouza/zoxide): smarter cd command
 
