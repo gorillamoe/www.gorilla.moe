@@ -61,7 +61,6 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**hyperfine**](https://github.com/sharkdp/hyperfine): command-line benchmarking tool
 - [**imagick**](https://imagemagick.org/): Command-line tool for image manipulation
 - [**jq**](https://stedolan.github.io/jq/): command-line json processor
-- [**kuba**](https://kuba.mwco.app/): Easily access your secrets without messing with dotenv files
 - [**kubectl**](https://kubernetes.io/docs/tasks/tools/): Kubernetes CLI
 - [**kulala-cli**](https://github.com/mistweaverco/kulala-cli): Like httpYac, with support for GraphQL, gRPC, and websockets, compatible with JetBrains HTTP client
 - [**miller**](https://miller.readthedocs.io/en/): Query, shape, and reformat data files in various formats, including CSV, TSV, JSON, JSON Lines, YAML, and DCF
@@ -92,6 +91,7 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**vite+**](https://viteplus.dev/): Manage your runtime, package manager, and frontend stack with one tool
 - [**whosthere**](https://github.com/ramonvermeulen/whosthere): Local Area Network discovery tool with an interactive TUI
 - [**wireguard**](https://www.wireguard.com/): modern vpn solution, but more complex to set up
+- [**withsecrets**](https://withsecrets.com/): Easily access your secrets without messing with dotenv files
 - [**witr**](https://github.com/pranshuparmar/witr): Why is this running?
 - [**yazi**](https://yazi-rs.github.io/): blazing fast terminal file manager written in rust, based on async i/o.
 - [**yq**](https://github.com/mikefarah/yq): yq is a portable command-line yaml, json, xml, csv, toml, hcl and properties processor
