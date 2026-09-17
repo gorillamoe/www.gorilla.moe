@@ -83,6 +83,7 @@ preventing you from installing packages that are too new.
 a [`Magit`](https://magit.vc/)-style `Jujutsu` (`jj`) interface for Neovim.
 
 It also features deep integration with all major forges:
+
 - `GitHub`
 - `GitLab`
 - `Bitbucket`

@@ -1,13 +1,6 @@
 :root {
-	--font-sans: system-ui,
-			-apple-system,
-			BlinkMacSystemFont,
-			'Segoe UI',
-			Roboto,
-			Helvetica,
-			Arial,
-			sans-serif;
-	--font-mono: 'Fira Mono', monospace;
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'Fira Mono', monospace;
   --page-bg-color: #111111;
   --page-color: #e3e8e1;
   --layout-max-width: 1280px;

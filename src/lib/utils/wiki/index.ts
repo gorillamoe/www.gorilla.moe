@@ -1,12 +1,12 @@
 /**
-  * @typedef {Object} PostMetadata
-  * @property {string} title - The title of the post
-  * @property {string} excerpt - The excerpt of the post - used in the preview card
-  * @property {string} description - The description of the post - used in the meta description tag
-  * @property {string} created - The creation date of the post in the format YYYY-MM-DD
-  * @property {string} [updated] - The last updated date of the post in the format YYYY-MM-DD (optional)
-  * @property {string[]} tags - The tags of the post
-  */
+ * @typedef {Object} PostMetadata
+ * @property {string} title - The title of the post
+ * @property {string} excerpt - The excerpt of the post - used in the preview card
+ * @property {string} description - The description of the post - used in the meta description tag
+ * @property {string} created - The creation date of the post in the format YYYY-MM-DD
+ * @property {string} [updated] - The last updated date of the post in the format YYYY-MM-DD (optional)
+ * @property {string[]} tags - The tags of the post
+ */
 export interface PostMetadata {
   title: string;
   excerpt: string;
