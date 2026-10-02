@@ -22,5 +22,15 @@ minimumReleaseAgeExclude:
   - vitest@4.1.7
   - vite@8.0.16 || 8.1.1
   - '@mistweaverco/mdsvex-shiki@1.4.1'
+  - '@dont-be-evil-company/mdsvex-shiki@1.5.0'
 overrides:
   'cookie@<0.7.0': '0.7.0'
+  vite@*: 'catalog:'
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@1.0.0
+  vite-plus: 1.0.0
+peerDependencyRules:
+  allowAny:
+    - vite
+  allowedVersions:
+    vite: '*'

@@ -23,7 +23,7 @@
     "@fontsource/nanum-pen-script": "5.2.7",
     "@fontsource/permanent-marker": "5.2.7",
     "@fortawesome/fontawesome-free": "7.3.0",
-    "@mistweaverco/mdsvex-shiki": "1.4.1",
+    "@dont-be-evil-company/mdsvex-shiki": "1.5.0",
     "@sveltejs/adapter-auto": "7.0.1",
     "@sveltejs/adapter-static": "3.0.10",
     "@sveltejs/kit": "2.68.0",
@@ -43,12 +43,11 @@
     "svelte-sitemap": "4.0.3",
     "typescript": "6.0.3",
     "unified": "11.0.5",
-    "vite": "8.1.1",
-    "vite-plus": "0.2.1",
-    "vitest": "4.1.9"
+    "vite": "catalog:",
+    "vite-plus": "catalog:"
   },
   "trustedDependencies": [
     "esbuild"
   ],
-  "packageManager": "pnpm@11.9.0"
+  "packageManager": "pnpm@12.8.1"
 }

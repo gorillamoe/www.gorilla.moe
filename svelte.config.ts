@@ -3,7 +3,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
 import rehypeSlug from 'rehype-slug-custom-id';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
-import { getMdsvexShikiHighlighter } from '@mistweaverco/mdsvex-shiki';
+import { getMdsvexShikiHighlighter } from '@dont-be-evil-company/mdsvex-shiki';
 import type { Config } from '@sveltejs/kit';
 import type { Plugin, Settings } from 'unified';
 

@@ -86,7 +86,7 @@ if [ -z "$GCP_BEARER_TOKEN" ]; then
   echo "Failed to get GCP bearer token"
   exit 1
 else
-curl -H "Authorization: Bearer $GCP_BEARER_TOKEN" \\
+curl -H "Authorization: Bearer $GCP_BEARER_TOKEN" \
     https://my-cloud-run-function-eu-west3.a.run.app/
 fi
 ```

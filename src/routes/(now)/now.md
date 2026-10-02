@@ -73,7 +73,7 @@ was a huge milestone for the project.
 
 ## Kulala-Core
 
-The kulala-core ~will become~ is the backend for all
+The kulala-core ~~will become~~ is the backend for all
 the kulala tools.
 
 It parses `.http` files and executes requests,
