@@ -2,6 +2,7 @@
 title: Make Apple Developer Certificates and Provisioning Profiles Work on Linux
 description: How to make Apple Developer Certificates and Provisioning Profiles work on Linux.
 created: '2025-03-10 01:01:00'
+updated: '2026-10-02'
 categories:
   - devops
   - dev
@@ -33,9 +34,9 @@ openssl req -nodes -newkey rsa:2048 -keyout macos.key -out CertificateSigningReq
 Country Name (2 letter code) [AU]:DE
 State or Province Name (full name) [Some-State]:Sankt Augustin
 Locality Name (eg, city) []:
-Organization Name (eg, company) [Internet Widgits Pty Ltd]:mistweaverco
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:The Don't Be Evil Company
 Organizational Unit Name (eg, section) []:IT
-Common Name (e.g. server FQDN or YOUR name) []:mistweaverco.com
+Common Name (e.g. server FQDN or YOUR name) []:the-dont-be-evil-company.com
 Email Address []:
 ```
 

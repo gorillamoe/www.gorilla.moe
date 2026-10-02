@@ -1,7 +1,7 @@
 ---
 title: Projects
 description: A list of projects I started or I'm involved in.
-date: '2026-08-07'
+date: '2026-10-02'
 categories:
   - linux
   - software
@@ -79,7 +79,7 @@ preventing you from installing packages that are too new.
 
 ## `Jujutsu.nvim` 🥷🏾
 
-[`Jujutsu.nvim`](https://github.com/mistweaverco/jujutsu.nvim),
+[`Jujutsu.nvim`](https://github.com/dont-be-evil-company/jujutsu.nvim),
 a [`Magit`](https://magit.vc/)-style `Jujutsu` (`jj`) interface for Neovim.
 
 It also features deep integration with all major forges:
@@ -90,12 +90,12 @@ It also features deep integration with all major forges:
 - `Forgejo`
 - `Codeberg`
 
-See some [Screenshots](https://github.com/mistweaverco/jujutsu.nvim/wiki/Screenshots)
+See some [Screenshots](https://github.com/dont-be-evil-company/jujutsu.nvim/wiki/Screenshots)
 for a preview of the interface.
 
 ## `Excalidraw` Desktop
 
-[`Excalidraw` Desktop](https://github.com/mistweaverco/excalidraw-desktop)
+[`Excalidraw` Desktop](https://github.com/dont-be-evil-company/excalidraw-desktop)
 Unofficial, offline-first desktop client for `Excalidraw` on Windows,
 macOS, and Linux.
 It's a complete rewrite and tries to be as close to the web version as possible,
@@ -125,17 +125,16 @@ share with your friends, family, or colleagues.
 - [`Snap.nvim`](https://snap.nvim.forthelazy.dev) - A Neovim plugin to generate screenshots 📷
   that match your color scheme 🎨. Most other screenshot plugins generate images with
   hardcoded colors that don't match your theme.
-- [`Kikao.nvim`](https://github.com/mistweaverco/kikao.nvim) -
+- [`Kikao.nvim`](https://github.com/dont-be-evil-company/kikao.nvim) -
   `VSCode`-like session management for Neovim.
   Also exposes an API for other plugins to use and persist data across sessions.
-- [`Bafa.nvim`](https://github.com/mistweaverco/bafa.nvim) -
+- [`Bafa.nvim`](https://github.com/dont-be-evil-company/bafa.nvim) -
   A minimal 🤏🏾 BufExplorer alternative for lazy 🦥 people for
   your favorite ⚡editor ❤️.
-- [`Juu.nvim`](https://github.com/mistweaverco/juu.nvim) -
+- [`Juu.nvim`](https://github.com/dont-be-evil-company/juu.nvim) -
   A minimal input styling plugin for the lazy 🦥 people for
   your favorite ⚡editor ❤️.
 - Kulala for `VSCode` - Kulala inside `VSCode`
-- [`kulala-core`](https://github.com/mistweaverco/kulala-core) - The backend for all the `kulala` tools
-- [VHS Era Theme for terminals](https://github.com/mistweaverco/vhs-era-theme.terminal)
+- [VHS Era Theme for terminals](https://github.com/dont-be-evil-company/vhs-era-theme.terminal)
 - [VHS Era Theme for Neovim](https://neovim.theme.vhs-era.com)
 - [`OpenDeck Ajazz` - `OpenDeck` Fork](https://opendeck.mwco.app)

@@ -19,7 +19,7 @@
 			imgalt: 'tmux-sexy',
 			title: 'tmux-sexy',
 			text: 'A tmux theme that is sexy 💋 and minimal.',
-			githubSlug: 'mistweaverco/tmux-sexy'
+			githubSlug: 'dont-be-evil-company/tmux-sexy'
 		}}
 	/>
 
@@ -29,7 +29,7 @@
 			imgalt: 'GithubUtils.nvim',
 			title: 'GithubUtils.nvim',
 			text: '🐙 simple utils for working with Github inside Neovim. Written in Lua.',
-			githubSlug: 'mistweaverco/githubutils.nvim'
+			githubSlug: 'dont-be-evil-company/githubutils.nvim'
 		}}
 	/>
 
@@ -59,7 +59,7 @@
 			imgalt: 'Super Evil New Tab Redux',
 			title: 'Super Evil New Tab Redux',
 			text: 'Customize your new tab page with HTML, JavaScript and CSS.',
-			githubSlug: 'mistweaverco/super-evil-new-tab-redux'
+			githubSlug: 'dont-be-evil-company/super-evil-new-tab-redux'
 		}}
 	/>
 
@@ -79,7 +79,7 @@
 			imgalt: 'Cheza.js',
 			title: 'Cheza.js',
 			text: 'Customizable 📦, extensible ⚡ and small HTML5 Videoplayer 📼',
-			githubSlug: 'mistweaverco/cheza.js'
+			githubSlug: 'dont-be-evil-company/cheza.js'
 		}}
 	/>
 
@@ -89,7 +89,7 @@
 			imgalt: 'AWS CloudFront Invalidation TUI',
 			title: 'AWS CloudFront Invalidation TUI',
 			text: 'TUI 🖥️ for managing Cloudfront ☁️ Invalidations ⚡. Written in Go.',
-			githubSlug: 'mistweaverco/aws-cf-invalidate'
+			githubSlug: 'dont-be-evil-company/aws-cf-invalidate'
 		}}
 	/>
 

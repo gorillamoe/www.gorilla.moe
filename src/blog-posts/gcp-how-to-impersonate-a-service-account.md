@@ -2,6 +2,7 @@
 title: How to impersonate a Google cloud service account from another user account
 description: A guide on how to impersonate a Google Cloud Service Account from another user account using gcloud CLI.
 created: '2025-12-11 13:11:00'
+updated: '2026-10-02'
 categories:
   - devops
   - dev
@@ -51,7 +52,7 @@ has the `roles/iam.serviceAccountTokenCreator` role on the service account.
 
 ```bash path="scripts/grant-token-creator.sh"
 gcloud projects add-iam-policy-binding big-corp \
-  --member=user:gorilla.moe@mistweaverco.com \
+  --member=user:gorilla.moe@the-dont-be-evil-company.com \
   --role='roles/iam.serviceAccountTokenCreator'
 ```
 
@@ -62,7 +63,7 @@ access to invoke the cloud run.
 gcloud iam service-accounts \
   add-iam-policy-binding \
   joe-runner@big-corp.iam.gserviceaccount.com \
-  --member=user:gorilla.moe@mistweaverco.com \
+  --member=user:gorilla.moe@the-dont-be-evil-company.com \
   --role='roles/iam.serviceAccountTokenCreator' \
   --project=big-corp
 ```

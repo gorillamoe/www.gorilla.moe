@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2026-09-11'
+date: '2026-10-02'
 categories:
   - linux
   - macos
@@ -22,10 +22,10 @@ terminal work:
 
 - **Editor**: [Neovim](https://neovim.io/)
   - **Configuration**: [Neovim dotfiles](https://github.com/gorillamoe/neovimfiles)
-  - **Editor Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.nvim)
+  - **Editor Theme**: [VHS Era](https://github.com/dont-be-evil-company/vhs-era-theme.nvim)
 - **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
   - **Terminal Font**: [Maple Mono](https://font.subf.dev/en/)
-  - **Terminal Theme**: [VHS Era](https://github.com/mistweaverco/vhs-era-theme.terminal)
+  - **Terminal Theme**: [VHS Era](https://github.com/dont-be-evil-company/vhs-era-theme.terminal)
 - **Terminal Multiplexer**: [Kitty built-in](https://github.com/gorillamoe/dotfiles/blob/main/configurations/kitty/kitty/keys.conf)
 - **Dotfiles**: [Dotfiles](https://github.com/gorillamoe/dotfiles)
 
@@ -62,7 +62,7 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**imagick**](https://imagemagick.org/): Command-line tool for image manipulation
 - [**jq**](https://stedolan.github.io/jq/): command-line json processor
 - [**kubectl**](https://kubernetes.io/docs/tasks/tools/): Kubernetes CLI
-- [**kulala-cli**](https://github.com/mistweaverco/kulala-cli): Like httpYac, with support for GraphQL, gRPC, and websockets, compatible with JetBrains HTTP client
+- [**kulala-cli**](https://github.com/dont-be-evil-company/kulala-cli): Like httpYac, with support for GraphQL, gRPC, and websockets, compatible with JetBrains HTTP client
 - [**miller**](https://miller.readthedocs.io/en/): Query, shape, and reformat data files in various formats, including CSV, TSV, JSON, JSON Lines, YAML, and DCF
 - [**mise**](https://mise.jdx.dev/): the front-end to your dev env
 - [**nvpm**](https://nvpm.dev/): Install and update LSP/DAP servers, DAP servers, linters, formatters and more
@@ -145,7 +145,7 @@ These are the programming languages I use for my projects, sorted alphabetically
 These are the tools I use for design and prototyping, sorted alphabetically:
 
 - [**draw.io**](https://app.diagrams.net/): Simply the GOAT for diagramming
-- [**Excalidraw**](https://github.com/mistweaverco/excalidraw-desktop): Quick sketches and wireframes
+- [**Excalidraw**](https://github.com/dont-be-evil-company/excalidraw-desktop): Quick sketches and wireframes
 - [**Figma**](https://www.figma.com/): For collaborative design work
 
 ### Cloud computing
