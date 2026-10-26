@@ -199,16 +199,15 @@ This is the software I use on a daily basis for my desktop work:
     - **Extensions**: [](https://extensions.gnome.org/extension/8834/copyous/)
       - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
       - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
-      - [Copyus](https://extensions.gnome.org/extension/8834/copyous/)
-      - [Frequency Boost Switch](https://extensions.gnome.org/extension/4792/frequency-boost-switch/)
-      - [Bluetooth Battery Meter](https://extensions.gnome.org/extension/6670/bluetooth-battery-meter/)
-      - [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
+      - [Tiling Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
 - **Browser**: [Google Chrome](https://www.google.com/chrome/)
 - **E-Mail Client**: [Gmail Web](https://mail.google.com/) and [Vireo](https://vireo.hyprlab.co/)
 - **Office Suite**: [Google Docs](https://docs.google.com/) and [LibreOffice](https://www.libreoffice.org/)
 - **Video Editing**: [Shotcut](https://shotcut.org/)
 - **Graphics Editing**: [GIMP](https://gimp.org) & [Inkscape](https://inkscape.org/)
 - **Audio Editing**: [Audacity](https://www.audacityteam.org/)
+- Focus
+  - [Blanket](https://apps.gnome.org/Blanket/)
 
 ## Android Apps
 
