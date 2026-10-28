@@ -1,13 +1,14 @@
 ---
 title: Uses
 description: A list of services, hard- and software I use on a daily basis
-date: '2026-10-02'
+date: '2026-10-28'
 categories:
   - linux
   - macos
   - software
   - webdev
   - dev
+  - ai
 published: true
 ---
 
@@ -252,7 +253,7 @@ This is the hardware I use for my work:
 This is some other stuff that I use on a daily basis,
 but doesn't fit into any of the above categories:
 
-- **Watch**: [Casio G-Shock GBD 200][casio-g-shock-gbd-200]
+- **Watch**: [Amazfit Active Max][amazfit-active-max]
   (previously [Amazfit Bip 6][amazfit-bip-6])
 - **Gaming**:
   - [Ayn Odin 2 Portal Max][ayn-odin-2-portal-max]
@@ -265,7 +266,7 @@ but doesn't fit into any of the above categories:
   - Netflix
   - Amazon Prime
 
-[casio-g-shock-gbd-200]: /resources/uses/casio-gshock-gbd200.jpg
+[amazfit-active-max]: https://en.amazfit.com/products/active-max
 [amazfit-bip-6]: /resources/uses/amazfit-bip6.webp
 [ayn-odin-2-portal-max]: /resources/uses/ayn-odin2-portal-max.jpg
 [miyoo-mini-plus]: /resources/uses/miyoo-mini-plus.jpg
@@ -294,4 +295,12 @@ My default is still just _googling_ stuff (old habits die hard), glancing over S
 
 ### Large changeset per commit equals AI usage?
 
-I use `jj squash` and `jj rebase` quite extensively. Why is this part of the AI usage? Because, people that are unfamiliar with _commit hygiene_ and _squashing_ tend to jump to assumptions/conclusions that something must be AI-generated, if they see a lot of changes in one commit. If you look back on projects by me dating back more than a decade ago (way before the AI era started), you'll find commits of 10k+ LOCs. I try to squash, so that commits serve as fully functional increments - my local `oplog` is a different story though).
+I use `jj squash` and `jj rebase` quite extensively.
+
+Why is this part of the AI usage?
+
+Because, people that are unfamiliar with _commit hygiene_ and _squashing_ tend to jump to assumptions/conclusions that something must be AI-generated, if they see a lot of changes in one commit.
+
+If you look back on projects by me dating back more than a decade ago (way before the AI era started), you'll find commits of 10k+ LOCs.
+
+I try to squash, so that commits serve as fully functional increments - my local `oplog` is a different story though).
