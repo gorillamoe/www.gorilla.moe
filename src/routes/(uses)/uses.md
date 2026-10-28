@@ -266,13 +266,6 @@ but doesn't fit into any of the above categories:
   - Netflix
   - Amazon Prime
 
-[amazfit-active-max]: https://en.amazfit.com/products/active-max
-[amazfit-bip-6]: /resources/uses/amazfit-bip6.webp
-[ayn-odin-2-portal-max]: /resources/uses/ayn-odin2-portal-max.jpg
-[miyoo-mini-plus]: /resources/uses/miyoo-mini-plus.jpg
-[onion]: https://onionui.github.io/
-[logitech-g300s]: /resources/uses/logitech-g300s.jpg
-
 ## AI
 
 I have [copilot.vim](https://github.com/github/copilot.vim) enabled most of the time.
@@ -304,3 +297,10 @@ Because, people that are unfamiliar with _commit hygiene_ and _squashing_ tend t
 If you look back on projects by me dating back more than a decade ago (way before the AI era started), you'll find commits of 10k+ LOCs.
 
 I try to squash, so that commits serve as fully functional increments - my local `oplog` is a different story though).
+
+[amazfit-active-max]: https://us.amazfit.com/products/active-max
+[amazfit-bip-6]: /resources/uses/amazfit-bip6.webp
+[ayn-odin-2-portal-max]: /resources/uses/ayn-odin2-portal-max.jpg
+[miyoo-mini-plus]: /resources/uses/miyoo-mini-plus.jpg
+[onion]: https://onionui.github.io/
+[logitech-g300s]: /resources/uses/logitech-g300s.jpg
