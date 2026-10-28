@@ -271,3 +271,27 @@ but doesn't fit into any of the above categories:
 [miyoo-mini-plus]: /resources/uses/miyoo-mini-plus.jpg
 [onion]: https://onionui.github.io/
 [logitech-g300s]: /resources/uses/logitech-g300s.jpg
+
+## AI
+
+I have [copilot.vim](https://github.com/github/copilot.vim) enabled most of the time.
+
+I accept inline suggestions (_ghost text_) of copilot occasionally (I can't really tell you how often, because I don't keep track and even though I accept a suggestion sometimes, I might have to modify it).
+
+I like to use ChatGPT for image generation like logos and open graph images.
+
+
+### On me using ChatGPT like a caveman
+
+I also use ChatGPT in Google Chrome to type questions about certain parts of my code into the Web-UI and use the output in the Web-UI of ChatGPT to modify the code via Neovim (given that the output seems reasonable).
+
+As an example: If I suspect a race in some part, I ask Chatty exactly this and if could tell me why there's a race.
+
+
+### Old-school research
+
+My default is still just _googling_ stuff (old habits die hard), glancing over Stack Overflow posts, forums and Reddit (feels like Reddit is the new Stack Overflow?!), but I also switch to ChatGPT when I don't find anything useful.
+
+### Large changeset per commit equals AI usage?
+
+I use `jj squash` and `jj rebase` quite extensively. Why is this part of the AI usage? Because, people that are unfamiliar with _commit hygiene_ and _squashing_ tend to jump to assumptions/conclusions that something must be AI-generated, if they see a lot of changes in one commit. If you look back on projects by me dating back more than a decade ago (way before the AI era started), you'll find commits of 10k+ LOCs. I try to squash, so that commits serve as fully functional increments - my local `oplog` is a different story though).
