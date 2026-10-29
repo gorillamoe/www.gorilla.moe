@@ -76,7 +76,20 @@ These are the ones I use nearly every day, sorted alphabetically:
 - [**pgcli**](https://github.com/dbcli/pgcli): cli for postgresql with autocompletion and syntax highlighting
 - [**pnpm**](https://pnpm.io/): fast and disk space efficient package manager for javascript
 - [**podman**](https://podman.io/): Containerization platform
-- [**prettier**](https://prettier.io/): code formatter
+- [**ducktools**](https://ducktools.dev/): No need to remember all your dev tools...
+  - ducktools supports these languages and their most used frameworks/tooling by default:
+    - [**node.js**](https://nodejs.org/)
+    - [**python**](https://www.python.org/)
+    - [**go**](https://go.dev/)
+    - [**php**](https://www.php.net/)
+    - [**dotnet**](https://dotnet.microsoft.com/)
+    - [**terraform**](https://www.terraform.io/)
+    - [**opentofu**](https://opentofu.io/)
+    - [**kulala (`.http` files)**](https://kulala.app/)
+  - What is it actually used for?
+    - Was it `vp fmt` or `prettier -w` or `go fmt`? Just type `duckfmt`!
+    - What was `lint` in this framework again? Just type `ducklint`!
+    - update your packages becomes `duckpkg up`
 - [**remnix**](https://remnix.app/): Think of it as Atuins nerdy little sister, but BYO storage and hackable
 - [**ripgrep**](https://github.com/burntsushi/ripgrep): fast search tool
 - [**shellcheck**](https://github.com/koalaman/shellcheck): shellcheck, a static analysis tool for shell scripts
@@ -205,7 +218,10 @@ This is the software I use on a daily basis for my desktop work:
 - **E-Mail Client**: [Gmail Web](https://mail.google.com/) and [Vireo](https://vireo.hyprlab.co/)
 - **Office Suite**: [Google Docs](https://docs.google.com/) and [LibreOffice](https://www.libreoffice.org/)
 - **Video Editing**: [Shotcut](https://shotcut.org/)
-- **Graphics Editing**: [GIMP](https://gimp.org) & [Inkscape](https://inkscape.org/)
+- **Graphics Editing**:
+  - [GIMP](https://gimp.org) - My default graphics editor for raster graphics
+  - [Inkscape](https://inkscape.org/) - SVG editing
+  - [Gradia](https://apps.gnome.org/en/Gradia/) - Screenshot editing
 - **Audio Editing**: [Audacity](https://www.audacityteam.org/)
 - Focus
   - [Blanket](https://apps.gnome.org/Blanket/)
@@ -268,23 +284,32 @@ but doesn't fit into any of the above categories:
 
 ## AI
 
-I have [copilot.vim](https://github.com/github/copilot.vim) enabled most of the time.
+I have [copilot.vim](https://github.com/github/copilot.vim) enabled
+most of the time.
 
-I accept inline suggestions (_ghost text_) of copilot occasionally (I can't really tell you how often, because I don't keep track and even though I accept a suggestion sometimes, I might have to modify it).
+I accept inline suggestions (_ghost text_) of copilot occasionally
+(I can't really tell you how often,
+because I don't keep track and even though I accept a
+suggestion sometimes, I might have to modify it).
 
 I like to use ChatGPT for image generation like logos and open graph images.
 
-
 ### On me using ChatGPT like a caveman
 
-I also use ChatGPT in Google Chrome to type questions about certain parts of my code into the Web-UI and use the output in the Web-UI of ChatGPT to modify the code via Neovim (given that the output seems reasonable).
+I also use ChatGPT in Google Chrome to type questions about certain parts of
+my code into the Web-UI and use the output in
+the Web-UI of ChatGPT to modify the code via
+Neovim (given that the output seems reasonable).
 
-As an example: If I suspect a race in some part, I ask Chatty exactly this and if could tell me why there's a race.
-
+As an example: If I suspect a race in some part,
+I ask Chatty exactly this and if could tell me why there's a race.
 
 ### Old-school research
 
-My default is still just _googling_ stuff (old habits die hard), glancing over Stack Overflow posts, forums and Reddit (feels like Reddit is the new Stack Overflow?!), but I also switch to ChatGPT when I don't find anything useful.
+My default is still just _googling_ stuff (old habits die hard),
+glancing over Stack Overflow posts, forums and Reddit
+(feels like Reddit is the new Stack Overflow?!),
+but I also switch to ChatGPT when I don't find anything useful.
 
 ### Large changeset per commit equals AI usage?
 
@@ -292,11 +317,16 @@ I use `jj squash` and `jj rebase` quite extensively.
 
 Why is this part of the AI usage?
 
-Because, people that are unfamiliar with _commit hygiene_ and _squashing_ tend to jump to assumptions/conclusions that something must be AI-generated, if they see a lot of changes in one commit.
+Because, people that are unfamiliar with _commit hygiene_ and _squashing_ tend to
+jump to assumptions/conclusions that something must be AI-generated,
+when they see a lot of changes in one commit.
 
-If you look back on projects by me dating back more than a decade ago (way before the AI era started), you'll find commits of 10k+ LOCs.
+If you look back on projects by me dating back more than a
+decade ago (way before the AI era started),
+you'll find commits of 10k+ LOCs.
 
-I try to squash, so that commits serve as fully functional increments - my local `oplog` is a different story though).
+I try to squash, so that commits serve as
+fully functional increments - my local `oplog` is a different story though).
 
 [amazfit-active-max]: https://us.amazfit.com/products/active-max
 [amazfit-bip-6]: /resources/uses/amazfit-bip6.webp
