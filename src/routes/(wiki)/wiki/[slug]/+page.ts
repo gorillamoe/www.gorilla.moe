@@ -6,7 +6,7 @@ import type { Load } from '@sveltejs/kit';
 /** Tells the static prerender which `/wiki/[slug]` paths exist (crawl does not discover API-driven links). */
 export const entries = async () => {
   const posts = await fetchMarkdownPages();
-  return posts.filter((p) => p.metadata.published).map((p) => ({ slug: p.path.replace(/^wiki\//, '') }));
+  return posts.map((p) => ({ slug: p.path.replace(/^wiki\//, '') }));
 };
 
 interface PostMetadata {
@@ -14,7 +14,6 @@ interface PostMetadata {
   description: string;
   created: string;
   updated?: string;
-  published: boolean;
 }
 
 interface Post {

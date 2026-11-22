@@ -1,15 +1,14 @@
 <script>
 	export let data;
+  import HeadComponent from '$lib/HeadComponent.svelte';
+  import './page.css';
 </script>
 
-<svelte:head>
-	<title>{data.metadata.title}</title>
-	<meta name="description" content={data.metadata.description} />
-	<meta property="article:published_time" content={data.metadata.date} />
-	<style>
-		@import './page.css';
-	</style>
-</svelte:head>
+<HeadComponent
+  title={data.metadata.title}
+  description={data.metadata.description}
+  publishedTime={data.metadata.date}
+  ogImage="/og-image-uses.jpg" />
 
 <article>
 	<h1 class="title">{data.metadata.title}</h1>
@@ -18,3 +17,4 @@
 	</time>
 	<svelte:component this={data.content} />
 </article>
+
