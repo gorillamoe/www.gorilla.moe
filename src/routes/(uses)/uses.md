@@ -1,5 +1,5 @@
 ---
-title: Uses
+title: Uses - what Marco 'gorillamoe' Kellershoff uses on a daily basis
 description: A list of services, hard- and software I use on a daily basis
 date: '2026-11-22'
 categories:

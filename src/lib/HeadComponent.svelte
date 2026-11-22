@@ -10,6 +10,7 @@
 	<title>{title}</title>
 	<meta name="description" content={description} />
 	<meta name="fediverse:creator" content="@gorillamoe@mastodon.social">
+  <meta property="og:title" content={title} />
   <meta property="og:image" content={ogImage} />
   {#if publishedTime}
     <meta property="article:published_time" content={publishedTime} />
